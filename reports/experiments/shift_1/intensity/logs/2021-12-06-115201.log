@@ -1,0 +1,593 @@
+2021-12-06 11:52:01 [DEBUG] src.evaluation.config: Logger initialized
+2021-12-06 11:52:01 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=16.0) with seed 1911955925
+2021-12-06 11:52:01 [ERROR] src.evaluation.evaluator: An exception occurred while training LSTM-ED on Syn Shift Outliers (extremeness=16.0): CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2021-12-06 11:52:01 [ERROR] src.evaluation.evaluator: Traceback (most recent call last):
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/evaluation/evaluator.py", line 133, in evaluate
+    det.fit(X_train.copy())
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 51, in fit
+    seed=self.seed, gpu=self.gpu)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 134, in __init__
+    self.to_device(self.encoder)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/algorithm_utils.py", line 59, in to_device
+    model.to(self.device)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 182, in _apply
+    ret = super(RNNBase, self)._apply(fn)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+2021-12-06 11:52:02 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=8.0) with seed 1911955925
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: An exception occurred while training LSTM-ED on Syn Shift Outliers (extremeness=8.0): CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: Traceback (most recent call last):
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/evaluation/evaluator.py", line 133, in evaluate
+    det.fit(X_train.copy())
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 51, in fit
+    seed=self.seed, gpu=self.gpu)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 134, in __init__
+    self.to_device(self.encoder)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/algorithm_utils.py", line 59, in to_device
+    model.to(self.device)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 182, in _apply
+    ret = super(RNNBase, self)._apply(fn)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+2021-12-06 11:52:02 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=4.0) with seed 1911955925
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: An exception occurred while training LSTM-ED on Syn Shift Outliers (extremeness=4.0): CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: Traceback (most recent call last):
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/evaluation/evaluator.py", line 133, in evaluate
+    det.fit(X_train.copy())
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 51, in fit
+    seed=self.seed, gpu=self.gpu)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 134, in __init__
+    self.to_device(self.encoder)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/algorithm_utils.py", line 59, in to_device
+    model.to(self.device)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 182, in _apply
+    ret = super(RNNBase, self)._apply(fn)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+2021-12-06 11:52:02 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=2.0) with seed 1911955925
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: An exception occurred while training LSTM-ED on Syn Shift Outliers (extremeness=2.0): CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: Traceback (most recent call last):
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/evaluation/evaluator.py", line 133, in evaluate
+    det.fit(X_train.copy())
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 51, in fit
+    seed=self.seed, gpu=self.gpu)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 134, in __init__
+    self.to_device(self.encoder)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/algorithm_utils.py", line 59, in to_device
+    model.to(self.device)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 182, in _apply
+    ret = super(RNNBase, self)._apply(fn)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+2021-12-06 11:52:02 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=1.0) with seed 1911955925
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: An exception occurred while training LSTM-ED on Syn Shift Outliers (extremeness=1.0): CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: Traceback (most recent call last):
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/evaluation/evaluator.py", line 133, in evaluate
+    det.fit(X_train.copy())
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 51, in fit
+    seed=self.seed, gpu=self.gpu)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 134, in __init__
+    self.to_device(self.encoder)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/algorithm_utils.py", line 59, in to_device
+    model.to(self.device)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 182, in _apply
+    ret = super(RNNBase, self)._apply(fn)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+2021-12-06 11:52:02 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=0.5) with seed 1911955925
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: An exception occurred while training LSTM-ED on Syn Shift Outliers (extremeness=0.5): CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: Traceback (most recent call last):
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/evaluation/evaluator.py", line 133, in evaluate
+    det.fit(X_train.copy())
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 51, in fit
+    seed=self.seed, gpu=self.gpu)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 134, in __init__
+    self.to_device(self.encoder)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/algorithm_utils.py", line 59, in to_device
+    model.to(self.device)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 182, in _apply
+    ret = super(RNNBase, self)._apply(fn)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+2021-12-06 11:52:02 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=0.25) with seed 1911955925
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: An exception occurred while training LSTM-ED on Syn Shift Outliers (extremeness=0.25): CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: Traceback (most recent call last):
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/evaluation/evaluator.py", line 133, in evaluate
+    det.fit(X_train.copy())
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 51, in fit
+    seed=self.seed, gpu=self.gpu)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 134, in __init__
+    self.to_device(self.encoder)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/algorithm_utils.py", line 59, in to_device
+    model.to(self.device)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 182, in _apply
+    ret = super(RNNBase, self)._apply(fn)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+2021-12-06 11:52:02 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=0.125) with seed 1911955925
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: An exception occurred while training LSTM-ED on Syn Shift Outliers (extremeness=0.125): CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: Traceback (most recent call last):
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/evaluation/evaluator.py", line 133, in evaluate
+    det.fit(X_train.copy())
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 51, in fit
+    seed=self.seed, gpu=self.gpu)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 134, in __init__
+    self.to_device(self.encoder)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/algorithm_utils.py", line 59, in to_device
+    model.to(self.device)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 182, in _apply
+    ret = super(RNNBase, self)._apply(fn)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+2021-12-06 11:52:02 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=0.0625) with seed 1911955925
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: An exception occurred while training LSTM-ED on Syn Shift Outliers (extremeness=0.0625): CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: Traceback (most recent call last):
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/evaluation/evaluator.py", line 133, in evaluate
+    det.fit(X_train.copy())
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 51, in fit
+    seed=self.seed, gpu=self.gpu)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 134, in __init__
+    self.to_device(self.encoder)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/algorithm_utils.py", line 59, in to_device
+    model.to(self.device)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 182, in _apply
+    ret = super(RNNBase, self)._apply(fn)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+2021-12-06 11:52:02 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=0.03125) with seed 1911955925
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: An exception occurred while training LSTM-ED on Syn Shift Outliers (extremeness=0.03125): CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+2021-12-06 11:52:02 [ERROR] src.evaluation.evaluator: Traceback (most recent call last):
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/evaluation/evaluator.py", line 133, in evaluate
+    det.fit(X_train.copy())
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 51, in fit
+    seed=self.seed, gpu=self.gpu)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/lstm_enc_dec_axl.py", line 134, in __init__
+    self.to_device(self.encoder)
+  File "/home/tianyu/Desktop/work_space/DeepADoTS/src/algorithms/algorithm_utils.py", line 59, in to_device
+    model.to(self.device)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/rnn.py", line 182, in _apply
+    ret = super(RNNBase, self)._apply(fn)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: invalid device ordinal
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=16.0)
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/roc_Syn Shift Outliers (extremeness=16.0)-1-10-2021-12-06-115204.pdf
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=8.0)
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/roc_Syn Shift Outliers (extremeness=8.0)-1-10-2021-12-06-115204.pdf
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=4.0)
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/roc_Syn Shift Outliers (extremeness=4.0)-1-10-2021-12-06-115204.pdf
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=2.0)
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/roc_Syn Shift Outliers (extremeness=2.0)-1-10-2021-12-06-115204.pdf
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=1.0)
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/roc_Syn Shift Outliers (extremeness=1.0)-1-10-2021-12-06-115204.pdf
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.5)
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/roc_Syn Shift Outliers (extremeness=0.5)-1-10-2021-12-06-115204.pdf
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.25)
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/roc_Syn Shift Outliers (extremeness=0.25)-1-10-2021-12-06-115204.pdf
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.125)
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/roc_Syn Shift Outliers (extremeness=0.125)-1-10-2021-12-06-115204.pdf
+2021-12-06 11:52:04 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.0625)
+2021-12-06 11:52:04 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:05 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:05 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:05 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/roc_Syn Shift Outliers (extremeness=0.0625)-1-10-2021-12-06-115204.pdf
+2021-12-06 11:52:05 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.03125)
+2021-12-06 11:52:05 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:05 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:05 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:05 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/roc_Syn Shift Outliers (extremeness=0.03125)-1-10-2021-12-06-115205.pdf
+2021-12-06 11:52:07 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:07 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:07 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:07 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/metrics_by_thresholds-1-10-2021-12-06-115207.pdf
+2021-12-06 11:52:07 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:07 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:07 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:07 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/scores_Syn Shift Outliers (extremeness=16.0)-1-10-2021-12-06-115207.pdf
+2021-12-06 11:52:08 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:08 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:08 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:08 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/scores_Syn Shift Outliers (extremeness=8.0)-1-10-2021-12-06-115208.pdf
+2021-12-06 11:52:08 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:09 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:09 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:09 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/scores_Syn Shift Outliers (extremeness=4.0)-1-10-2021-12-06-115208.pdf
+2021-12-06 11:52:09 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:09 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:09 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:09 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/scores_Syn Shift Outliers (extremeness=2.0)-1-10-2021-12-06-115209.pdf
+2021-12-06 11:52:10 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:10 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:10 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:10 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/scores_Syn Shift Outliers (extremeness=1.0)-1-10-2021-12-06-115210.pdf
+2021-12-06 11:52:10 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:10 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:10 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:10 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/scores_Syn Shift Outliers (extremeness=0.5)-1-10-2021-12-06-115210.pdf
+2021-12-06 11:52:11 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:11 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:11 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:11 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/scores_Syn Shift Outliers (extremeness=0.25)-1-10-2021-12-06-115211.pdf
+2021-12-06 11:52:11 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:11 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:11 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:11 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/scores_Syn Shift Outliers (extremeness=0.125)-1-10-2021-12-06-115211.pdf
+2021-12-06 11:52:12 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:12 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:12 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:12 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/scores_Syn Shift Outliers (extremeness=0.0625)-1-10-2021-12-06-115212.pdf
+2021-12-06 11:52:12 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1911955925/scores_Syn Shift Outliers (extremeness=0.03125)-1-10-2021-12-06-115212.pdf
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Store evaluator results at /home/tianyu/Desktop/work_space/DeepADoTS/reports/experiments/shift_1/intensity/evaluators/experiment-run-0-1911955925-2021-12-06-115213.pkl
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Store evaluator results at /home/tianyu/Desktop/work_space/DeepADoTS/reports/experiments/shift_1/intensity/evaluators/experiment-extreme-2021-12-06-115213.pkl
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_LSTM-ED_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=16.0)_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=8.0)_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=4.0)_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=2.0)_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=1.0)_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=0.5)_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=0.25)_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=0.125)_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=0.0625)_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=0.03125)_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=16.0)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  6 | Syn Shift Outliers (extremeness=16.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=8.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  9 | Syn Shift Outliers (extremeness=8.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=4.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  8 | Syn Shift Outliers (extremeness=4.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=2.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  7 | Syn Shift Outliers (extremeness=2.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=1.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  5 | Syn Shift Outliers (extremeness=1.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.5)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  4 | Syn Shift Outliers (extremeness=0.5) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.25)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  3 | Syn Shift Outliers (extremeness=0.25) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.125)
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  2 | Syn Shift Outliers (extremeness=0.125) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.0625)
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                 | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  1 | Syn Shift Outliers (extremeness=0.0625) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.03125)
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Shift Outliers (extremeness=0.03125) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/shift_1/intensity/tables/seed-1911955925/latex_merged_std_per_dataset_for_extreme-1-10-1638762733.tex
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=16.0)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  6 | Syn Shift Outliers (extremeness=16.0) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=8.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  9 | Syn Shift Outliers (extremeness=8.0) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=4.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  8 | Syn Shift Outliers (extremeness=4.0) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=2.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  7 | Syn Shift Outliers (extremeness=2.0) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=1.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  5 | Syn Shift Outliers (extremeness=1.0) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.5)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  4 | Syn Shift Outliers (extremeness=0.5) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.25)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  3 | Syn Shift Outliers (extremeness=0.25) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.125)
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  2 | Syn Shift Outliers (extremeness=0.125) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.0625)
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                 | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  1 | Syn Shift Outliers (extremeness=0.0625) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.03125)
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Shift Outliers (extremeness=0.03125) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/shift_1/intensity/tables/seed-1911955925/latex_merged_avg_per_dataset_for_extreme-1-10-1638762733.tex
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Detector: LSTM-ED
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Shift Outliers (extremeness=0.03125) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  1 | Syn Shift Outliers (extremeness=0.0625)  | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  2 | Syn Shift Outliers (extremeness=0.125)   | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  3 | Syn Shift Outliers (extremeness=0.25)    | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  4 | Syn Shift Outliers (extremeness=0.5)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  5 | Syn Shift Outliers (extremeness=1.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  6 | Syn Shift Outliers (extremeness=16.0)    | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  7 | Syn Shift Outliers (extremeness=2.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  8 | Syn Shift Outliers (extremeness=4.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  9 | Syn Shift Outliers (extremeness=8.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/shift_1/intensity/tables/seed-1911955925/latex_merged_std_per_algorithm_for_extreme-1-10-1638762733.tex
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Detector: LSTM-ED
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Shift Outliers (extremeness=0.03125) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
+|  1 | Syn Shift Outliers (extremeness=0.0625)  | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
+|  2 | Syn Shift Outliers (extremeness=0.125)   | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
+|  3 | Syn Shift Outliers (extremeness=0.25)    | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
+|  4 | Syn Shift Outliers (extremeness=0.5)     | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
+|  5 | Syn Shift Outliers (extremeness=1.0)     | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
+|  6 | Syn Shift Outliers (extremeness=16.0)    | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
+|  7 | Syn Shift Outliers (extremeness=2.0)     | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
+|  8 | Syn Shift Outliers (extremeness=4.0)     | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
+|  9 | Syn Shift Outliers (extremeness=8.0)     | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |         0.5 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 11:52:13 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/shift_1/intensity/tables/seed-1911955925/latex_merged_avg_per_algorithm_for_extreme-1-10-1638762733.tex
+2021-12-06 11:52:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_LSTM-ED_1_runs-1-10-2021-12-06-115213.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=16.0)_1_runs-1-10-2021-12-06-115214.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=8.0)_1_runs-1-10-2021-12-06-115214.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=4.0)_1_runs-1-10-2021-12-06-115214.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=2.0)_1_runs-1-10-2021-12-06-115214.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=1.0)_1_runs-1-10-2021-12-06-115214.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=0.5)_1_runs-1-10-2021-12-06-115214.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=0.25)_1_runs-1-10-2021-12-06-115214.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=0.125)_1_runs-1-10-2021-12-06-115214.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=0.0625)_1_runs-1-10-2021-12-06-115214.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=0.03125)_1_runs-1-10-2021-12-06-115214.pdf
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 11:52:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 11:52:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/auroc-1-10-2021-12-06-115214.pdf

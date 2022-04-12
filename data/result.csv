@@ -1,0 +1,2 @@
+,dataset,algorithm,accuracy,precision,recall,F1-score,F0.1-score,auroc
+0,SADS-B random Curve Outliers (f=random),lstm_ed,0.9087519462427271,0.9959236428713462,0.820863722035565,0.8999595705493912,0.9938251655446987,0.9478051943666057

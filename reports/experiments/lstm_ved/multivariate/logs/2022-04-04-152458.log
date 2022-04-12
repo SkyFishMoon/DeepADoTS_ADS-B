@@ -1,0 +1,3 @@
+2022-04-04 15:24:58 [DEBUG] src.evaluation.config: Logger initialized
+2022-04-04 15:24:58 [INFO] src.evaluation.adsb_evaluator: Training lstm_ved on ADS-B with seed 20
+2022-04-04 15:25:21 [DEBUG] root: Epoch 1/40.

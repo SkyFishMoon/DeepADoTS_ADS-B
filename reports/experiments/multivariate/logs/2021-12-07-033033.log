@@ -1,0 +1,1721 @@
+2021-12-07 03:30:33 [DEBUG] src.evaluation.config: Logger initialized
+2021-12-07 03:30:33 [INFO] src.evaluation.evaluator: Training AutoEncoder on Synthetic Multivariate doubled Curve Outliers (f=doubled) with seed 1211547773
+2021-12-07 03:30:33 [DEBUG] root: Epoch 1/40.
+2021-12-07 03:30:33 [DEBUG] root: Epoch 2/40.
+2021-12-07 03:30:34 [DEBUG] root: Epoch 3/40.
+2021-12-07 03:30:34 [DEBUG] root: Epoch 4/40.
+2021-12-07 03:30:34 [DEBUG] root: Epoch 5/40.
+2021-12-07 03:30:35 [DEBUG] root: Epoch 6/40.
+2021-12-07 03:30:35 [DEBUG] root: Epoch 7/40.
+2021-12-07 03:30:36 [DEBUG] root: Epoch 8/40.
+2021-12-07 03:30:36 [DEBUG] root: Epoch 9/40.
+2021-12-07 03:30:37 [DEBUG] root: Epoch 10/40.
+2021-12-07 03:30:37 [DEBUG] root: Epoch 11/40.
+2021-12-07 03:30:38 [DEBUG] root: Epoch 12/40.
+2021-12-07 03:30:38 [DEBUG] root: Epoch 13/40.
+2021-12-07 03:30:38 [DEBUG] root: Epoch 14/40.
+2021-12-07 03:30:39 [DEBUG] root: Epoch 15/40.
+2021-12-07 03:30:39 [DEBUG] root: Epoch 16/40.
+2021-12-07 03:30:40 [DEBUG] root: Epoch 17/40.
+2021-12-07 03:30:40 [DEBUG] root: Epoch 18/40.
+2021-12-07 03:30:41 [DEBUG] root: Epoch 19/40.
+2021-12-07 03:30:41 [DEBUG] root: Epoch 20/40.
+2021-12-07 03:30:41 [DEBUG] root: Epoch 21/40.
+2021-12-07 03:30:42 [DEBUG] root: Epoch 22/40.
+2021-12-07 03:30:42 [DEBUG] root: Epoch 23/40.
+2021-12-07 03:30:43 [DEBUG] root: Epoch 24/40.
+2021-12-07 03:30:43 [DEBUG] root: Epoch 25/40.
+2021-12-07 03:30:44 [DEBUG] root: Epoch 26/40.
+2021-12-07 03:30:44 [DEBUG] root: Epoch 27/40.
+2021-12-07 03:30:45 [DEBUG] root: Epoch 28/40.
+2021-12-07 03:30:45 [DEBUG] root: Epoch 29/40.
+2021-12-07 03:30:45 [DEBUG] root: Epoch 30/40.
+2021-12-07 03:30:46 [DEBUG] root: Epoch 31/40.
+2021-12-07 03:30:46 [DEBUG] root: Epoch 32/40.
+2021-12-07 03:30:47 [DEBUG] root: Epoch 33/40.
+2021-12-07 03:30:47 [DEBUG] root: Epoch 34/40.
+2021-12-07 03:30:48 [DEBUG] root: Epoch 35/40.
+2021-12-07 03:30:48 [DEBUG] root: Epoch 36/40.
+2021-12-07 03:30:48 [DEBUG] root: Epoch 37/40.
+2021-12-07 03:30:49 [DEBUG] root: Epoch 38/40.
+2021-12-07 03:30:49 [DEBUG] root: Epoch 39/40.
+2021-12-07 03:30:50 [DEBUG] root: Epoch 40/40.
+2021-12-07 03:30:51 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:30:51 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:30:51 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:30:51 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_AutoEncoder_Synthetic Multivariate doubled Curve Outliers (f=doubled)-6-6-2021-12-07-033051.pdf
+2021-12-07 03:30:51 [INFO] src.evaluation.evaluator: Training DAGMM on Synthetic Multivariate doubled Curve Outliers (f=doubled) with seed 1211547773
+2021-12-07 03:31:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5314673973421122e-08
+2021-12-07 03:31:15 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1202486877314186e-08
+2021-12-07 03:31:15 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2488912126684681e-09
+2021-12-07 03:31:16 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.5429704442767616e-08
+2021-12-07 03:31:17 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.6875350651353074e-08
+2021-12-07 03:31:17 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.594835065878215e-08
+2021-12-07 03:31:17 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0329483757232083e-07
+2021-12-07 03:31:17 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.878244805998747e-09
+2021-12-07 03:31:17 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.036422396325179e-08
+2021-12-07 03:31:17 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.951281754183583e-08
+2021-12-07 03:31:17 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.110591701409703e-09
+2021-12-07 03:31:17 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.62782922486349e-08
+2021-12-07 03:31:18 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.58980765721617e-08
+2021-12-07 03:31:18 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.98673477061584e-08
+2021-12-07 03:31:18 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.463433687211364e-08
+2021-12-07 03:31:18 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.84565427175221e-08
+2021-12-07 03:31:18 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7682021180576157e-08
+2021-12-07 03:31:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.575077751032495e-08
+2021-12-07 03:31:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.1077057371931005e-08
+2021-12-07 03:31:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7253159967367537e-07
+2021-12-07 03:31:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2361803075909847e-08
+2021-12-07 03:31:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.194403485120347e-08
+2021-12-07 03:31:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.796378050286876e-08
+2021-12-07 03:31:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2691140227616415e-07
+2021-12-07 03:31:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.552218868525415e-08
+2021-12-07 03:31:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.747522801082596e-08
+2021-12-07 03:31:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.427822020147687e-08
+2021-12-07 03:31:21 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.0793259497841063e-08
+2021-12-07 03:31:21 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.042622567927538e-08
+2021-12-07 03:31:21 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.03692990194304e-07
+2021-12-07 03:31:35 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:31:35 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:31:35 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:31:35 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_DAGMM_Synthetic Multivariate doubled Curve Outliers (f=doubled)-6-6-2021-12-07-033135.pdf
+2021-12-07 03:31:35 [INFO] src.evaluation.evaluator: Training LSTM-DAGMM on Synthetic Multivariate doubled Curve Outliers (f=doubled) with seed 1211547773
+2021-12-07 03:32:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6152720050399694e-08
+2021-12-07 03:32:18 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.2780965852907684e-07
+2021-12-07 03:32:21 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.465372675596882e-08
+2021-12-07 03:32:21 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.9768495102853194e-08
+2021-12-07 03:32:24 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8013082581092021e-07
+2021-12-07 03:32:25 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.294067844692108e-08
+2021-12-07 03:32:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.203561670441559e-08
+2021-12-07 03:32:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4503960699130403e-07
+2021-12-07 03:32:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.230457679137544e-08
+2021-12-07 03:32:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9387952931992913e-07
+2021-12-07 03:32:48 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6631888399842865e-07
+2021-12-07 03:32:52 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9309860022076464e-07
+2021-12-07 03:32:56 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.529098518446517e-08
+2021-12-07 03:32:57 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.4123008418873724e-08
+2021-12-07 03:32:59 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5303267275612598e-07
+2021-12-07 03:33:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.267443500793888e-07
+2021-12-07 03:33:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.081338124071408e-08
+2021-12-07 03:33:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7174915001305635e-07
+2021-12-07 03:33:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.260812313030328e-08
+2021-12-07 03:33:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.3539460986276026e-08
+2021-12-07 03:34:00 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:34:00 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:34:00 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:34:00 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-DAGMM_Synthetic Multivariate doubled Curve Outliers (f=doubled)-6-6-2021-12-07-033400.pdf
+2021-12-07 03:34:00 [INFO] src.evaluation.evaluator: Training LSTM-AD on Synthetic Multivariate doubled Curve Outliers (f=doubled) with seed 1211547773
+2021-12-07 03:35:05 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:35:05 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:35:05 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:35:05 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-AD_Synthetic Multivariate doubled Curve Outliers (f=doubled)-6-6-2021-12-07-033505.pdf
+2021-12-07 03:35:05 [INFO] src.evaluation.evaluator: Training LSTM-ED on Synthetic Multivariate doubled Curve Outliers (f=doubled) with seed 1211547773
+2021-12-07 03:35:05 [DEBUG] root: Epoch 1/40.
+2021-12-07 03:35:09 [DEBUG] root: Epoch 2/40.
+2021-12-07 03:35:13 [DEBUG] root: Epoch 3/40.
+2021-12-07 03:35:16 [DEBUG] root: Epoch 4/40.
+2021-12-07 03:35:20 [DEBUG] root: Epoch 5/40.
+2021-12-07 03:35:23 [DEBUG] root: Epoch 6/40.
+2021-12-07 03:35:27 [DEBUG] root: Epoch 7/40.
+2021-12-07 03:35:30 [DEBUG] root: Epoch 8/40.
+2021-12-07 03:35:34 [DEBUG] root: Epoch 9/40.
+2021-12-07 03:35:37 [DEBUG] root: Epoch 10/40.
+2021-12-07 03:35:41 [DEBUG] root: Epoch 11/40.
+2021-12-07 03:35:45 [DEBUG] root: Epoch 12/40.
+2021-12-07 03:35:48 [DEBUG] root: Epoch 13/40.
+2021-12-07 03:35:52 [DEBUG] root: Epoch 14/40.
+2021-12-07 03:35:56 [DEBUG] root: Epoch 15/40.
+2021-12-07 03:35:59 [DEBUG] root: Epoch 16/40.
+2021-12-07 03:36:03 [DEBUG] root: Epoch 17/40.
+2021-12-07 03:36:06 [DEBUG] root: Epoch 18/40.
+2021-12-07 03:36:10 [DEBUG] root: Epoch 19/40.
+2021-12-07 03:36:13 [DEBUG] root: Epoch 20/40.
+2021-12-07 03:36:17 [DEBUG] root: Epoch 21/40.
+2021-12-07 03:36:20 [DEBUG] root: Epoch 22/40.
+2021-12-07 03:36:24 [DEBUG] root: Epoch 23/40.
+2021-12-07 03:36:28 [DEBUG] root: Epoch 24/40.
+2021-12-07 03:36:31 [DEBUG] root: Epoch 25/40.
+2021-12-07 03:36:35 [DEBUG] root: Epoch 26/40.
+2021-12-07 03:36:38 [DEBUG] root: Epoch 27/40.
+2021-12-07 03:36:42 [DEBUG] root: Epoch 28/40.
+2021-12-07 03:36:45 [DEBUG] root: Epoch 29/40.
+2021-12-07 03:36:49 [DEBUG] root: Epoch 30/40.
+2021-12-07 03:36:53 [DEBUG] root: Epoch 31/40.
+2021-12-07 03:36:56 [DEBUG] root: Epoch 32/40.
+2021-12-07 03:37:00 [DEBUG] root: Epoch 33/40.
+2021-12-07 03:37:03 [DEBUG] root: Epoch 34/40.
+2021-12-07 03:37:07 [DEBUG] root: Epoch 35/40.
+2021-12-07 03:37:10 [DEBUG] root: Epoch 36/40.
+2021-12-07 03:37:14 [DEBUG] root: Epoch 37/40.
+2021-12-07 03:37:18 [DEBUG] root: Epoch 38/40.
+2021-12-07 03:37:21 [DEBUG] root: Epoch 39/40.
+2021-12-07 03:37:25 [DEBUG] root: Epoch 40/40.
+2021-12-07 03:37:32 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:37:32 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:37:32 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:37:32 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-ED_Synthetic Multivariate doubled Curve Outliers (f=doubled)-6-6-2021-12-07-033732.pdf
+2021-12-07 03:37:32 [INFO] src.evaluation.evaluator: Training Recurrent EBM on Synthetic Multivariate doubled Curve Outliers (f=doubled) with seed 1211547773
+2021-12-07 03:37:36 [DEBUG] src.algorithms.rnn_ebm: Epoch: 1 Cost: 7.0269575119018555
+2021-12-07 03:37:37 [DEBUG] src.algorithms.rnn_ebm: Epoch: 2 Cost: 1.0549436807632446
+2021-12-07 03:37:38 [DEBUG] src.algorithms.rnn_ebm: Epoch: 3 Cost: 0.6278493404388428
+2021-12-07 03:37:39 [DEBUG] src.algorithms.rnn_ebm: Epoch: 4 Cost: 0.5375176668167114
+2021-12-07 03:37:41 [DEBUG] src.algorithms.rnn_ebm: Epoch: 5 Cost: 0.33460962772369385
+2021-12-07 03:37:42 [DEBUG] src.algorithms.rnn_ebm: Epoch: 6 Cost: 0.2694908380508423
+2021-12-07 03:37:43 [DEBUG] src.algorithms.rnn_ebm: Epoch: 7 Cost: 0.20204724371433258
+2021-12-07 03:37:44 [DEBUG] src.algorithms.rnn_ebm: Epoch: 8 Cost: 0.1630982905626297
+2021-12-07 03:37:45 [DEBUG] src.algorithms.rnn_ebm: Epoch: 9 Cost: 0.11401037126779556
+2021-12-07 03:37:47 [DEBUG] src.algorithms.rnn_ebm: Epoch: 10 Cost: 0.0964304506778717
+2021-12-07 03:37:48 [DEBUG] src.algorithms.rnn_ebm: Epoch: 11 Cost: 0.07606282085180283
+2021-12-07 03:37:49 [DEBUG] src.algorithms.rnn_ebm: Epoch: 12 Cost: 0.06331759691238403
+2021-12-07 03:37:50 [DEBUG] src.algorithms.rnn_ebm: Epoch: 13 Cost: 0.05137640982866287
+2021-12-07 03:37:51 [DEBUG] src.algorithms.rnn_ebm: Epoch: 14 Cost: 0.045478079468011856
+2021-12-07 03:37:53 [DEBUG] src.algorithms.rnn_ebm: Epoch: 15 Cost: 0.037749551236629486
+2021-12-07 03:37:54 [DEBUG] src.algorithms.rnn_ebm: Epoch: 16 Cost: 0.03268396854400635
+2021-12-07 03:37:55 [DEBUG] src.algorithms.rnn_ebm: Epoch: 17 Cost: 0.02848955988883972
+2021-12-07 03:37:56 [DEBUG] src.algorithms.rnn_ebm: Epoch: 18 Cost: 0.024393657222390175
+2021-12-07 03:37:57 [DEBUG] src.algorithms.rnn_ebm: Epoch: 19 Cost: 0.021189387887716293
+2021-12-07 03:37:59 [DEBUG] src.algorithms.rnn_ebm: Epoch: 20 Cost: 0.021334387362003326
+2021-12-07 03:38:00 [DEBUG] src.algorithms.rnn_ebm: Epoch: 21 Cost: 0.018186109140515327
+2021-12-07 03:38:01 [DEBUG] src.algorithms.rnn_ebm: Epoch: 22 Cost: 0.01656048186123371
+2021-12-07 03:38:02 [DEBUG] src.algorithms.rnn_ebm: Epoch: 23 Cost: 0.015800507739186287
+2021-12-07 03:38:03 [DEBUG] src.algorithms.rnn_ebm: Epoch: 24 Cost: 0.013049733825027943
+2021-12-07 03:38:05 [DEBUG] src.algorithms.rnn_ebm: Epoch: 25 Cost: 0.010269767604768276
+2021-12-07 03:38:06 [DEBUG] src.algorithms.rnn_ebm: Epoch: 26 Cost: 0.012262471951544285
+2021-12-07 03:38:07 [DEBUG] src.algorithms.rnn_ebm: Epoch: 27 Cost: 0.01030141394585371
+2021-12-07 03:38:08 [DEBUG] src.algorithms.rnn_ebm: Epoch: 28 Cost: 0.007899156771600246
+2021-12-07 03:38:09 [DEBUG] src.algorithms.rnn_ebm: Epoch: 29 Cost: 0.008070730604231358
+2021-12-07 03:38:10 [DEBUG] src.algorithms.rnn_ebm: Epoch: 30 Cost: 0.007203204557299614
+2021-12-07 03:38:12 [DEBUG] src.algorithms.rnn_ebm: Epoch: 31 Cost: 0.0069305612705647945
+2021-12-07 03:38:13 [DEBUG] src.algorithms.rnn_ebm: Epoch: 32 Cost: 0.006461535580456257
+2021-12-07 03:38:14 [DEBUG] src.algorithms.rnn_ebm: Epoch: 33 Cost: 0.006794045679271221
+2021-12-07 03:38:15 [DEBUG] src.algorithms.rnn_ebm: Epoch: 34 Cost: 0.006257037166506052
+2021-12-07 03:38:16 [DEBUG] src.algorithms.rnn_ebm: Epoch: 35 Cost: 0.004354926757514477
+2021-12-07 03:38:18 [DEBUG] src.algorithms.rnn_ebm: Epoch: 36 Cost: 0.004222059156745672
+2021-12-07 03:38:19 [DEBUG] src.algorithms.rnn_ebm: Epoch: 37 Cost: 0.003747358685359359
+2021-12-07 03:38:20 [DEBUG] src.algorithms.rnn_ebm: Epoch: 38 Cost: 0.004959023557603359
+2021-12-07 03:38:21 [DEBUG] src.algorithms.rnn_ebm: Epoch: 39 Cost: 0.004622783977538347
+2021-12-07 03:38:22 [DEBUG] src.algorithms.rnn_ebm: Epoch: 40 Cost: 0.004096061922609806
+2021-12-07 03:38:27 [INFO] src.evaluation.evaluator: Training AutoEncoder on Synthetic Multivariate inversed Curve Outliers (f=inversed) with seed 1211547773
+2021-12-07 03:38:27 [DEBUG] root: Epoch 1/40.
+2021-12-07 03:38:27 [DEBUG] root: Epoch 2/40.
+2021-12-07 03:38:28 [DEBUG] root: Epoch 3/40.
+2021-12-07 03:38:28 [DEBUG] root: Epoch 4/40.
+2021-12-07 03:38:29 [DEBUG] root: Epoch 5/40.
+2021-12-07 03:38:29 [DEBUG] root: Epoch 6/40.
+2021-12-07 03:38:30 [DEBUG] root: Epoch 7/40.
+2021-12-07 03:38:30 [DEBUG] root: Epoch 8/40.
+2021-12-07 03:38:30 [DEBUG] root: Epoch 9/40.
+2021-12-07 03:38:31 [DEBUG] root: Epoch 10/40.
+2021-12-07 03:38:31 [DEBUG] root: Epoch 11/40.
+2021-12-07 03:38:32 [DEBUG] root: Epoch 12/40.
+2021-12-07 03:38:32 [DEBUG] root: Epoch 13/40.
+2021-12-07 03:38:33 [DEBUG] root: Epoch 14/40.
+2021-12-07 03:38:33 [DEBUG] root: Epoch 15/40.
+2021-12-07 03:38:34 [DEBUG] root: Epoch 16/40.
+2021-12-07 03:38:34 [DEBUG] root: Epoch 17/40.
+2021-12-07 03:38:34 [DEBUG] root: Epoch 18/40.
+2021-12-07 03:38:35 [DEBUG] root: Epoch 19/40.
+2021-12-07 03:38:35 [DEBUG] root: Epoch 20/40.
+2021-12-07 03:38:36 [DEBUG] root: Epoch 21/40.
+2021-12-07 03:38:36 [DEBUG] root: Epoch 22/40.
+2021-12-07 03:38:37 [DEBUG] root: Epoch 23/40.
+2021-12-07 03:38:37 [DEBUG] root: Epoch 24/40.
+2021-12-07 03:38:38 [DEBUG] root: Epoch 25/40.
+2021-12-07 03:38:38 [DEBUG] root: Epoch 26/40.
+2021-12-07 03:38:38 [DEBUG] root: Epoch 27/40.
+2021-12-07 03:38:39 [DEBUG] root: Epoch 28/40.
+2021-12-07 03:38:39 [DEBUG] root: Epoch 29/40.
+2021-12-07 03:38:40 [DEBUG] root: Epoch 30/40.
+2021-12-07 03:38:40 [DEBUG] root: Epoch 31/40.
+2021-12-07 03:38:41 [DEBUG] root: Epoch 32/40.
+2021-12-07 03:38:41 [DEBUG] root: Epoch 33/40.
+2021-12-07 03:38:42 [DEBUG] root: Epoch 34/40.
+2021-12-07 03:38:42 [DEBUG] root: Epoch 35/40.
+2021-12-07 03:38:43 [DEBUG] root: Epoch 36/40.
+2021-12-07 03:38:43 [DEBUG] root: Epoch 37/40.
+2021-12-07 03:38:43 [DEBUG] root: Epoch 38/40.
+2021-12-07 03:38:44 [DEBUG] root: Epoch 39/40.
+2021-12-07 03:38:44 [DEBUG] root: Epoch 40/40.
+2021-12-07 03:38:46 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:38:46 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:38:46 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:38:46 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_AutoEncoder_Synthetic Multivariate inversed Curve Outliers (f=inversed)-6-6-2021-12-07-033845.pdf
+2021-12-07 03:38:46 [INFO] src.evaluation.evaluator: Training DAGMM on Synthetic Multivariate inversed Curve Outliers (f=inversed) with seed 1211547773
+2021-12-07 03:39:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5314673973421122e-08
+2021-12-07 03:39:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1202486877314186e-08
+2021-12-07 03:39:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2488912126684681e-09
+2021-12-07 03:39:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.5429704442767616e-08
+2021-12-07 03:39:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.6875350651353074e-08
+2021-12-07 03:39:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.594835065878215e-08
+2021-12-07 03:39:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0329483757232083e-07
+2021-12-07 03:39:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.878244805998747e-09
+2021-12-07 03:39:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.036422396325179e-08
+2021-12-07 03:39:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.951281754183583e-08
+2021-12-07 03:39:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.110591701409703e-09
+2021-12-07 03:39:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.62782922486349e-08
+2021-12-07 03:39:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.58980765721617e-08
+2021-12-07 03:39:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.98673477061584e-08
+2021-12-07 03:39:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.463433687211364e-08
+2021-12-07 03:39:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.84565427175221e-08
+2021-12-07 03:39:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7682021180576157e-08
+2021-12-07 03:39:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.575077751032495e-08
+2021-12-07 03:39:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.1077057371931005e-08
+2021-12-07 03:39:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7253159967367537e-07
+2021-12-07 03:39:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2361803075909847e-08
+2021-12-07 03:39:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.194403485120347e-08
+2021-12-07 03:39:15 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.796378050286876e-08
+2021-12-07 03:39:15 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2691140227616415e-07
+2021-12-07 03:39:15 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.552218868525415e-08
+2021-12-07 03:39:15 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.747522801082596e-08
+2021-12-07 03:39:15 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.427822020147687e-08
+2021-12-07 03:39:16 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.0793259497841063e-08
+2021-12-07 03:39:16 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.042622567927538e-08
+2021-12-07 03:39:16 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.03692990194304e-07
+2021-12-07 03:39:30 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:39:30 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:39:30 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:39:30 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_DAGMM_Synthetic Multivariate inversed Curve Outliers (f=inversed)-6-6-2021-12-07-033930.pdf
+2021-12-07 03:39:30 [INFO] src.evaluation.evaluator: Training LSTM-DAGMM on Synthetic Multivariate inversed Curve Outliers (f=inversed) with seed 1211547773
+2021-12-07 03:39:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6152720050399694e-08
+2021-12-07 03:40:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.2780965852907684e-07
+2021-12-07 03:40:16 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.465372675596882e-08
+2021-12-07 03:40:16 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.9768495102853194e-08
+2021-12-07 03:40:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8013082581092021e-07
+2021-12-07 03:40:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.294067844692108e-08
+2021-12-07 03:40:26 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.203561670441559e-08
+2021-12-07 03:40:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4503960699130403e-07
+2021-12-07 03:40:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.230457679137544e-08
+2021-12-07 03:40:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9387952931992913e-07
+2021-12-07 03:40:44 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6631888399842865e-07
+2021-12-07 03:40:48 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9309860022076464e-07
+2021-12-07 03:40:52 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.529098518446517e-08
+2021-12-07 03:40:53 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.4123008418873724e-08
+2021-12-07 03:40:55 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5303267275612598e-07
+2021-12-07 03:40:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.267443500793888e-07
+2021-12-07 03:40:59 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.081338124071408e-08
+2021-12-07 03:41:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7174915001305635e-07
+2021-12-07 03:41:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.260812313030328e-08
+2021-12-07 03:41:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.3539460986276026e-08
+2021-12-07 03:41:56 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:41:57 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:41:57 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:41:57 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-DAGMM_Synthetic Multivariate inversed Curve Outliers (f=inversed)-6-6-2021-12-07-034156.pdf
+2021-12-07 03:41:57 [INFO] src.evaluation.evaluator: Training LSTM-AD on Synthetic Multivariate inversed Curve Outliers (f=inversed) with seed 1211547773
+2021-12-07 03:43:02 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:43:02 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:43:02 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:43:02 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-AD_Synthetic Multivariate inversed Curve Outliers (f=inversed)-6-6-2021-12-07-034302.pdf
+2021-12-07 03:43:02 [INFO] src.evaluation.evaluator: Training LSTM-ED on Synthetic Multivariate inversed Curve Outliers (f=inversed) with seed 1211547773
+2021-12-07 03:43:02 [DEBUG] root: Epoch 1/40.
+2021-12-07 03:43:06 [DEBUG] root: Epoch 2/40.
+2021-12-07 03:43:09 [DEBUG] root: Epoch 3/40.
+2021-12-07 03:43:13 [DEBUG] root: Epoch 4/40.
+2021-12-07 03:43:16 [DEBUG] root: Epoch 5/40.
+2021-12-07 03:43:20 [DEBUG] root: Epoch 6/40.
+2021-12-07 03:43:23 [DEBUG] root: Epoch 7/40.
+2021-12-07 03:43:27 [DEBUG] root: Epoch 8/40.
+2021-12-07 03:43:30 [DEBUG] root: Epoch 9/40.
+2021-12-07 03:43:34 [DEBUG] root: Epoch 10/40.
+2021-12-07 03:43:37 [DEBUG] root: Epoch 11/40.
+2021-12-07 03:43:41 [DEBUG] root: Epoch 12/40.
+2021-12-07 03:43:45 [DEBUG] root: Epoch 13/40.
+2021-12-07 03:43:48 [DEBUG] root: Epoch 14/40.
+2021-12-07 03:43:52 [DEBUG] root: Epoch 15/40.
+2021-12-07 03:43:55 [DEBUG] root: Epoch 16/40.
+2021-12-07 03:43:59 [DEBUG] root: Epoch 17/40.
+2021-12-07 03:44:02 [DEBUG] root: Epoch 18/40.
+2021-12-07 03:44:06 [DEBUG] root: Epoch 19/40.
+2021-12-07 03:44:09 [DEBUG] root: Epoch 20/40.
+2021-12-07 03:44:13 [DEBUG] root: Epoch 21/40.
+2021-12-07 03:44:16 [DEBUG] root: Epoch 22/40.
+2021-12-07 03:44:20 [DEBUG] root: Epoch 23/40.
+2021-12-07 03:44:23 [DEBUG] root: Epoch 24/40.
+2021-12-07 03:44:27 [DEBUG] root: Epoch 25/40.
+2021-12-07 03:44:31 [DEBUG] root: Epoch 26/40.
+2021-12-07 03:44:34 [DEBUG] root: Epoch 27/40.
+2021-12-07 03:44:38 [DEBUG] root: Epoch 28/40.
+2021-12-07 03:44:41 [DEBUG] root: Epoch 29/40.
+2021-12-07 03:44:45 [DEBUG] root: Epoch 30/40.
+2021-12-07 03:44:48 [DEBUG] root: Epoch 31/40.
+2021-12-07 03:44:52 [DEBUG] root: Epoch 32/40.
+2021-12-07 03:44:55 [DEBUG] root: Epoch 33/40.
+2021-12-07 03:44:59 [DEBUG] root: Epoch 34/40.
+2021-12-07 03:45:03 [DEBUG] root: Epoch 35/40.
+2021-12-07 03:45:06 [DEBUG] root: Epoch 36/40.
+2021-12-07 03:45:10 [DEBUG] root: Epoch 37/40.
+2021-12-07 03:45:13 [DEBUG] root: Epoch 38/40.
+2021-12-07 03:45:17 [DEBUG] root: Epoch 39/40.
+2021-12-07 03:45:21 [DEBUG] root: Epoch 40/40.
+2021-12-07 03:45:28 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:45:28 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:45:28 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:45:28 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-ED_Synthetic Multivariate inversed Curve Outliers (f=inversed)-6-6-2021-12-07-034528.pdf
+2021-12-07 03:45:28 [INFO] src.evaluation.evaluator: Training Recurrent EBM on Synthetic Multivariate inversed Curve Outliers (f=inversed) with seed 1211547773
+2021-12-07 03:45:33 [DEBUG] src.algorithms.rnn_ebm: Epoch: 1 Cost: 7.215792179107666
+2021-12-07 03:45:35 [DEBUG] src.algorithms.rnn_ebm: Epoch: 2 Cost: 0.9844518899917603
+2021-12-07 03:45:36 [DEBUG] src.algorithms.rnn_ebm: Epoch: 3 Cost: 0.46919578313827515
+2021-12-07 03:45:37 [DEBUG] src.algorithms.rnn_ebm: Epoch: 4 Cost: 0.33184558153152466
+2021-12-07 03:45:38 [DEBUG] src.algorithms.rnn_ebm: Epoch: 5 Cost: 0.2430349588394165
+2021-12-07 03:45:39 [DEBUG] src.algorithms.rnn_ebm: Epoch: 6 Cost: 0.1786678433418274
+2021-12-07 03:45:41 [DEBUG] src.algorithms.rnn_ebm: Epoch: 7 Cost: 0.1290023773908615
+2021-12-07 03:45:42 [DEBUG] src.algorithms.rnn_ebm: Epoch: 8 Cost: 0.11217661947011948
+2021-12-07 03:45:43 [DEBUG] src.algorithms.rnn_ebm: Epoch: 9 Cost: 0.11166279762983322
+2021-12-07 03:45:44 [DEBUG] src.algorithms.rnn_ebm: Epoch: 10 Cost: 0.08368123322725296
+2021-12-07 03:45:45 [DEBUG] src.algorithms.rnn_ebm: Epoch: 11 Cost: 0.0627848207950592
+2021-12-07 03:45:47 [DEBUG] src.algorithms.rnn_ebm: Epoch: 12 Cost: 0.04954775795340538
+2021-12-07 03:45:48 [DEBUG] src.algorithms.rnn_ebm: Epoch: 13 Cost: 0.048857226967811584
+2021-12-07 03:45:49 [DEBUG] src.algorithms.rnn_ebm: Epoch: 14 Cost: 0.03827362507581711
+2021-12-07 03:45:50 [DEBUG] src.algorithms.rnn_ebm: Epoch: 15 Cost: 0.0339849628508091
+2021-12-07 03:45:51 [DEBUG] src.algorithms.rnn_ebm: Epoch: 16 Cost: 0.029503338038921356
+2021-12-07 03:45:53 [DEBUG] src.algorithms.rnn_ebm: Epoch: 17 Cost: 0.029217522591352463
+2021-12-07 03:45:54 [DEBUG] src.algorithms.rnn_ebm: Epoch: 18 Cost: 0.028825171291828156
+2021-12-07 03:45:55 [DEBUG] src.algorithms.rnn_ebm: Epoch: 19 Cost: 0.02470402792096138
+2021-12-07 03:45:56 [DEBUG] src.algorithms.rnn_ebm: Epoch: 20 Cost: 0.02304927259683609
+2021-12-07 03:45:57 [DEBUG] src.algorithms.rnn_ebm: Epoch: 21 Cost: 0.020715460181236267
+2021-12-07 03:45:59 [DEBUG] src.algorithms.rnn_ebm: Epoch: 22 Cost: 0.019331108778715134
+2021-12-07 03:46:00 [DEBUG] src.algorithms.rnn_ebm: Epoch: 23 Cost: 0.017865194007754326
+2021-12-07 03:46:01 [DEBUG] src.algorithms.rnn_ebm: Epoch: 24 Cost: 0.016076315194368362
+2021-12-07 03:46:02 [DEBUG] src.algorithms.rnn_ebm: Epoch: 25 Cost: 0.018180541694164276
+2021-12-07 03:46:03 [DEBUG] src.algorithms.rnn_ebm: Epoch: 26 Cost: 0.012966401875019073
+2021-12-07 03:46:05 [DEBUG] src.algorithms.rnn_ebm: Epoch: 27 Cost: 0.012633027508854866
+2021-12-07 03:46:06 [DEBUG] src.algorithms.rnn_ebm: Epoch: 28 Cost: 0.010239151306450367
+2021-12-07 03:46:07 [DEBUG] src.algorithms.rnn_ebm: Epoch: 29 Cost: 0.011341470293700695
+2021-12-07 03:46:08 [DEBUG] src.algorithms.rnn_ebm: Epoch: 30 Cost: 0.009199566207826138
+2021-12-07 03:46:09 [DEBUG] src.algorithms.rnn_ebm: Epoch: 31 Cost: 0.0059960829094052315
+2021-12-07 03:46:10 [DEBUG] src.algorithms.rnn_ebm: Epoch: 32 Cost: 0.006374420132488012
+2021-12-07 03:46:12 [DEBUG] src.algorithms.rnn_ebm: Epoch: 33 Cost: 0.00817049853503704
+2021-12-07 03:46:13 [DEBUG] src.algorithms.rnn_ebm: Epoch: 34 Cost: 0.007125099189579487
+2021-12-07 03:46:14 [DEBUG] src.algorithms.rnn_ebm: Epoch: 35 Cost: 0.006971970200538635
+2021-12-07 03:46:15 [DEBUG] src.algorithms.rnn_ebm: Epoch: 36 Cost: 0.004928994923830032
+2021-12-07 03:46:16 [DEBUG] src.algorithms.rnn_ebm: Epoch: 37 Cost: 0.005360029172152281
+2021-12-07 03:46:18 [DEBUG] src.algorithms.rnn_ebm: Epoch: 38 Cost: 0.004881254397332668
+2021-12-07 03:46:19 [DEBUG] src.algorithms.rnn_ebm: Epoch: 39 Cost: 0.004956482909619808
+2021-12-07 03:46:20 [DEBUG] src.algorithms.rnn_ebm: Epoch: 40 Cost: 0.004856591112911701
+2021-12-07 03:46:25 [INFO] src.evaluation.evaluator: Training AutoEncoder on Synthetic Multivariate shrinked Curve Outliers (f=shrinked) with seed 1211547773
+2021-12-07 03:46:25 [DEBUG] root: Epoch 1/40.
+2021-12-07 03:46:25 [DEBUG] root: Epoch 2/40.
+2021-12-07 03:46:26 [DEBUG] root: Epoch 3/40.
+2021-12-07 03:46:26 [DEBUG] root: Epoch 4/40.
+2021-12-07 03:46:27 [DEBUG] root: Epoch 5/40.
+2021-12-07 03:46:27 [DEBUG] root: Epoch 6/40.
+2021-12-07 03:46:28 [DEBUG] root: Epoch 7/40.
+2021-12-07 03:46:28 [DEBUG] root: Epoch 8/40.
+2021-12-07 03:46:28 [DEBUG] root: Epoch 9/40.
+2021-12-07 03:46:29 [DEBUG] root: Epoch 10/40.
+2021-12-07 03:46:29 [DEBUG] root: Epoch 11/40.
+2021-12-07 03:46:30 [DEBUG] root: Epoch 12/40.
+2021-12-07 03:46:30 [DEBUG] root: Epoch 13/40.
+2021-12-07 03:46:31 [DEBUG] root: Epoch 14/40.
+2021-12-07 03:46:31 [DEBUG] root: Epoch 15/40.
+2021-12-07 03:46:32 [DEBUG] root: Epoch 16/40.
+2021-12-07 03:46:32 [DEBUG] root: Epoch 17/40.
+2021-12-07 03:46:32 [DEBUG] root: Epoch 18/40.
+2021-12-07 03:46:33 [DEBUG] root: Epoch 19/40.
+2021-12-07 03:46:33 [DEBUG] root: Epoch 20/40.
+2021-12-07 03:46:34 [DEBUG] root: Epoch 21/40.
+2021-12-07 03:46:34 [DEBUG] root: Epoch 22/40.
+2021-12-07 03:46:35 [DEBUG] root: Epoch 23/40.
+2021-12-07 03:46:35 [DEBUG] root: Epoch 24/40.
+2021-12-07 03:46:36 [DEBUG] root: Epoch 25/40.
+2021-12-07 03:46:36 [DEBUG] root: Epoch 26/40.
+2021-12-07 03:46:36 [DEBUG] root: Epoch 27/40.
+2021-12-07 03:46:37 [DEBUG] root: Epoch 28/40.
+2021-12-07 03:46:37 [DEBUG] root: Epoch 29/40.
+2021-12-07 03:46:38 [DEBUG] root: Epoch 30/40.
+2021-12-07 03:46:38 [DEBUG] root: Epoch 31/40.
+2021-12-07 03:46:39 [DEBUG] root: Epoch 32/40.
+2021-12-07 03:46:39 [DEBUG] root: Epoch 33/40.
+2021-12-07 03:46:39 [DEBUG] root: Epoch 34/40.
+2021-12-07 03:46:40 [DEBUG] root: Epoch 35/40.
+2021-12-07 03:46:40 [DEBUG] root: Epoch 36/40.
+2021-12-07 03:46:41 [DEBUG] root: Epoch 37/40.
+2021-12-07 03:46:41 [DEBUG] root: Epoch 38/40.
+2021-12-07 03:46:42 [DEBUG] root: Epoch 39/40.
+2021-12-07 03:46:42 [DEBUG] root: Epoch 40/40.
+2021-12-07 03:46:43 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:46:44 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:46:44 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:46:44 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_AutoEncoder_Synthetic Multivariate shrinked Curve Outliers (f=shrinked)-6-6-2021-12-07-034643.pdf
+2021-12-07 03:46:44 [INFO] src.evaluation.evaluator: Training DAGMM on Synthetic Multivariate shrinked Curve Outliers (f=shrinked) with seed 1211547773
+2021-12-07 03:46:57 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2767409291191143e-08
+2021-12-07 03:46:57 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0465558137061635e-08
+2021-12-07 03:46:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2396506576806132e-07
+2021-12-07 03:46:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6562012206122745e-08
+2021-12-07 03:46:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2539868638205007e-08
+2021-12-07 03:46:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.299861444678754e-08
+2021-12-07 03:46:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6340267805503572e-08
+2021-12-07 03:46:59 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.678565339119814e-08
+2021-12-07 03:46:59 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.290802018720342e-09
+2021-12-07 03:47:00 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.4017919975658515e-08
+2021-12-07 03:47:00 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.086503638400245e-08
+2021-12-07 03:47:00 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.6222224391858617e-07
+2021-12-07 03:47:00 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7992099305151896e-08
+2021-12-07 03:47:00 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.7288991450168396e-08
+2021-12-07 03:47:00 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.525346189941047e-07
+2021-12-07 03:47:00 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.888238163720416e-08
+2021-12-07 03:47:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.177922636155017e-08
+2021-12-07 03:47:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.560496584346765e-08
+2021-12-07 03:47:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9110661497734327e-08
+2021-12-07 03:47:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.9950643560569e-08
+2021-12-07 03:47:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.898705802640734e-09
+2021-12-07 03:47:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.605240088219944e-08
+2021-12-07 03:47:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.285480390668454e-08
+2021-12-07 03:47:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3974710217089523e-08
+2021-12-07 03:47:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.373030293436386e-08
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.332516567728817e-08
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.667407153633121e-09
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.651892737683738e-08
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.132607914352775e-08
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5240911466207763e-07
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7805908214540977e-07
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.156231791010214e-08
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.631567295301011e-09
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.421246397294908e-09
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.534983363806532e-07
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4265383541101073e-08
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.070458541922562e-08
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.651437528011229e-08
+2021-12-07 03:47:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.850845781665612e-08
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1729894683630846e-07
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1693916235344659e-07
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4791995656414656e-07
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2293273954355755e-08
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.7682678311057316e-08
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.900645388441262e-08
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.1154958552169774e-08
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0269113204230962e-07
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1356906526316379e-07
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.3953295286437424e-08
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5243466577885556e-07
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.550140531023317e-08
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6513479295099387e-07
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.283914651319719e-08
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.38940491626272e-08
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.092678006552887e-08
+2021-12-07 03:47:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.4596656206531406e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.3020437939512703e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.977434394007105e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.220399236170124e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.661593529433958e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.178019162916826e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3028424916683434e-07
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4566102041490012e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.7704247663205024e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.05519707918711e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.252984974253195e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.548427779913709e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4156227595995006e-07
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.2424921414531127e-07
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.4874838067698875e-07
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.283658500663478e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2344105471129296e-07
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.719929667222459e-09
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0911932690760295e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.204499041790768e-08
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.531580857924382e-09
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1376030784049362e-07
+2021-12-07 03:47:04 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.627081626855215e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.20532193301915e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7352876113818638e-07
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.34971763449721e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0832640501566857e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9115954330573004e-07
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6169020966572134e-07
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.374613198938505e-09
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1722639687027367e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.505515580736756e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2997476517284667e-07
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.898245175079865e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0401590344599754e-07
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.632435649109539e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.483032611801718e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1558294232827393e-07
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.460086865445192e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.284850139261835e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2643249647226185e-07
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.713576101129547e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8250410960263252e-08
+2021-12-07 03:47:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.28962222701557e-08
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.786374781431732e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.470610820954789e-08
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.026279304345735e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.338306661746174e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.321016469546521e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.162804145835253e-08
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3374834395563084e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.3162779067861266e-08
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.98298032123057e-08
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1404923583313575e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.188320173488137e-08
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.872638801449284e-08
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8285007286067412e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8919227784408577e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3073052684831055e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.1598611484091634e-09
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4832620820470765e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1961810741922818e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3852501012934226e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.009725790230732e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4858308361453965e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.215826431343885e-08
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4709523554756743e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1404305527994438e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.453074010588807e-08
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.457107832285146e-08
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4712902896008018e-07
+2021-12-07 03:47:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.550088554353351e-09
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.608627257596254e-09
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.7222254308017e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0907890413136556e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.8955199127267406e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.582395381978131e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.815946397229709e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.1971850944501057e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4710624657586777e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.221626757176637e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3508947677441938e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.403641515997151e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.418888331272683e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0926489696648787e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5239236478569183e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.924065042492657e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.892099075779697e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.767696821199706e-09
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.466030366576888e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0087745039299989e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7402018076827517e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7906755545027409e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2618900175075396e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2798631960085913e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.862442347710385e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.71357582859855e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.985335225337622e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.403733330742398e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.51425960238339e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.879862723963015e-08
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.369697315567464e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.629049393159221e-07
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1827765433736204e-09
+2021-12-07 03:47:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.339368592174651e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.949421767401873e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.797624176764657e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.624034240421679e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.391918733721468e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.208308475497688e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.810419783676025e-09
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.91180019884996e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.798841939963495e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.209857244561135e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.378737538170753e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.549747364355426e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.332692107780531e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6008735670425267e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.599930676832173e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.586116067959665e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.792529810198175e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.012511401972006e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8914422028615263e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.117794436657277e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.45306290228109e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.067178854758822e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.807898872944861e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4480693977247938e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7355166193055993e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5427866983941385e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3686036481885822e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.999150620716875e-10
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.845311174974995e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7775981575596234e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.617473845617951e-09
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2209976141264178e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4858592578548269e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.04239663964745e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0070007167305448e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.932772743719397e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5163885791480425e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0528675648279204e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2699655371761764e-07
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3675319543438036e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.013290653252625e-08
+2021-12-07 03:47:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.884383943386638e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.5592224751089816e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3521197672616836e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2332887422417116e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.61985239958085e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.237011345750943e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1451289916308838e-09
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.54180924027969e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5343993570459133e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0119062920921351e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.109304078767309e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.776694215839598e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.383452712389044e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.402101350109433e-09
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.261911629692804e-09
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.061680662445724e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.491925657632237e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0916000664783496e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.842939631075296e-09
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.326090680071502e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.229674198721113e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3330409604227498e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.731758061396249e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.405366027526725e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.251550471210066e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.729169506527796e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.83382667226806e-09
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.677984222212217e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.840832090735603e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.812143110186298e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5491458782435075e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7249952577458316e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.245608640322644e-09
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.217682831291313e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.1820496815271326e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.884742909576744e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.17268410046745e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.022841982807222e-08
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1491356843862377e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.549762427861424e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1786781328737561e-07
+2021-12-07 03:47:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5821228771528695e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.8423110975950294e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.014082742922255e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1259950244711945e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0032384639989687e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.8674627944601525e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3773941986983118e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.881597952064112e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.393889944751209e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.301441939944198e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.933778161690498e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.6975541800311476e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.599076200572654e-09
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4493285505068343e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.504003723430742e-09
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.376565574508277e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.930558527074027e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.6094875238413806e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.149325563839739e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9846626742037188e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4818284316552308e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6416039727573661e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3677284016466729e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8699583392844943e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7459823808962938e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.523657182176066e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.4947757455181545e-09
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.118781416982074e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3426199529931182e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6432258576060121e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.36147473692472e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6720234086164965e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.693776638006966e-08
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6794123780528025e-07
+2021-12-07 03:47:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.87859140968294e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.940458543321256e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.526406899823087e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.2286061468767e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.419769936703233e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5825229954534734e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.5455261837569196e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.541336006193887e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3140706018054402e-10
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.319509075567112e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.687972854824693e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7127628143830407e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2735681781682615e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.446331468623612e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.1643832443251085e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.683698217102574e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.694758525327416e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.638387203684033e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.697248812135513e-09
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0716141218836128e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2779889857483795e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3683617794413294e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5807303910264636e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2268351667898969e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.369965035446512e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1827195578462124e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7576504635362653e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6728600371607172e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.698822119233228e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.653752548236298e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.069233684982464e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.853040991292801e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.6666481406655294e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7150849629388176e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.133659459171213e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.511177102514921e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.101396365920664e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0697079488863892e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.8922179135834085e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.852479200209928e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.580988091784093e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9289288388790737e-08
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.936462806246709e-07
+2021-12-07 03:47:11 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4019522609487467e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.131736565047504e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.261998185484117e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.123285002790908e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.291177653683917e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.4318898773099136e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1769100183300907e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7675348829016002e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.477433262512932e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.395043866154083e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1094186191940025e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.8220436471856374e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.485656468958041e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0856193455310859e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.632437142186973e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.116173559192248e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.440380755951992e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.310115700600363e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.773088508296496e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2286064077215997e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.006261361018005e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.8266401481432695e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3468473386856203e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.096252854106751e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9722472188732354e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.292352832000688e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.928255658067428e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.474234316376169e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1237604269354051e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.533175293388922e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.631531342307426e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.529875473555876e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4361069666790627e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.677152792784909e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.287340296585171e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.258359922459931e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1237638375405368e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.7375562556007935e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.493859483365668e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5659716723348538e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.690703801519703e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5796728664317925e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7713980443877517e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.574678851871795e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.005730313063395e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8979052640588634e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.718320952193153e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.7222152349822863e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5475222287241195e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6422506021740446e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6108194245134655e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.712516078418048e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.39093692914139e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.684783453332784e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.212128092400235e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.028640615023505e-08
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0778739440174832e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7982276290240407e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1967647139954352e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.706493032495928e-07
+2021-12-07 03:47:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.744368098386076e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.775511115440167e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1382900844125743e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8498246490139536e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1465064037329284e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5847830542602424e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.0333819012184904e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1066925626200828e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.185170444590767e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.278130928345945e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.597887486885611e-09
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4424362859699613e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.576221369565701e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.035087724536425e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.214663699211087e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.930759445187505e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.795903655960501e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.588590319874129e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2454597708710935e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5117744567305635e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.4718067471194445e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.178218363103952e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3181193853361037e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2080938915914885e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8316436012355553e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.308709040084068e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1702053548390268e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4810682102961437e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.1263088118294036e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2341654098690924e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.4963103523466543e-09
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0370638392487308e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.567967337720802e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4070083409478684e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.848697798820467e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.710073101132366e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.320056904016383e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1879143830005887e-08
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.043973144187476e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0859337606916597e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1898934221553645e-07
+2021-12-07 03:47:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.478522607267223e-08
+2021-12-07 03:47:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.4730047104858386e-07
+2021-12-07 03:47:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.430756478906005e-08
+2021-12-07 03:47:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1545208167262899e-07
+2021-12-07 03:47:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.054975851706331e-07
+2021-12-07 03:47:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5556696553176153e-07
+2021-12-07 03:47:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.5130506148561835e-07
+2021-12-07 03:47:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.395445867861781e-08
+2021-12-07 03:47:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.806996128399078e-08
+2021-12-07 03:47:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.899116193423652e-09
+2021-12-07 03:47:28 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:47:28 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:47:28 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:47:28 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_DAGMM_Synthetic Multivariate shrinked Curve Outliers (f=shrinked)-6-6-2021-12-07-034728.pdf
+2021-12-07 03:47:28 [INFO] src.evaluation.evaluator: Training LSTM-DAGMM on Synthetic Multivariate shrinked Curve Outliers (f=shrinked) with seed 1211547773
+2021-12-07 03:48:06 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.6708966061050887e-07
+2021-12-07 03:48:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.670522801257903e-07
+2021-12-07 03:48:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.8157614906376693e-08
+2021-12-07 03:48:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7124985163263773e-07
+2021-12-07 03:48:15 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3924788788699516e-07
+2021-12-07 03:48:17 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.4159872913951403e-07
+2021-12-07 03:48:17 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.943319021956995e-07
+2021-12-07 03:48:18 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7836417498529045e-07
+2021-12-07 03:48:18 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.717650424230669e-07
+2021-12-07 03:48:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.779912488738773e-07
+2021-12-07 03:48:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.460775985786313e-07
+2021-12-07 03:48:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.780980814051873e-07
+2021-12-07 03:48:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.212141556716233e-07
+2021-12-07 03:48:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8415303770780156e-07
+2021-12-07 03:48:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.11686427778568e-08
+2021-12-07 03:48:21 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5452805257609725e-07
+2021-12-07 03:48:23 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.376735536330671e-07
+2021-12-07 03:48:23 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.02510886235541e-07
+2021-12-07 03:48:23 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.326407060441852e-07
+2021-12-07 03:48:24 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.34823515813332e-07
+2021-12-07 03:48:24 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6937036662056926e-06
+2021-12-07 03:48:25 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.2473269584443187e-07
+2021-12-07 03:48:25 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.9912248439577525e-07
+2021-12-07 03:48:28 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8513595989588794e-07
+2021-12-07 03:48:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.2254177995127975e-08
+2021-12-07 03:48:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.402624599857518e-07
+2021-12-07 03:48:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.166709063862072e-07
+2021-12-07 03:48:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.786828521399002e-07
+2021-12-07 03:48:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.983913749536441e-07
+2021-12-07 03:48:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0667268074703316e-07
+2021-12-07 03:48:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.9946809831926657e-07
+2021-12-07 03:48:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3017134392612206e-07
+2021-12-07 03:48:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.835935669689206e-07
+2021-12-07 03:48:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7281830366755457e-07
+2021-12-07 03:48:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.001937542052474e-07
+2021-12-07 03:48:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6407686587172066e-07
+2021-12-07 03:48:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.590267567687988e-07
+2021-12-07 03:48:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.531580989284521e-08
+2021-12-07 03:48:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.5871905740568764e-07
+2021-12-07 03:48:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.123098286370805e-06
+2021-12-07 03:48:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.718842668196885e-07
+2021-12-07 03:48:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1461988808368915e-07
+2021-12-07 03:48:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.6690491356239363e-07
+2021-12-07 03:48:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.976994721848314e-07
+2021-12-07 03:48:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.104639946765019e-07
+2021-12-07 03:48:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.744437648833809e-09
+2021-12-07 03:48:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6778334099853964e-07
+2021-12-07 03:48:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.799045190244215e-07
+2021-12-07 03:48:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.9863434153630806e-07
+2021-12-07 03:48:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.22290953186166e-06
+2021-12-07 03:48:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.720635781221063e-08
+2021-12-07 03:48:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.75700829838388e-08
+2021-12-07 03:48:43 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7382219514038297e-07
+2021-12-07 03:48:43 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.575113396436791e-07
+2021-12-07 03:48:44 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.630250257127045e-07
+2021-12-07 03:48:45 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5156328575803855e-08
+2021-12-07 03:48:45 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2179243924492766e-07
+2021-12-07 03:48:46 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.44975552732285e-07
+2021-12-07 03:48:49 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.281584425480105e-07
+2021-12-07 03:48:50 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1226136937002593e-07
+2021-12-07 03:48:50 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0968794700593207e-08
+2021-12-07 03:48:50 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.498562364256941e-07
+2021-12-07 03:48:50 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.990221207952118e-09
+2021-12-07 03:48:51 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6698557203653763e-07
+2021-12-07 03:48:51 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.003048055281397e-06
+2021-12-07 03:48:52 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.504276311465219e-09
+2021-12-07 03:48:52 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.8766120152567964e-08
+2021-12-07 03:48:53 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.20395167566312e-07
+2021-12-07 03:48:53 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.41018743863242e-07
+2021-12-07 03:48:53 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.212949076849327e-07
+2021-12-07 03:48:55 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.517334097428829e-07
+2021-12-07 03:48:56 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5963171879084257e-07
+2021-12-07 03:48:56 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4361332862099516e-07
+2021-12-07 03:48:56 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5471549374979077e-07
+2021-12-07 03:48:57 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.787631624481037e-08
+2021-12-07 03:48:57 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.030062701801171e-08
+2021-12-07 03:48:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8152677228044922e-07
+2021-12-07 03:48:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.9930364437168464e-07
+2021-12-07 03:48:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.805557184932695e-07
+2021-12-07 03:48:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.620010708502377e-07
+2021-12-07 03:48:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.938527227859595e-07
+2021-12-07 03:48:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.392747190555383e-07
+2021-12-07 03:48:59 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.612159898442769e-08
+2021-12-07 03:48:59 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.189674065926738e-07
+2021-12-07 03:48:59 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.183804425243579e-07
+2021-12-07 03:49:00 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9973482778823382e-07
+2021-12-07 03:49:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.62994779077053e-08
+2021-12-07 03:49:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.205290444289858e-07
+2021-12-07 03:49:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.869983397133183e-07
+2021-12-07 03:50:15 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:50:15 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:50:15 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:50:15 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-DAGMM_Synthetic Multivariate shrinked Curve Outliers (f=shrinked)-6-6-2021-12-07-035013.pdf
+2021-12-07 03:50:15 [INFO] src.evaluation.evaluator: Training LSTM-AD on Synthetic Multivariate shrinked Curve Outliers (f=shrinked) with seed 1211547773
+2021-12-07 03:51:27 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:51:27 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:51:27 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:51:27 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-AD_Synthetic Multivariate shrinked Curve Outliers (f=shrinked)-6-6-2021-12-07-035127.pdf
+2021-12-07 03:51:27 [INFO] src.evaluation.evaluator: Training LSTM-ED on Synthetic Multivariate shrinked Curve Outliers (f=shrinked) with seed 1211547773
+2021-12-07 03:51:28 [DEBUG] root: Epoch 1/40.
+2021-12-07 03:51:32 [DEBUG] root: Epoch 2/40.
+2021-12-07 03:51:35 [DEBUG] root: Epoch 3/40.
+2021-12-07 03:51:39 [DEBUG] root: Epoch 4/40.
+2021-12-07 03:51:43 [DEBUG] root: Epoch 5/40.
+2021-12-07 03:51:46 [DEBUG] root: Epoch 6/40.
+2021-12-07 03:51:50 [DEBUG] root: Epoch 7/40.
+2021-12-07 03:51:53 [DEBUG] root: Epoch 8/40.
+2021-12-07 03:51:57 [DEBUG] root: Epoch 9/40.
+2021-12-07 03:52:00 [DEBUG] root: Epoch 10/40.
+2021-12-07 03:52:04 [DEBUG] root: Epoch 11/40.
+2021-12-07 03:52:07 [DEBUG] root: Epoch 12/40.
+2021-12-07 03:52:11 [DEBUG] root: Epoch 13/40.
+2021-12-07 03:52:15 [DEBUG] root: Epoch 14/40.
+2021-12-07 03:52:18 [DEBUG] root: Epoch 15/40.
+2021-12-07 03:52:22 [DEBUG] root: Epoch 16/40.
+2021-12-07 03:52:25 [DEBUG] root: Epoch 17/40.
+2021-12-07 03:52:29 [DEBUG] root: Epoch 18/40.
+2021-12-07 03:52:32 [DEBUG] root: Epoch 19/40.
+2021-12-07 03:52:36 [DEBUG] root: Epoch 20/40.
+2021-12-07 03:52:39 [DEBUG] root: Epoch 21/40.
+2021-12-07 03:52:43 [DEBUG] root: Epoch 22/40.
+2021-12-07 03:52:46 [DEBUG] root: Epoch 23/40.
+2021-12-07 03:52:50 [DEBUG] root: Epoch 24/40.
+2021-12-07 03:52:53 [DEBUG] root: Epoch 25/40.
+2021-12-07 03:52:57 [DEBUG] root: Epoch 26/40.
+2021-12-07 03:53:00 [DEBUG] root: Epoch 27/40.
+2021-12-07 03:53:04 [DEBUG] root: Epoch 28/40.
+2021-12-07 03:53:07 [DEBUG] root: Epoch 29/40.
+2021-12-07 03:53:11 [DEBUG] root: Epoch 30/40.
+2021-12-07 03:53:14 [DEBUG] root: Epoch 31/40.
+2021-12-07 03:53:18 [DEBUG] root: Epoch 32/40.
+2021-12-07 03:53:21 [DEBUG] root: Epoch 33/40.
+2021-12-07 03:53:25 [DEBUG] root: Epoch 34/40.
+2021-12-07 03:53:28 [DEBUG] root: Epoch 35/40.
+2021-12-07 03:53:32 [DEBUG] root: Epoch 36/40.
+2021-12-07 03:53:35 [DEBUG] root: Epoch 37/40.
+2021-12-07 03:53:39 [DEBUG] root: Epoch 38/40.
+2021-12-07 03:53:42 [DEBUG] root: Epoch 39/40.
+2021-12-07 03:53:46 [DEBUG] root: Epoch 40/40.
+2021-12-07 03:53:52 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:53:52 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:53:52 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:53:52 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-ED_Synthetic Multivariate shrinked Curve Outliers (f=shrinked)-6-6-2021-12-07-035352.pdf
+2021-12-07 03:53:52 [INFO] src.evaluation.evaluator: Training Recurrent EBM on Synthetic Multivariate shrinked Curve Outliers (f=shrinked) with seed 1211547773
+2021-12-07 03:54:00 [DEBUG] src.algorithms.rnn_ebm: Epoch: 1 Cost: 3.2606899738311768
+2021-12-07 03:54:02 [DEBUG] src.algorithms.rnn_ebm: Epoch: 2 Cost: 0.3946506083011627
+2021-12-07 03:54:03 [DEBUG] src.algorithms.rnn_ebm: Epoch: 3 Cost: 0.17778125405311584
+2021-12-07 03:54:04 [DEBUG] src.algorithms.rnn_ebm: Epoch: 4 Cost: 0.10316412150859833
+2021-12-07 03:54:05 [DEBUG] src.algorithms.rnn_ebm: Epoch: 5 Cost: 0.08287536352872849
+2021-12-07 03:54:06 [DEBUG] src.algorithms.rnn_ebm: Epoch: 6 Cost: 0.05802569538354874
+2021-12-07 03:54:07 [DEBUG] src.algorithms.rnn_ebm: Epoch: 7 Cost: 0.05672825127840042
+2021-12-07 03:54:09 [DEBUG] src.algorithms.rnn_ebm: Epoch: 8 Cost: 0.04637046158313751
+2021-12-07 03:54:10 [DEBUG] src.algorithms.rnn_ebm: Epoch: 9 Cost: 0.04488718509674072
+2021-12-07 03:54:11 [DEBUG] src.algorithms.rnn_ebm: Epoch: 10 Cost: 0.04289041832089424
+2021-12-07 03:54:12 [DEBUG] src.algorithms.rnn_ebm: Epoch: 11 Cost: 0.03361629694700241
+2021-12-07 03:54:13 [DEBUG] src.algorithms.rnn_ebm: Epoch: 12 Cost: 0.03440187871456146
+2021-12-07 03:54:14 [DEBUG] src.algorithms.rnn_ebm: Epoch: 13 Cost: 0.03253386542201042
+2021-12-07 03:54:15 [DEBUG] src.algorithms.rnn_ebm: Epoch: 14 Cost: 0.029611079022288322
+2021-12-07 03:54:17 [DEBUG] src.algorithms.rnn_ebm: Epoch: 15 Cost: 0.029078658670186996
+2021-12-07 03:54:18 [DEBUG] src.algorithms.rnn_ebm: Epoch: 16 Cost: 0.022239048033952713
+2021-12-07 03:54:19 [DEBUG] src.algorithms.rnn_ebm: Epoch: 17 Cost: 0.02211529202759266
+2021-12-07 03:54:20 [DEBUG] src.algorithms.rnn_ebm: Epoch: 18 Cost: 0.02143046446144581
+2021-12-07 03:54:21 [DEBUG] src.algorithms.rnn_ebm: Epoch: 19 Cost: 0.020697234198451042
+2021-12-07 03:54:22 [DEBUG] src.algorithms.rnn_ebm: Epoch: 20 Cost: 0.016781505197286606
+2021-12-07 03:54:24 [DEBUG] src.algorithms.rnn_ebm: Epoch: 21 Cost: 0.013857446610927582
+2021-12-07 03:54:25 [DEBUG] src.algorithms.rnn_ebm: Epoch: 22 Cost: 0.012992337346076965
+2021-12-07 03:54:26 [DEBUG] src.algorithms.rnn_ebm: Epoch: 23 Cost: 0.01231983583420515
+2021-12-07 03:54:27 [DEBUG] src.algorithms.rnn_ebm: Epoch: 24 Cost: 0.009668300859630108
+2021-12-07 03:54:28 [DEBUG] src.algorithms.rnn_ebm: Epoch: 25 Cost: 0.0089328084141016
+2021-12-07 03:54:29 [DEBUG] src.algorithms.rnn_ebm: Epoch: 26 Cost: 0.007091120816767216
+2021-12-07 03:54:30 [DEBUG] src.algorithms.rnn_ebm: Epoch: 27 Cost: 0.005941977724432945
+2021-12-07 03:54:32 [DEBUG] src.algorithms.rnn_ebm: Epoch: 28 Cost: 0.0049580661579966545
+2021-12-07 03:54:33 [DEBUG] src.algorithms.rnn_ebm: Epoch: 29 Cost: 0.004194461740553379
+2021-12-07 03:54:34 [DEBUG] src.algorithms.rnn_ebm: Epoch: 30 Cost: 0.0038292696699500084
+2021-12-07 03:54:35 [DEBUG] src.algorithms.rnn_ebm: Epoch: 31 Cost: 0.003318395931273699
+2021-12-07 03:54:36 [DEBUG] src.algorithms.rnn_ebm: Epoch: 32 Cost: 0.003061956027522683
+2021-12-07 03:54:37 [DEBUG] src.algorithms.rnn_ebm: Epoch: 33 Cost: 0.002986695384606719
+2021-12-07 03:54:39 [DEBUG] src.algorithms.rnn_ebm: Epoch: 34 Cost: 0.0026164099108427763
+2021-12-07 03:54:40 [DEBUG] src.algorithms.rnn_ebm: Epoch: 35 Cost: 0.0018636405002325773
+2021-12-07 03:54:41 [DEBUG] src.algorithms.rnn_ebm: Epoch: 36 Cost: 0.001963337417691946
+2021-12-07 03:54:42 [DEBUG] src.algorithms.rnn_ebm: Epoch: 37 Cost: 0.001839715987443924
+2021-12-07 03:54:43 [DEBUG] src.algorithms.rnn_ebm: Epoch: 38 Cost: 0.0016976137412711978
+2021-12-07 03:54:44 [DEBUG] src.algorithms.rnn_ebm: Epoch: 39 Cost: 0.0020625994075089693
+2021-12-07 03:54:46 [DEBUG] src.algorithms.rnn_ebm: Epoch: 40 Cost: 0.0021479069255292416
+2021-12-07 03:54:53 [INFO] src.evaluation.evaluator: Training AutoEncoder on Synthetic Multivariate delayed Curve Outliers (f=delayed) with seed 1211547773
+2021-12-07 03:54:53 [DEBUG] root: Epoch 1/40.
+2021-12-07 03:54:53 [DEBUG] root: Epoch 2/40.
+2021-12-07 03:54:54 [DEBUG] root: Epoch 3/40.
+2021-12-07 03:54:54 [DEBUG] root: Epoch 4/40.
+2021-12-07 03:54:55 [DEBUG] root: Epoch 5/40.
+2021-12-07 03:54:55 [DEBUG] root: Epoch 6/40.
+2021-12-07 03:54:56 [DEBUG] root: Epoch 7/40.
+2021-12-07 03:54:56 [DEBUG] root: Epoch 8/40.
+2021-12-07 03:54:56 [DEBUG] root: Epoch 9/40.
+2021-12-07 03:54:57 [DEBUG] root: Epoch 10/40.
+2021-12-07 03:54:57 [DEBUG] root: Epoch 11/40.
+2021-12-07 03:54:58 [DEBUG] root: Epoch 12/40.
+2021-12-07 03:54:58 [DEBUG] root: Epoch 13/40.
+2021-12-07 03:54:59 [DEBUG] root: Epoch 14/40.
+2021-12-07 03:54:59 [DEBUG] root: Epoch 15/40.
+2021-12-07 03:55:00 [DEBUG] root: Epoch 16/40.
+2021-12-07 03:55:00 [DEBUG] root: Epoch 17/40.
+2021-12-07 03:55:00 [DEBUG] root: Epoch 18/40.
+2021-12-07 03:55:01 [DEBUG] root: Epoch 19/40.
+2021-12-07 03:55:01 [DEBUG] root: Epoch 20/40.
+2021-12-07 03:55:02 [DEBUG] root: Epoch 21/40.
+2021-12-07 03:55:02 [DEBUG] root: Epoch 22/40.
+2021-12-07 03:55:03 [DEBUG] root: Epoch 23/40.
+2021-12-07 03:55:03 [DEBUG] root: Epoch 24/40.
+2021-12-07 03:55:04 [DEBUG] root: Epoch 25/40.
+2021-12-07 03:55:04 [DEBUG] root: Epoch 26/40.
+2021-12-07 03:55:04 [DEBUG] root: Epoch 27/40.
+2021-12-07 03:55:05 [DEBUG] root: Epoch 28/40.
+2021-12-07 03:55:05 [DEBUG] root: Epoch 29/40.
+2021-12-07 03:55:06 [DEBUG] root: Epoch 30/40.
+2021-12-07 03:55:06 [DEBUG] root: Epoch 31/40.
+2021-12-07 03:55:07 [DEBUG] root: Epoch 32/40.
+2021-12-07 03:55:07 [DEBUG] root: Epoch 33/40.
+2021-12-07 03:55:07 [DEBUG] root: Epoch 34/40.
+2021-12-07 03:55:08 [DEBUG] root: Epoch 35/40.
+2021-12-07 03:55:08 [DEBUG] root: Epoch 36/40.
+2021-12-07 03:55:09 [DEBUG] root: Epoch 37/40.
+2021-12-07 03:55:09 [DEBUG] root: Epoch 38/40.
+2021-12-07 03:55:10 [DEBUG] root: Epoch 39/40.
+2021-12-07 03:55:10 [DEBUG] root: Epoch 40/40.
+2021-12-07 03:55:11 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:55:12 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:55:12 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:55:12 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_AutoEncoder_Synthetic Multivariate delayed Curve Outliers (f=delayed)-6-6-2021-12-07-035511.pdf
+2021-12-07 03:55:12 [INFO] src.evaluation.evaluator: Training DAGMM on Synthetic Multivariate delayed Curve Outliers (f=delayed) with seed 1211547773
+2021-12-07 03:55:25 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2767409291191143e-08
+2021-12-07 03:55:25 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0465558137061635e-08
+2021-12-07 03:55:26 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2396506576806132e-07
+2021-12-07 03:55:26 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6562012206122745e-08
+2021-12-07 03:55:27 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2539868638205007e-08
+2021-12-07 03:55:27 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.299861444678754e-08
+2021-12-07 03:55:27 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6340267805503572e-08
+2021-12-07 03:55:28 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.678565339119814e-08
+2021-12-07 03:55:28 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.290802018720342e-09
+2021-12-07 03:55:28 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.4017919975658515e-08
+2021-12-07 03:55:28 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.086503638400245e-08
+2021-12-07 03:55:28 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.6222224391858617e-07
+2021-12-07 03:55:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7992099305151896e-08
+2021-12-07 03:55:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.7288991450168396e-08
+2021-12-07 03:55:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.525346189941047e-07
+2021-12-07 03:55:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.888238163720416e-08
+2021-12-07 03:55:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.177922636155017e-08
+2021-12-07 03:55:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.560496584346765e-08
+2021-12-07 03:55:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9110661497734327e-08
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.9950643560569e-08
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.898705802640734e-09
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.605240088219944e-08
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.285480390668454e-08
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3974710217089523e-08
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.373030293436386e-08
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.332516567728817e-08
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.667407153633121e-09
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.651892737683738e-08
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.132607914352775e-08
+2021-12-07 03:55:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5240911466207763e-07
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7805908214540977e-07
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.156231791010214e-08
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.631567295301011e-09
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.421246397294908e-09
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.534983363806532e-07
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4265383541101073e-08
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.070458541922562e-08
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.651437528011229e-08
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.850845781665612e-08
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1729894683630846e-07
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1693916235344659e-07
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4791995656414656e-07
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2293273954355755e-08
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.7682678311057316e-08
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.900645388441262e-08
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.1154958552169774e-08
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0269113204230962e-07
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1356906526316379e-07
+2021-12-07 03:55:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.3953295286437424e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5243466577885556e-07
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.550140531023317e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6513479295099387e-07
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.283914651319719e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.38940491626272e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.092678006552887e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.4596656206531406e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.3020437939512703e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.977434394007105e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.220399236170124e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.661593529433958e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.178019162916826e-08
+2021-12-07 03:55:32 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3028424916683434e-07
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4566102041490012e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.7704247663205024e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.05519707918711e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.252984974253195e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.548427779913709e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4156227595995006e-07
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.2424921414531127e-07
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.4874838067698875e-07
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.283658500663478e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2344105471129296e-07
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.719929667222459e-09
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0911932690760295e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.204499041790768e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.531580857924382e-09
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1376030784049362e-07
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.627081626855215e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.20532193301915e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7352876113818638e-07
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.34971763449721e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0832640501566857e-08
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9115954330573004e-07
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6169020966572134e-07
+2021-12-07 03:55:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.374613198938505e-09
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1722639687027367e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.505515580736756e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2997476517284667e-07
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.898245175079865e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0401590344599754e-07
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.632435649109539e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.483032611801718e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1558294232827393e-07
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.460086865445192e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.284850139261835e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2643249647226185e-07
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.713576101129547e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8250410960263252e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.28962222701557e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.786374781431732e-07
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.470610820954789e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.026279304345735e-07
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.338306661746174e-07
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.321016469546521e-07
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.162804145835253e-08
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3374834395563084e-07
+2021-12-07 03:55:34 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.3162779067861266e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.98298032123057e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1404923583313575e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.188320173488137e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.872638801449284e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8285007286067412e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8919227784408577e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3073052684831055e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.1598611484091634e-09
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4832620820470765e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1961810741922818e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3852501012934226e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.009725790230732e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4858308361453965e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.215826431343885e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4709523554756743e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1404305527994438e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.453074010588807e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.457107832285146e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4712902896008018e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.550088554353351e-09
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.608627257596254e-09
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.7222254308017e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0907890413136556e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.8955199127267406e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.582395381978131e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.815946397229709e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.1971850944501057e-07
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4710624657586777e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.221626757176637e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3508947677441938e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.403641515997151e-08
+2021-12-07 03:55:35 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.418888331272683e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0926489696648787e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5239236478569183e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.924065042492657e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.892099075779697e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.767696821199706e-09
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.466030366576888e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0087745039299989e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7402018076827517e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7906755545027409e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2618900175075396e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2798631960085913e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.862442347710385e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.71357582859855e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.985335225337622e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.403733330742398e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.51425960238339e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.879862723963015e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.369697315567464e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.629049393159221e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1827765433736204e-09
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.339368592174651e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.949421767401873e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.797624176764657e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.624034240421679e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.391918733721468e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.208308475497688e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.810419783676025e-09
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.91180019884996e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.798841939963495e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.209857244561135e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.378737538170753e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.549747364355426e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.332692107780531e-07
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6008735670425267e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.599930676832173e-08
+2021-12-07 03:55:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.586116067959665e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.792529810198175e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.012511401972006e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8914422028615263e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.117794436657277e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.45306290228109e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.067178854758822e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.807898872944861e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4480693977247938e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7355166193055993e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5427866983941385e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3686036481885822e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.999150620716875e-10
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.845311174974995e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7775981575596234e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.617473845617951e-09
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2209976141264178e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4858592578548269e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.04239663964745e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0070007167305448e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.932772743719397e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5163885791480425e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0528675648279204e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2699655371761764e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3675319543438036e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.013290653252625e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.884383943386638e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.5592224751089816e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3521197672616836e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2332887422417116e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.61985239958085e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.237011345750943e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1451289916308838e-09
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.54180924027969e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5343993570459133e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0119062920921351e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.109304078767309e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.776694215839598e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.383452712389044e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.402101350109433e-09
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.261911629692804e-09
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.061680662445724e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.491925657632237e-08
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0916000664783496e-07
+2021-12-07 03:55:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.842939631075296e-09
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.326090680071502e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.229674198721113e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3330409604227498e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.731758061396249e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.405366027526725e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.251550471210066e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.729169506527796e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.83382667226806e-09
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.677984222212217e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.840832090735603e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.812143110186298e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5491458782435075e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7249952577458316e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.245608640322644e-09
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.217682831291313e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.1820496815271326e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.884742909576744e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.17268410046745e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.022841982807222e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1491356843862377e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.549762427861424e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1786781328737561e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5821228771528695e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.8423110975950294e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.014082742922255e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1259950244711945e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0032384639989687e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.8674627944601525e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3773941986983118e-07
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.881597952064112e-08
+2021-12-07 03:55:38 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.393889944751209e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.301441939944198e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.933778161690498e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.6975541800311476e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.599076200572654e-09
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4493285505068343e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.504003723430742e-09
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.376565574508277e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.930558527074027e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.6094875238413806e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.149325563839739e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9846626742037188e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4818284316552308e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6416039727573661e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3677284016466729e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8699583392844943e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7459823808962938e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.523657182176066e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.4947757455181545e-09
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.118781416982074e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3426199529931182e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6432258576060121e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.36147473692472e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6720234086164965e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.693776638006966e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6794123780528025e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.87859140968294e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.940458543321256e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.526406899823087e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.2286061468767e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.419769936703233e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5825229954534734e-07
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.5455261837569196e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.541336006193887e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3140706018054402e-10
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.319509075567112e-08
+2021-12-07 03:55:39 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.687972854824693e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7127628143830407e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.2735681781682615e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.446331468623612e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.1643832443251085e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.683698217102574e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.694758525327416e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.638387203684033e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.697248812135513e-09
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0716141218836128e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2779889857483795e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3683617794413294e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5807303910264636e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2268351667898969e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.369965035446512e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1827195578462124e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7576504635362653e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6728600371607172e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.698822119233228e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.653752548236298e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.069233684982464e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.853040991292801e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.6666481406655294e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7150849629388176e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.133659459171213e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.511177102514921e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.101396365920664e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0697079488863892e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.8922179135834085e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.852479200209928e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.580988091784093e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9289288388790737e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.936462806246709e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4019522609487467e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.131736565047504e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.261998185484117e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.123285002790908e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.291177653683917e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.4318898773099136e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1769100183300907e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7675348829016002e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.477433262512932e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.395043866154083e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1094186191940025e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.8220436471856374e-08
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.485656468958041e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0856193455310859e-07
+2021-12-07 03:55:40 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.632437142186973e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.116173559192248e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.440380755951992e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.310115700600363e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.773088508296496e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2286064077215997e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.006261361018005e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.8266401481432695e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3468473386856203e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.096252854106751e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9722472188732354e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.292352832000688e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.928255658067428e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.474234316376169e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1237604269354051e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.533175293388922e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.631531342307426e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.529875473555876e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4361069666790627e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.677152792784909e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.287340296585171e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.258359922459931e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1237638375405368e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.7375562556007935e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.493859483365668e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5659716723348538e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.690703801519703e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5796728664317925e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7713980443877517e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.574678851871795e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.005730313063395e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8979052640588634e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.718320952193153e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.7222152349822863e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5475222287241195e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6422506021740446e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6108194245134655e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.712516078418048e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.39093692914139e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.684783453332784e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.212128092400235e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.028640615023505e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0778739440174832e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7982276290240407e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1967647139954352e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.706493032495928e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.744368098386076e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.775511115440167e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1382900844125743e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8498246490139536e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1465064037329284e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5847830542602424e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.0333819012184904e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1066925626200828e-07
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.185170444590767e-08
+2021-12-07 03:55:41 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.278130928345945e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.597887486885611e-09
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4424362859699613e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.576221369565701e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.035087724536425e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.214663699211087e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.930759445187505e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.795903655960501e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.588590319874129e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2454597708710935e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5117744567305635e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.4718067471194445e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.178218363103952e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.3181193853361037e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2080938915914885e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8316436012355553e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.308709040084068e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1702053548390268e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4810682102961437e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.1263088118294036e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2341654098690924e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.4963103523466543e-09
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0370638392487308e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.567967337720802e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.4070083409478684e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.848697798820467e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.710073101132366e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.320056904016383e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1879143830005887e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.043973144187476e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.0859337606916597e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1898934221553645e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.478522607267223e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.4730047104858386e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.430756478906005e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.1545208167262899e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.054975851706331e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5556696553176153e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.5130506148561835e-07
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.395445867861781e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.806996128399078e-08
+2021-12-07 03:55:42 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.899116193423652e-09
+2021-12-07 03:55:57 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:55:58 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:55:58 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:55:58 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_DAGMM_Synthetic Multivariate delayed Curve Outliers (f=delayed)-6-6-2021-12-07-035557.pdf
+2021-12-07 03:55:58 [INFO] src.evaluation.evaluator: Training LSTM-DAGMM on Synthetic Multivariate delayed Curve Outliers (f=delayed) with seed 1211547773
+2021-12-07 03:56:36 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.6708966061050887e-07
+2021-12-07 03:56:37 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.670522801257903e-07
+2021-12-07 03:56:43 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.8157614906376693e-08
+2021-12-07 03:56:43 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7124985163263773e-07
+2021-12-07 03:56:45 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3924788788699516e-07
+2021-12-07 03:56:48 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.4159872913951403e-07
+2021-12-07 03:56:48 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.943319021956995e-07
+2021-12-07 03:56:48 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7836417498529045e-07
+2021-12-07 03:56:48 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.717650424230669e-07
+2021-12-07 03:56:49 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.779912488738773e-07
+2021-12-07 03:56:49 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.460775985786313e-07
+2021-12-07 03:56:49 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.780980814051873e-07
+2021-12-07 03:56:49 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.212141556716233e-07
+2021-12-07 03:56:50 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8415303770780156e-07
+2021-12-07 03:56:50 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.11686427778568e-08
+2021-12-07 03:56:52 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5452805257609725e-07
+2021-12-07 03:56:53 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.376735536330671e-07
+2021-12-07 03:56:53 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.02510886235541e-07
+2021-12-07 03:56:54 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.326407060441852e-07
+2021-12-07 03:56:54 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.34823515813332e-07
+2021-12-07 03:56:54 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6937036662056926e-06
+2021-12-07 03:56:56 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.2473269584443187e-07
+2021-12-07 03:56:56 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.9912248439577525e-07
+2021-12-07 03:56:58 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8513595989588794e-07
+2021-12-07 03:56:59 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.2254177995127975e-08
+2021-12-07 03:56:59 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.402624599857518e-07
+2021-12-07 03:57:01 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.166709063862072e-07
+2021-12-07 03:57:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.786828521399002e-07
+2021-12-07 03:57:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.983913749536441e-07
+2021-12-07 03:57:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0667268074703316e-07
+2021-12-07 03:57:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.9946809831926657e-07
+2021-12-07 03:57:02 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.3017134392612206e-07
+2021-12-07 03:57:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.835935669689206e-07
+2021-12-07 03:57:03 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.7281830366755457e-07
+2021-12-07 03:57:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.001937542052474e-07
+2021-12-07 03:57:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6407686587172066e-07
+2021-12-07 03:57:05 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.590267567687988e-07
+2021-12-07 03:57:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.531580989284521e-08
+2021-12-07 03:57:07 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.5871905740568764e-07
+2021-12-07 03:57:08 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.123098286370805e-06
+2021-12-07 03:57:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.718842668196885e-07
+2021-12-07 03:57:09 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1461988808368915e-07
+2021-12-07 03:57:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.6690491356239363e-07
+2021-12-07 03:57:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.976994721848314e-07
+2021-12-07 03:57:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.104639946765019e-07
+2021-12-07 03:57:10 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.744437648833809e-09
+2021-12-07 03:57:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6778334099853964e-07
+2021-12-07 03:57:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.799045190244215e-07
+2021-12-07 03:57:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.9863434153630806e-07
+2021-12-07 03:57:12 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.22290953186166e-06
+2021-12-07 03:57:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.720635781221063e-08
+2021-12-07 03:57:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.75700829838388e-08
+2021-12-07 03:57:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.7382219514038297e-07
+2021-12-07 03:57:13 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.575113396436791e-07
+2021-12-07 03:57:14 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.630250257127045e-07
+2021-12-07 03:57:15 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5156328575803855e-08
+2021-12-07 03:57:15 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.2179243924492766e-07
+2021-12-07 03:57:16 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.44975552732285e-07
+2021-12-07 03:57:19 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.281584425480105e-07
+2021-12-07 03:57:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.1226136937002593e-07
+2021-12-07 03:57:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.0968794700593207e-08
+2021-12-07 03:57:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.498562364256941e-07
+2021-12-07 03:57:20 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.990221207952118e-09
+2021-12-07 03:57:21 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.6698557203653763e-07
+2021-12-07 03:57:21 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.003048055281397e-06
+2021-12-07 03:57:22 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.504276311465219e-09
+2021-12-07 03:57:22 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.8766120152567964e-08
+2021-12-07 03:57:23 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.20395167566312e-07
+2021-12-07 03:57:23 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.41018743863242e-07
+2021-12-07 03:57:23 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.212949076849327e-07
+2021-12-07 03:57:25 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.517334097428829e-07
+2021-12-07 03:57:26 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.5963171879084257e-07
+2021-12-07 03:57:26 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -2.4361332862099516e-07
+2021-12-07 03:57:26 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.5471549374979077e-07
+2021-12-07 03:57:26 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.787631624481037e-08
+2021-12-07 03:57:27 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.030062701801171e-08
+2021-12-07 03:57:27 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.8152677228044922e-07
+2021-12-07 03:57:27 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.9930364437168464e-07
+2021-12-07 03:57:28 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -3.805557184932695e-07
+2021-12-07 03:57:28 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.620010708502377e-07
+2021-12-07 03:57:28 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -9.938527227859595e-07
+2021-12-07 03:57:28 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.392747190555383e-07
+2021-12-07 03:57:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -4.612159898442769e-08
+2021-12-07 03:57:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.189674065926738e-07
+2021-12-07 03:57:29 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -8.183804425243579e-07
+2021-12-07 03:57:30 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -1.9973482778823382e-07
+2021-12-07 03:57:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -6.62994779077053e-08
+2021-12-07 03:57:31 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -7.205290444289858e-07
+2021-12-07 03:57:33 [WARNING] root: Determinant was negative! Clipping Eigenvalues to 0+epsilon from -5.869983397133183e-07
+2021-12-07 03:58:44 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:58:45 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:58:45 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:58:46 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-DAGMM_Synthetic Multivariate delayed Curve Outliers (f=delayed)-6-6-2021-12-07-035844.pdf
+2021-12-07 03:58:46 [INFO] src.evaluation.evaluator: Training LSTM-AD on Synthetic Multivariate delayed Curve Outliers (f=delayed) with seed 1211547773
+2021-12-07 03:59:55 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 03:59:55 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 03:59:55 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 03:59:56 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-AD_Synthetic Multivariate delayed Curve Outliers (f=delayed)-6-6-2021-12-07-035955.pdf
+2021-12-07 03:59:56 [INFO] src.evaluation.evaluator: Training LSTM-ED on Synthetic Multivariate delayed Curve Outliers (f=delayed) with seed 1211547773
+2021-12-07 03:59:57 [DEBUG] root: Epoch 1/40.
+2021-12-07 04:00:01 [DEBUG] root: Epoch 2/40.
+2021-12-07 04:00:04 [DEBUG] root: Epoch 3/40.
+2021-12-07 04:00:08 [DEBUG] root: Epoch 4/40.
+2021-12-07 04:00:11 [DEBUG] root: Epoch 5/40.
+2021-12-07 04:00:15 [DEBUG] root: Epoch 6/40.
+2021-12-07 04:00:18 [DEBUG] root: Epoch 7/40.
+2021-12-07 04:00:22 [DEBUG] root: Epoch 8/40.
+2021-12-07 04:00:25 [DEBUG] root: Epoch 9/40.
+2021-12-07 04:00:29 [DEBUG] root: Epoch 10/40.
+2021-12-07 04:00:32 [DEBUG] root: Epoch 11/40.
+2021-12-07 04:00:36 [DEBUG] root: Epoch 12/40.
+2021-12-07 04:00:39 [DEBUG] root: Epoch 13/40.
+2021-12-07 04:00:43 [DEBUG] root: Epoch 14/40.
+2021-12-07 04:00:46 [DEBUG] root: Epoch 15/40.
+2021-12-07 04:00:50 [DEBUG] root: Epoch 16/40.
+2021-12-07 04:00:54 [DEBUG] root: Epoch 17/40.
+2021-12-07 04:00:57 [DEBUG] root: Epoch 18/40.
+2021-12-07 04:01:01 [DEBUG] root: Epoch 19/40.
+2021-12-07 04:01:04 [DEBUG] root: Epoch 20/40.
+2021-12-07 04:01:08 [DEBUG] root: Epoch 21/40.
+2021-12-07 04:01:11 [DEBUG] root: Epoch 22/40.
+2021-12-07 04:01:15 [DEBUG] root: Epoch 23/40.
+2021-12-07 04:01:18 [DEBUG] root: Epoch 24/40.
+2021-12-07 04:01:22 [DEBUG] root: Epoch 25/40.
+2021-12-07 04:01:25 [DEBUG] root: Epoch 26/40.
+2021-12-07 04:01:29 [DEBUG] root: Epoch 27/40.
+2021-12-07 04:01:32 [DEBUG] root: Epoch 28/40.
+2021-12-07 04:01:36 [DEBUG] root: Epoch 29/40.
+2021-12-07 04:01:39 [DEBUG] root: Epoch 30/40.
+2021-12-07 04:01:43 [DEBUG] root: Epoch 31/40.
+2021-12-07 04:01:46 [DEBUG] root: Epoch 32/40.
+2021-12-07 04:01:50 [DEBUG] root: Epoch 33/40.
+2021-12-07 04:01:54 [DEBUG] root: Epoch 34/40.
+2021-12-07 04:01:57 [DEBUG] root: Epoch 35/40.
+2021-12-07 04:02:01 [DEBUG] root: Epoch 36/40.
+2021-12-07 04:02:04 [DEBUG] root: Epoch 37/40.
+2021-12-07 04:02:08 [DEBUG] root: Epoch 38/40.
+2021-12-07 04:02:12 [DEBUG] root: Epoch 39/40.
+2021-12-07 04:02:15 [DEBUG] root: Epoch 40/40.
+2021-12-07 04:02:22 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-07 04:02:22 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-07 04:02:22 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-07 04:02:22 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/multivariate/figures/seed-1211547773/details_LSTM-ED_Synthetic Multivariate delayed Curve Outliers (f=delayed)-6-6-2021-12-07-040222.pdf
+2021-12-07 04:02:22 [INFO] src.evaluation.evaluator: Training Recurrent EBM on Synthetic Multivariate delayed Curve Outliers (f=delayed) with seed 1211547773
+2021-12-07 04:02:35 [DEBUG] src.algorithms.rnn_ebm: Epoch: 1 Cost: 3.3157413005828857
+2021-12-07 04:02:36 [DEBUG] src.algorithms.rnn_ebm: Epoch: 2 Cost: 0.43001431226730347
+2021-12-07 04:02:38 [DEBUG] src.algorithms.rnn_ebm: Epoch: 3 Cost: 0.18732941150665283
+2021-12-07 04:02:39 [DEBUG] src.algorithms.rnn_ebm: Epoch: 4 Cost: 0.11366879940032959
+2021-12-07 04:02:40 [DEBUG] src.algorithms.rnn_ebm: Epoch: 5 Cost: 0.08719122409820557
+2021-12-07 04:02:41 [DEBUG] src.algorithms.rnn_ebm: Epoch: 6 Cost: 0.07170381397008896
+2021-12-07 04:02:43 [DEBUG] src.algorithms.rnn_ebm: Epoch: 7 Cost: 0.05859433114528656
+2021-12-07 04:02:44 [DEBUG] src.algorithms.rnn_ebm: Epoch: 8 Cost: 0.0561847910284996
+2021-12-07 04:02:45 [DEBUG] src.algorithms.rnn_ebm: Epoch: 9 Cost: 0.06191851198673248
+2021-12-07 04:02:47 [DEBUG] src.algorithms.rnn_ebm: Epoch: 10 Cost: 0.04725820943713188
+2021-12-07 04:02:48 [DEBUG] src.algorithms.rnn_ebm: Epoch: 11 Cost: 0.03823892027139664
+2021-12-07 04:02:49 [DEBUG] src.algorithms.rnn_ebm: Epoch: 12 Cost: 0.0373043417930603
+2021-12-07 04:02:50 [DEBUG] src.algorithms.rnn_ebm: Epoch: 13 Cost: 0.03171034902334213
+2021-12-07 04:02:52 [DEBUG] src.algorithms.rnn_ebm: Epoch: 14 Cost: 0.028994658961892128
+2021-12-07 04:02:53 [DEBUG] src.algorithms.rnn_ebm: Epoch: 15 Cost: 0.023424360901117325
+2021-12-07 04:02:54 [DEBUG] src.algorithms.rnn_ebm: Epoch: 16 Cost: 0.022430825978517532
+2021-12-07 04:02:55 [DEBUG] src.algorithms.rnn_ebm: Epoch: 17 Cost: 0.017107054591178894
+2021-12-07 04:02:57 [DEBUG] src.algorithms.rnn_ebm: Epoch: 18 Cost: 0.014369560405611992
+2021-12-07 04:02:58 [DEBUG] src.algorithms.rnn_ebm: Epoch: 19 Cost: 0.011373250745236874
+2021-12-07 04:02:59 [DEBUG] src.algorithms.rnn_ebm: Epoch: 20 Cost: 0.009478569030761719
+2021-12-07 04:03:01 [DEBUG] src.algorithms.rnn_ebm: Epoch: 21 Cost: 0.006972047034651041
+2021-12-07 04:03:02 [DEBUG] src.algorithms.rnn_ebm: Epoch: 22 Cost: 0.00881874281913042
+2021-12-07 04:03:03 [DEBUG] src.algorithms.rnn_ebm: Epoch: 23 Cost: 0.006122484337538481
+2021-12-07 04:03:04 [DEBUG] src.algorithms.rnn_ebm: Epoch: 24 Cost: 0.004716713912785053
+2021-12-07 04:03:06 [DEBUG] src.algorithms.rnn_ebm: Epoch: 25 Cost: 0.00372863351367414
+2021-12-07 04:03:07 [DEBUG] src.algorithms.rnn_ebm: Epoch: 26 Cost: 0.0038590936455875635
+2021-12-07 04:03:08 [DEBUG] src.algorithms.rnn_ebm: Epoch: 27 Cost: 0.003740758867934346
+2021-12-07 04:03:10 [DEBUG] src.algorithms.rnn_ebm: Epoch: 28 Cost: 0.003026822116225958
+2021-12-07 04:03:11 [DEBUG] src.algorithms.rnn_ebm: Epoch: 29 Cost: 0.002497316338121891
+2021-12-07 04:03:12 [DEBUG] src.algorithms.rnn_ebm: Epoch: 30 Cost: 0.0032272334210574627
+2021-12-07 04:03:13 [DEBUG] src.algorithms.rnn_ebm: Epoch: 31 Cost: 0.0035439019557088614
+2021-12-07 04:03:15 [DEBUG] src.algorithms.rnn_ebm: Epoch: 32 Cost: 0.0025409371592104435
+2021-12-07 04:03:16 [DEBUG] src.algorithms.rnn_ebm: Epoch: 33 Cost: 0.0023813466541469097
+2021-12-07 04:03:17 [DEBUG] src.algorithms.rnn_ebm: Epoch: 34 Cost: 0.00430592056363821
+2021-12-07 04:03:19 [DEBUG] src.algorithms.rnn_ebm: Epoch: 35 Cost: 0.00298612704500556
+2021-12-07 04:03:20 [DEBUG] src.algorithms.rnn_ebm: Epoch: 36 Cost: 0.0022737111430615187
+2021-12-07 04:03:21 [DEBUG] src.algorithms.rnn_ebm: Epoch: 37 Cost: 0.0016053927829489112
+2021-12-07 04:03:22 [DEBUG] src.algorithms.rnn_ebm: Epoch: 38 Cost: 0.002310844836756587
+2021-12-07 04:03:24 [DEBUG] src.algorithms.rnn_ebm: Epoch: 39 Cost: 0.0022825156338512897
+2021-12-07 04:03:25 [DEBUG] src.algorithms.rnn_ebm: Epoch: 40 Cost: 0.0026854199822992086

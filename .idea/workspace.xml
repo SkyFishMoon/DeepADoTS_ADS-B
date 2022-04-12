@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69d557fe-4865-4515-a3c0-8c63985c247b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/LSTM_ED.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/LSTM_VAE.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/Transformer_AE.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/Transformer_VAE.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/Transformer_ae.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/Transformer_vae.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/lstm_vae.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/datasets/adsb_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/evaluation/adsb_evaluator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/opts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/algorithm_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/algorithm_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/dagmm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dagmm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/lstm_ad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/lstm_ad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datasets/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/__init__.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="072cb30b-f605-4503-94fa-7b296bcf1cc5" />
+  <component name="ProjectId" id="21tCjw5YZXfc0GNWkADWsGn7LcR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tsntm-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.LSTM_VAE">
+    <configuration name="LSTM_VAE" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepADoTS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/DeepADoTS/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="-config ./config/LSTM_VAE.yml" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Transformer_AE" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepADoTS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/DeepADoTS/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="-config ./config/Transformer_AE.yml" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Transformer_VAE" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepADoTS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/DeepADoTS/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="-config ./config/Transformer_VAE.yml" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_LSTM_ED" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepADoTS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/DeepADoTS/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="-config ./config/LSTM_ED.yml" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main_LSTM_ED" />
+      <item itemvalue="Python.Transformer_AE" />
+      <item itemvalue="Python.LSTM_VAE" />
+      <item itemvalue="Python.Transformer_VAE" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69d557fe-4865-4515-a3c0-8c63985c247b" name="Default Changelist" comment="" />
+      <created>1638751134784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638751134784</updated>
+      <workItem from="1638751136641" duration="27386000" />
+      <workItem from="1638808756457" duration="53820000" />
+      <workItem from="1639102936261" duration="1956000" />
+      <workItem from="1639105330221" duration="76125000" />
+      <workItem from="1640602590325" duration="592000" />
+      <workItem from="1641805117468" duration="21935000" />
+      <workItem from="1642294026260" duration="1174000" />
+      <workItem from="1642323057197" duration="6178000" />
+      <workItem from="1642472189169" duration="614000" />
+      <workItem from="1642477102537" duration="1902000" />
+      <workItem from="1642938424401" duration="512000" />
+      <workItem from="1645588597311" duration="192000" />
+      <workItem from="1648778785376" duration="6921000" />
+      <workItem from="1649763897244" duration="1349000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649057052477">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1649057052477" />
+    <state x="738" y="277" width="374" height="485" key="FileChooserDialogImpl" timestamp="1648951818632">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="738" y="277" width="374" height="485" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1648951818632" />
+    <state width="1807" height="440" key="GridCell.Tab.0.bottom" timestamp="1649226220048">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="440" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220048" />
+    <state width="1807" height="440" key="GridCell.Tab.0.center" timestamp="1649226220047">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="440" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220047" />
+    <state width="1807" height="440" key="GridCell.Tab.0.left" timestamp="1649226220047">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="440" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220047" />
+    <state width="1807" height="440" key="GridCell.Tab.0.right" timestamp="1649226220048">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="440" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220048" />
+    <state width="1807" height="440" key="GridCell.Tab.1.bottom" timestamp="1649226224069">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="440" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224069" />
+    <state width="1807" height="440" key="GridCell.Tab.1.center" timestamp="1649226224068">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="440" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224068" />
+    <state width="1807" height="440" key="GridCell.Tab.1.left" timestamp="1649226224068">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="440" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224068" />
+    <state width="1807" height="440" key="GridCell.Tab.1.right" timestamp="1649226224068">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1807" height="440" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224068" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1645588666011">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1645588666011" />
+    <state x="697" y="320" width="982" height="522" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1642051634401">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="697" y="320" width="967" height="522" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1642051634401" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>89</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>90</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>91</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/autoencoder.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>94</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_dataset.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_dataset.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_dataset.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_dataset.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>122</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_dataset.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_ad.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/agots/agots/multivariate_generators/multivariate_data_generator.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>118</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>150</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>151</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>169</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>306</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>307</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>308</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>310</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>311</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>312</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>313</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>314</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>316</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>318</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>319</line>
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>320</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>206</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>87</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>149</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/multivariate_anomaly_function.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/multivariate_anomaly_function.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/multivariate_anomaly_function.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>146</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py</url>
+          <line>165</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>104</line>
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>81</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>153</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>154</line>
+          <option name="timeStamp" value="220" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/dataset.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
+          <line>170</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>134</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>377</line>
+          <option name="timeStamp" value="252" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>215</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>266</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>263</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
+          <line>203</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
+          <line>202</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
+          <line>244</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
+          <line>245</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
+          <line>254</line>
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>178</line>
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>180</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>181</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>190</line>
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="301" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="303" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>159</line>
+          <option name="timeStamp" value="304" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>173</line>
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
+          <line>116</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
+          <line>117</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>148</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>147</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DeepADoTS$main_LSTM_ED.coverage" NAME="main_LSTM_ED Coverage Results" MODIFIED="1642051643870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$main.coverage" NAME="main_LSTM_ED Coverage Results" MODIFIED="1639240171947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$Transformer_AE.coverage" NAME="Transformer_AE Coverage Results" MODIFIED="1642041511096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$LSTM_VAE.coverage" NAME="LSTM_VAE Coverage Results" MODIFIED="1649226219928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$Transformer_VAE.coverage" NAME="Transformer_VAE Coverage Results" MODIFIED="1639229840763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

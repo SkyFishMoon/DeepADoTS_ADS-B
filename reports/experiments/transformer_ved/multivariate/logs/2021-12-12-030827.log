@@ -1,0 +1,2 @@
+2021-12-12 03:08:27 [DEBUG] src.evaluation.config: Logger initialized
+2021-12-12 03:08:28 [INFO] src.evaluation.adsb_evaluator: Training transformer_ved on ADS-B with seed 20

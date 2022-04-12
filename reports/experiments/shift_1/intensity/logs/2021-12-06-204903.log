@@ -1,0 +1,887 @@
+2021-12-06 20:49:03 [DEBUG] src.evaluation.config: Logger initialized
+2021-12-06 20:49:03 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=16.0) with seed 1206099335
+2021-12-06 20:49:03 [DEBUG] root: Epoch 1/40.
+2021-12-06 20:49:05 [DEBUG] root: Epoch 2/40.
+2021-12-06 20:49:06 [DEBUG] root: Epoch 3/40.
+2021-12-06 20:49:07 [DEBUG] root: Epoch 4/40.
+2021-12-06 20:49:08 [DEBUG] root: Epoch 5/40.
+2021-12-06 20:49:09 [DEBUG] root: Epoch 6/40.
+2021-12-06 20:49:10 [DEBUG] root: Epoch 7/40.
+2021-12-06 20:49:12 [DEBUG] root: Epoch 8/40.
+2021-12-06 20:49:13 [DEBUG] root: Epoch 9/40.
+2021-12-06 20:49:14 [DEBUG] root: Epoch 10/40.
+2021-12-06 20:49:15 [DEBUG] root: Epoch 11/40.
+2021-12-06 20:49:16 [DEBUG] root: Epoch 12/40.
+2021-12-06 20:49:17 [DEBUG] root: Epoch 13/40.
+2021-12-06 20:49:18 [DEBUG] root: Epoch 14/40.
+2021-12-06 20:49:20 [DEBUG] root: Epoch 15/40.
+2021-12-06 20:49:21 [DEBUG] root: Epoch 16/40.
+2021-12-06 20:49:22 [DEBUG] root: Epoch 17/40.
+2021-12-06 20:49:23 [DEBUG] root: Epoch 18/40.
+2021-12-06 20:49:24 [DEBUG] root: Epoch 19/40.
+2021-12-06 20:49:25 [DEBUG] root: Epoch 20/40.
+2021-12-06 20:49:27 [DEBUG] root: Epoch 21/40.
+2021-12-06 20:49:28 [DEBUG] root: Epoch 22/40.
+2021-12-06 20:49:29 [DEBUG] root: Epoch 23/40.
+2021-12-06 20:49:30 [DEBUG] root: Epoch 24/40.
+2021-12-06 20:49:31 [DEBUG] root: Epoch 25/40.
+2021-12-06 20:49:32 [DEBUG] root: Epoch 26/40.
+2021-12-06 20:49:34 [DEBUG] root: Epoch 27/40.
+2021-12-06 20:49:35 [DEBUG] root: Epoch 28/40.
+2021-12-06 20:49:36 [DEBUG] root: Epoch 29/40.
+2021-12-06 20:49:37 [DEBUG] root: Epoch 30/40.
+2021-12-06 20:49:38 [DEBUG] root: Epoch 31/40.
+2021-12-06 20:49:40 [DEBUG] root: Epoch 32/40.
+2021-12-06 20:49:41 [DEBUG] root: Epoch 33/40.
+2021-12-06 20:49:42 [DEBUG] root: Epoch 34/40.
+2021-12-06 20:49:43 [DEBUG] root: Epoch 35/40.
+2021-12-06 20:49:44 [DEBUG] root: Epoch 36/40.
+2021-12-06 20:49:46 [DEBUG] root: Epoch 37/40.
+2021-12-06 20:49:47 [DEBUG] root: Epoch 38/40.
+2021-12-06 20:49:48 [DEBUG] root: Epoch 39/40.
+2021-12-06 20:49:49 [DEBUG] root: Epoch 40/40.
+2021-12-06 20:49:52 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:49:52 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:49:52 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:49:52 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/details_LSTM-ED_Syn Shift Outliers (extremeness=16.0)-1-10-2021-12-06-204951.pdf
+2021-12-06 20:49:52 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=8.0) with seed 1206099335
+2021-12-06 20:49:52 [DEBUG] root: Epoch 1/40.
+2021-12-06 20:49:53 [DEBUG] root: Epoch 2/40.
+2021-12-06 20:49:54 [DEBUG] root: Epoch 3/40.
+2021-12-06 20:49:55 [DEBUG] root: Epoch 4/40.
+2021-12-06 20:49:57 [DEBUG] root: Epoch 5/40.
+2021-12-06 20:49:58 [DEBUG] root: Epoch 6/40.
+2021-12-06 20:49:59 [DEBUG] root: Epoch 7/40.
+2021-12-06 20:50:00 [DEBUG] root: Epoch 8/40.
+2021-12-06 20:50:02 [DEBUG] root: Epoch 9/40.
+2021-12-06 20:50:03 [DEBUG] root: Epoch 10/40.
+2021-12-06 20:50:04 [DEBUG] root: Epoch 11/40.
+2021-12-06 20:50:05 [DEBUG] root: Epoch 12/40.
+2021-12-06 20:50:07 [DEBUG] root: Epoch 13/40.
+2021-12-06 20:50:08 [DEBUG] root: Epoch 14/40.
+2021-12-06 20:50:09 [DEBUG] root: Epoch 15/40.
+2021-12-06 20:50:10 [DEBUG] root: Epoch 16/40.
+2021-12-06 20:50:12 [DEBUG] root: Epoch 17/40.
+2021-12-06 20:50:13 [DEBUG] root: Epoch 18/40.
+2021-12-06 20:50:14 [DEBUG] root: Epoch 19/40.
+2021-12-06 20:50:15 [DEBUG] root: Epoch 20/40.
+2021-12-06 20:50:17 [DEBUG] root: Epoch 21/40.
+2021-12-06 20:50:18 [DEBUG] root: Epoch 22/40.
+2021-12-06 20:50:19 [DEBUG] root: Epoch 23/40.
+2021-12-06 20:50:20 [DEBUG] root: Epoch 24/40.
+2021-12-06 20:50:22 [DEBUG] root: Epoch 25/40.
+2021-12-06 20:50:23 [DEBUG] root: Epoch 26/40.
+2021-12-06 20:50:24 [DEBUG] root: Epoch 27/40.
+2021-12-06 20:50:25 [DEBUG] root: Epoch 28/40.
+2021-12-06 20:50:27 [DEBUG] root: Epoch 29/40.
+2021-12-06 20:50:28 [DEBUG] root: Epoch 30/40.
+2021-12-06 20:50:29 [DEBUG] root: Epoch 31/40.
+2021-12-06 20:50:30 [DEBUG] root: Epoch 32/40.
+2021-12-06 20:50:31 [DEBUG] root: Epoch 33/40.
+2021-12-06 20:50:33 [DEBUG] root: Epoch 34/40.
+2021-12-06 20:50:34 [DEBUG] root: Epoch 35/40.
+2021-12-06 20:50:35 [DEBUG] root: Epoch 36/40.
+2021-12-06 20:50:36 [DEBUG] root: Epoch 37/40.
+2021-12-06 20:50:38 [DEBUG] root: Epoch 38/40.
+2021-12-06 20:50:39 [DEBUG] root: Epoch 39/40.
+2021-12-06 20:50:40 [DEBUG] root: Epoch 40/40.
+2021-12-06 20:50:42 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:50:42 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:50:43 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:50:43 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/details_LSTM-ED_Syn Shift Outliers (extremeness=8.0)-1-10-2021-12-06-205042.pdf
+2021-12-06 20:50:43 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=4.0) with seed 1206099335
+2021-12-06 20:50:43 [DEBUG] root: Epoch 1/40.
+2021-12-06 20:50:44 [DEBUG] root: Epoch 2/40.
+2021-12-06 20:50:45 [DEBUG] root: Epoch 3/40.
+2021-12-06 20:50:46 [DEBUG] root: Epoch 4/40.
+2021-12-06 20:50:48 [DEBUG] root: Epoch 5/40.
+2021-12-06 20:50:49 [DEBUG] root: Epoch 6/40.
+2021-12-06 20:50:50 [DEBUG] root: Epoch 7/40.
+2021-12-06 20:50:52 [DEBUG] root: Epoch 8/40.
+2021-12-06 20:50:53 [DEBUG] root: Epoch 9/40.
+2021-12-06 20:50:54 [DEBUG] root: Epoch 10/40.
+2021-12-06 20:50:56 [DEBUG] root: Epoch 11/40.
+2021-12-06 20:50:57 [DEBUG] root: Epoch 12/40.
+2021-12-06 20:50:58 [DEBUG] root: Epoch 13/40.
+2021-12-06 20:50:59 [DEBUG] root: Epoch 14/40.
+2021-12-06 20:51:01 [DEBUG] root: Epoch 15/40.
+2021-12-06 20:51:02 [DEBUG] root: Epoch 16/40.
+2021-12-06 20:51:03 [DEBUG] root: Epoch 17/40.
+2021-12-06 20:51:04 [DEBUG] root: Epoch 18/40.
+2021-12-06 20:51:06 [DEBUG] root: Epoch 19/40.
+2021-12-06 20:51:07 [DEBUG] root: Epoch 20/40.
+2021-12-06 20:51:08 [DEBUG] root: Epoch 21/40.
+2021-12-06 20:51:09 [DEBUG] root: Epoch 22/40.
+2021-12-06 20:51:11 [DEBUG] root: Epoch 23/40.
+2021-12-06 20:51:12 [DEBUG] root: Epoch 24/40.
+2021-12-06 20:51:13 [DEBUG] root: Epoch 25/40.
+2021-12-06 20:51:14 [DEBUG] root: Epoch 26/40.
+2021-12-06 20:51:16 [DEBUG] root: Epoch 27/40.
+2021-12-06 20:51:17 [DEBUG] root: Epoch 28/40.
+2021-12-06 20:51:18 [DEBUG] root: Epoch 29/40.
+2021-12-06 20:51:20 [DEBUG] root: Epoch 30/40.
+2021-12-06 20:51:21 [DEBUG] root: Epoch 31/40.
+2021-12-06 20:51:22 [DEBUG] root: Epoch 32/40.
+2021-12-06 20:51:24 [DEBUG] root: Epoch 33/40.
+2021-12-06 20:51:25 [DEBUG] root: Epoch 34/40.
+2021-12-06 20:51:26 [DEBUG] root: Epoch 35/40.
+2021-12-06 20:51:28 [DEBUG] root: Epoch 36/40.
+2021-12-06 20:51:29 [DEBUG] root: Epoch 37/40.
+2021-12-06 20:51:31 [DEBUG] root: Epoch 38/40.
+2021-12-06 20:51:32 [DEBUG] root: Epoch 39/40.
+2021-12-06 20:51:33 [DEBUG] root: Epoch 40/40.
+2021-12-06 20:51:36 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:51:36 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:51:36 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:51:36 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/details_LSTM-ED_Syn Shift Outliers (extremeness=4.0)-1-10-2021-12-06-205136.pdf
+2021-12-06 20:51:36 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=2.0) with seed 1206099335
+2021-12-06 20:51:36 [DEBUG] root: Epoch 1/40.
+2021-12-06 20:51:37 [DEBUG] root: Epoch 2/40.
+2021-12-06 20:51:39 [DEBUG] root: Epoch 3/40.
+2021-12-06 20:51:40 [DEBUG] root: Epoch 4/40.
+2021-12-06 20:51:41 [DEBUG] root: Epoch 5/40.
+2021-12-06 20:51:42 [DEBUG] root: Epoch 6/40.
+2021-12-06 20:51:44 [DEBUG] root: Epoch 7/40.
+2021-12-06 20:51:45 [DEBUG] root: Epoch 8/40.
+2021-12-06 20:51:46 [DEBUG] root: Epoch 9/40.
+2021-12-06 20:51:47 [DEBUG] root: Epoch 10/40.
+2021-12-06 20:51:49 [DEBUG] root: Epoch 11/40.
+2021-12-06 20:51:50 [DEBUG] root: Epoch 12/40.
+2021-12-06 20:51:51 [DEBUG] root: Epoch 13/40.
+2021-12-06 20:51:52 [DEBUG] root: Epoch 14/40.
+2021-12-06 20:51:54 [DEBUG] root: Epoch 15/40.
+2021-12-06 20:51:55 [DEBUG] root: Epoch 16/40.
+2021-12-06 20:51:56 [DEBUG] root: Epoch 17/40.
+2021-12-06 20:51:57 [DEBUG] root: Epoch 18/40.
+2021-12-06 20:51:59 [DEBUG] root: Epoch 19/40.
+2021-12-06 20:52:00 [DEBUG] root: Epoch 20/40.
+2021-12-06 20:52:01 [DEBUG] root: Epoch 21/40.
+2021-12-06 20:52:02 [DEBUG] root: Epoch 22/40.
+2021-12-06 20:52:04 [DEBUG] root: Epoch 23/40.
+2021-12-06 20:52:05 [DEBUG] root: Epoch 24/40.
+2021-12-06 20:52:06 [DEBUG] root: Epoch 25/40.
+2021-12-06 20:52:07 [DEBUG] root: Epoch 26/40.
+2021-12-06 20:52:08 [DEBUG] root: Epoch 27/40.
+2021-12-06 20:52:10 [DEBUG] root: Epoch 28/40.
+2021-12-06 20:52:11 [DEBUG] root: Epoch 29/40.
+2021-12-06 20:52:12 [DEBUG] root: Epoch 30/40.
+2021-12-06 20:52:13 [DEBUG] root: Epoch 31/40.
+2021-12-06 20:52:15 [DEBUG] root: Epoch 32/40.
+2021-12-06 20:52:16 [DEBUG] root: Epoch 33/40.
+2021-12-06 20:52:17 [DEBUG] root: Epoch 34/40.
+2021-12-06 20:52:18 [DEBUG] root: Epoch 35/40.
+2021-12-06 20:52:20 [DEBUG] root: Epoch 36/40.
+2021-12-06 20:52:21 [DEBUG] root: Epoch 37/40.
+2021-12-06 20:52:22 [DEBUG] root: Epoch 38/40.
+2021-12-06 20:52:23 [DEBUG] root: Epoch 39/40.
+2021-12-06 20:52:25 [DEBUG] root: Epoch 40/40.
+2021-12-06 20:52:27 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:52:27 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:52:27 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:52:27 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/details_LSTM-ED_Syn Shift Outliers (extremeness=2.0)-1-10-2021-12-06-205227.pdf
+2021-12-06 20:52:27 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=1.0) with seed 1206099335
+2021-12-06 20:52:27 [DEBUG] root: Epoch 1/40.
+2021-12-06 20:52:28 [DEBUG] root: Epoch 2/40.
+2021-12-06 20:52:29 [DEBUG] root: Epoch 3/40.
+2021-12-06 20:52:31 [DEBUG] root: Epoch 4/40.
+2021-12-06 20:52:32 [DEBUG] root: Epoch 5/40.
+2021-12-06 20:52:33 [DEBUG] root: Epoch 6/40.
+2021-12-06 20:52:34 [DEBUG] root: Epoch 7/40.
+2021-12-06 20:52:36 [DEBUG] root: Epoch 8/40.
+2021-12-06 20:52:37 [DEBUG] root: Epoch 9/40.
+2021-12-06 20:52:38 [DEBUG] root: Epoch 10/40.
+2021-12-06 20:52:39 [DEBUG] root: Epoch 11/40.
+2021-12-06 20:52:41 [DEBUG] root: Epoch 12/40.
+2021-12-06 20:52:42 [DEBUG] root: Epoch 13/40.
+2021-12-06 20:52:43 [DEBUG] root: Epoch 14/40.
+2021-12-06 20:52:44 [DEBUG] root: Epoch 15/40.
+2021-12-06 20:52:45 [DEBUG] root: Epoch 16/40.
+2021-12-06 20:52:47 [DEBUG] root: Epoch 17/40.
+2021-12-06 20:52:48 [DEBUG] root: Epoch 18/40.
+2021-12-06 20:52:49 [DEBUG] root: Epoch 19/40.
+2021-12-06 20:52:50 [DEBUG] root: Epoch 20/40.
+2021-12-06 20:52:52 [DEBUG] root: Epoch 21/40.
+2021-12-06 20:52:53 [DEBUG] root: Epoch 22/40.
+2021-12-06 20:52:54 [DEBUG] root: Epoch 23/40.
+2021-12-06 20:52:55 [DEBUG] root: Epoch 24/40.
+2021-12-06 20:52:57 [DEBUG] root: Epoch 25/40.
+2021-12-06 20:52:58 [DEBUG] root: Epoch 26/40.
+2021-12-06 20:52:59 [DEBUG] root: Epoch 27/40.
+2021-12-06 20:53:00 [DEBUG] root: Epoch 28/40.
+2021-12-06 20:53:01 [DEBUG] root: Epoch 29/40.
+2021-12-06 20:53:03 [DEBUG] root: Epoch 30/40.
+2021-12-06 20:53:04 [DEBUG] root: Epoch 31/40.
+2021-12-06 20:53:05 [DEBUG] root: Epoch 32/40.
+2021-12-06 20:53:06 [DEBUG] root: Epoch 33/40.
+2021-12-06 20:53:08 [DEBUG] root: Epoch 34/40.
+2021-12-06 20:53:09 [DEBUG] root: Epoch 35/40.
+2021-12-06 20:53:10 [DEBUG] root: Epoch 36/40.
+2021-12-06 20:53:11 [DEBUG] root: Epoch 37/40.
+2021-12-06 20:53:13 [DEBUG] root: Epoch 38/40.
+2021-12-06 20:53:14 [DEBUG] root: Epoch 39/40.
+2021-12-06 20:53:15 [DEBUG] root: Epoch 40/40.
+2021-12-06 20:53:17 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:53:18 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:53:18 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:53:18 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/details_LSTM-ED_Syn Shift Outliers (extremeness=1.0)-1-10-2021-12-06-205317.pdf
+2021-12-06 20:53:18 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=0.5) with seed 1206099335
+2021-12-06 20:53:18 [DEBUG] root: Epoch 1/40.
+2021-12-06 20:53:19 [DEBUG] root: Epoch 2/40.
+2021-12-06 20:53:20 [DEBUG] root: Epoch 3/40.
+2021-12-06 20:53:21 [DEBUG] root: Epoch 4/40.
+2021-12-06 20:53:23 [DEBUG] root: Epoch 5/40.
+2021-12-06 20:53:24 [DEBUG] root: Epoch 6/40.
+2021-12-06 20:53:25 [DEBUG] root: Epoch 7/40.
+2021-12-06 20:53:26 [DEBUG] root: Epoch 8/40.
+2021-12-06 20:53:28 [DEBUG] root: Epoch 9/40.
+2021-12-06 20:53:29 [DEBUG] root: Epoch 10/40.
+2021-12-06 20:53:30 [DEBUG] root: Epoch 11/40.
+2021-12-06 20:53:31 [DEBUG] root: Epoch 12/40.
+2021-12-06 20:53:33 [DEBUG] root: Epoch 13/40.
+2021-12-06 20:53:34 [DEBUG] root: Epoch 14/40.
+2021-12-06 20:53:35 [DEBUG] root: Epoch 15/40.
+2021-12-06 20:53:36 [DEBUG] root: Epoch 16/40.
+2021-12-06 20:53:38 [DEBUG] root: Epoch 17/40.
+2021-12-06 20:53:39 [DEBUG] root: Epoch 18/40.
+2021-12-06 20:53:40 [DEBUG] root: Epoch 19/40.
+2021-12-06 20:53:41 [DEBUG] root: Epoch 20/40.
+2021-12-06 20:53:43 [DEBUG] root: Epoch 21/40.
+2021-12-06 20:53:44 [DEBUG] root: Epoch 22/40.
+2021-12-06 20:53:45 [DEBUG] root: Epoch 23/40.
+2021-12-06 20:53:46 [DEBUG] root: Epoch 24/40.
+2021-12-06 20:53:48 [DEBUG] root: Epoch 25/40.
+2021-12-06 20:53:49 [DEBUG] root: Epoch 26/40.
+2021-12-06 20:53:50 [DEBUG] root: Epoch 27/40.
+2021-12-06 20:53:51 [DEBUG] root: Epoch 28/40.
+2021-12-06 20:53:53 [DEBUG] root: Epoch 29/40.
+2021-12-06 20:53:54 [DEBUG] root: Epoch 30/40.
+2021-12-06 20:53:55 [DEBUG] root: Epoch 31/40.
+2021-12-06 20:53:56 [DEBUG] root: Epoch 32/40.
+2021-12-06 20:53:58 [DEBUG] root: Epoch 33/40.
+2021-12-06 20:53:59 [DEBUG] root: Epoch 34/40.
+2021-12-06 20:54:00 [DEBUG] root: Epoch 35/40.
+2021-12-06 20:54:01 [DEBUG] root: Epoch 36/40.
+2021-12-06 20:54:03 [DEBUG] root: Epoch 37/40.
+2021-12-06 20:54:04 [DEBUG] root: Epoch 38/40.
+2021-12-06 20:54:05 [DEBUG] root: Epoch 39/40.
+2021-12-06 20:54:06 [DEBUG] root: Epoch 40/40.
+2021-12-06 20:54:09 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:54:09 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:54:09 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:54:09 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/details_LSTM-ED_Syn Shift Outliers (extremeness=0.5)-1-10-2021-12-06-205409.pdf
+2021-12-06 20:54:09 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=0.25) with seed 1206099335
+2021-12-06 20:54:09 [DEBUG] root: Epoch 1/40.
+2021-12-06 20:54:10 [DEBUG] root: Epoch 2/40.
+2021-12-06 20:54:11 [DEBUG] root: Epoch 3/40.
+2021-12-06 20:54:13 [DEBUG] root: Epoch 4/40.
+2021-12-06 20:54:14 [DEBUG] root: Epoch 5/40.
+2021-12-06 20:54:15 [DEBUG] root: Epoch 6/40.
+2021-12-06 20:54:16 [DEBUG] root: Epoch 7/40.
+2021-12-06 20:54:18 [DEBUG] root: Epoch 8/40.
+2021-12-06 20:54:19 [DEBUG] root: Epoch 9/40.
+2021-12-06 20:54:20 [DEBUG] root: Epoch 10/40.
+2021-12-06 20:54:21 [DEBUG] root: Epoch 11/40.
+2021-12-06 20:54:23 [DEBUG] root: Epoch 12/40.
+2021-12-06 20:54:24 [DEBUG] root: Epoch 13/40.
+2021-12-06 20:54:25 [DEBUG] root: Epoch 14/40.
+2021-12-06 20:54:26 [DEBUG] root: Epoch 15/40.
+2021-12-06 20:54:28 [DEBUG] root: Epoch 16/40.
+2021-12-06 20:54:29 [DEBUG] root: Epoch 17/40.
+2021-12-06 20:54:30 [DEBUG] root: Epoch 18/40.
+2021-12-06 20:54:31 [DEBUG] root: Epoch 19/40.
+2021-12-06 20:54:33 [DEBUG] root: Epoch 20/40.
+2021-12-06 20:54:34 [DEBUG] root: Epoch 21/40.
+2021-12-06 20:54:35 [DEBUG] root: Epoch 22/40.
+2021-12-06 20:54:36 [DEBUG] root: Epoch 23/40.
+2021-12-06 20:54:38 [DEBUG] root: Epoch 24/40.
+2021-12-06 20:54:39 [DEBUG] root: Epoch 25/40.
+2021-12-06 20:54:40 [DEBUG] root: Epoch 26/40.
+2021-12-06 20:54:41 [DEBUG] root: Epoch 27/40.
+2021-12-06 20:54:43 [DEBUG] root: Epoch 28/40.
+2021-12-06 20:54:44 [DEBUG] root: Epoch 29/40.
+2021-12-06 20:54:45 [DEBUG] root: Epoch 30/40.
+2021-12-06 20:54:46 [DEBUG] root: Epoch 31/40.
+2021-12-06 20:54:48 [DEBUG] root: Epoch 32/40.
+2021-12-06 20:54:49 [DEBUG] root: Epoch 33/40.
+2021-12-06 20:54:50 [DEBUG] root: Epoch 34/40.
+2021-12-06 20:54:51 [DEBUG] root: Epoch 35/40.
+2021-12-06 20:54:53 [DEBUG] root: Epoch 36/40.
+2021-12-06 20:54:54 [DEBUG] root: Epoch 37/40.
+2021-12-06 20:54:55 [DEBUG] root: Epoch 38/40.
+2021-12-06 20:54:57 [DEBUG] root: Epoch 39/40.
+2021-12-06 20:54:58 [DEBUG] root: Epoch 40/40.
+2021-12-06 20:55:00 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:55:00 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:55:00 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:55:00 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/details_LSTM-ED_Syn Shift Outliers (extremeness=0.25)-1-10-2021-12-06-205500.pdf
+2021-12-06 20:55:00 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=0.125) with seed 1206099335
+2021-12-06 20:55:00 [DEBUG] root: Epoch 1/40.
+2021-12-06 20:55:01 [DEBUG] root: Epoch 2/40.
+2021-12-06 20:55:03 [DEBUG] root: Epoch 3/40.
+2021-12-06 20:55:04 [DEBUG] root: Epoch 4/40.
+2021-12-06 20:55:05 [DEBUG] root: Epoch 5/40.
+2021-12-06 20:55:06 [DEBUG] root: Epoch 6/40.
+2021-12-06 20:55:08 [DEBUG] root: Epoch 7/40.
+2021-12-06 20:55:09 [DEBUG] root: Epoch 8/40.
+2021-12-06 20:55:10 [DEBUG] root: Epoch 9/40.
+2021-12-06 20:55:12 [DEBUG] root: Epoch 10/40.
+2021-12-06 20:55:13 [DEBUG] root: Epoch 11/40.
+2021-12-06 20:55:14 [DEBUG] root: Epoch 12/40.
+2021-12-06 20:55:15 [DEBUG] root: Epoch 13/40.
+2021-12-06 20:55:16 [DEBUG] root: Epoch 14/40.
+2021-12-06 20:55:18 [DEBUG] root: Epoch 15/40.
+2021-12-06 20:55:19 [DEBUG] root: Epoch 16/40.
+2021-12-06 20:55:20 [DEBUG] root: Epoch 17/40.
+2021-12-06 20:55:21 [DEBUG] root: Epoch 18/40.
+2021-12-06 20:55:23 [DEBUG] root: Epoch 19/40.
+2021-12-06 20:55:24 [DEBUG] root: Epoch 20/40.
+2021-12-06 20:55:25 [DEBUG] root: Epoch 21/40.
+2021-12-06 20:55:26 [DEBUG] root: Epoch 22/40.
+2021-12-06 20:55:28 [DEBUG] root: Epoch 23/40.
+2021-12-06 20:55:29 [DEBUG] root: Epoch 24/40.
+2021-12-06 20:55:30 [DEBUG] root: Epoch 25/40.
+2021-12-06 20:55:31 [DEBUG] root: Epoch 26/40.
+2021-12-06 20:55:33 [DEBUG] root: Epoch 27/40.
+2021-12-06 20:55:34 [DEBUG] root: Epoch 28/40.
+2021-12-06 20:55:35 [DEBUG] root: Epoch 29/40.
+2021-12-06 20:55:36 [DEBUG] root: Epoch 30/40.
+2021-12-06 20:55:38 [DEBUG] root: Epoch 31/40.
+2021-12-06 20:55:39 [DEBUG] root: Epoch 32/40.
+2021-12-06 20:55:40 [DEBUG] root: Epoch 33/40.
+2021-12-06 20:55:41 [DEBUG] root: Epoch 34/40.
+2021-12-06 20:55:43 [DEBUG] root: Epoch 35/40.
+2021-12-06 20:55:44 [DEBUG] root: Epoch 36/40.
+2021-12-06 20:55:45 [DEBUG] root: Epoch 37/40.
+2021-12-06 20:55:46 [DEBUG] root: Epoch 38/40.
+2021-12-06 20:55:48 [DEBUG] root: Epoch 39/40.
+2021-12-06 20:55:49 [DEBUG] root: Epoch 40/40.
+2021-12-06 20:55:51 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:55:51 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:55:51 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:55:51 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/details_LSTM-ED_Syn Shift Outliers (extremeness=0.125)-1-10-2021-12-06-205551.pdf
+2021-12-06 20:55:51 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=0.0625) with seed 1206099335
+2021-12-06 20:55:51 [DEBUG] root: Epoch 1/40.
+2021-12-06 20:55:53 [DEBUG] root: Epoch 2/40.
+2021-12-06 20:55:54 [DEBUG] root: Epoch 3/40.
+2021-12-06 20:55:55 [DEBUG] root: Epoch 4/40.
+2021-12-06 20:55:57 [DEBUG] root: Epoch 5/40.
+2021-12-06 20:55:58 [DEBUG] root: Epoch 6/40.
+2021-12-06 20:55:59 [DEBUG] root: Epoch 7/40.
+2021-12-06 20:56:00 [DEBUG] root: Epoch 8/40.
+2021-12-06 20:56:02 [DEBUG] root: Epoch 9/40.
+2021-12-06 20:56:03 [DEBUG] root: Epoch 10/40.
+2021-12-06 20:56:04 [DEBUG] root: Epoch 11/40.
+2021-12-06 20:56:05 [DEBUG] root: Epoch 12/40.
+2021-12-06 20:56:07 [DEBUG] root: Epoch 13/40.
+2021-12-06 20:56:08 [DEBUG] root: Epoch 14/40.
+2021-12-06 20:56:09 [DEBUG] root: Epoch 15/40.
+2021-12-06 20:56:10 [DEBUG] root: Epoch 16/40.
+2021-12-06 20:56:12 [DEBUG] root: Epoch 17/40.
+2021-12-06 20:56:13 [DEBUG] root: Epoch 18/40.
+2021-12-06 20:56:14 [DEBUG] root: Epoch 19/40.
+2021-12-06 20:56:15 [DEBUG] root: Epoch 20/40.
+2021-12-06 20:56:17 [DEBUG] root: Epoch 21/40.
+2021-12-06 20:56:18 [DEBUG] root: Epoch 22/40.
+2021-12-06 20:56:19 [DEBUG] root: Epoch 23/40.
+2021-12-06 20:56:20 [DEBUG] root: Epoch 24/40.
+2021-12-06 20:56:22 [DEBUG] root: Epoch 25/40.
+2021-12-06 20:56:23 [DEBUG] root: Epoch 26/40.
+2021-12-06 20:56:24 [DEBUG] root: Epoch 27/40.
+2021-12-06 20:56:25 [DEBUG] root: Epoch 28/40.
+2021-12-06 20:56:27 [DEBUG] root: Epoch 29/40.
+2021-12-06 20:56:28 [DEBUG] root: Epoch 30/40.
+2021-12-06 20:56:29 [DEBUG] root: Epoch 31/40.
+2021-12-06 20:56:30 [DEBUG] root: Epoch 32/40.
+2021-12-06 20:56:32 [DEBUG] root: Epoch 33/40.
+2021-12-06 20:56:33 [DEBUG] root: Epoch 34/40.
+2021-12-06 20:56:34 [DEBUG] root: Epoch 35/40.
+2021-12-06 20:56:35 [DEBUG] root: Epoch 36/40.
+2021-12-06 20:56:37 [DEBUG] root: Epoch 37/40.
+2021-12-06 20:56:38 [DEBUG] root: Epoch 38/40.
+2021-12-06 20:56:39 [DEBUG] root: Epoch 39/40.
+2021-12-06 20:56:40 [DEBUG] root: Epoch 40/40.
+2021-12-06 20:56:43 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:56:43 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:56:43 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:56:43 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/details_LSTM-ED_Syn Shift Outliers (extremeness=0.0625)-1-10-2021-12-06-205643.pdf
+2021-12-06 20:56:43 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Shift Outliers (extremeness=0.03125) with seed 1206099335
+2021-12-06 20:56:43 [DEBUG] root: Epoch 1/40.
+2021-12-06 20:56:44 [DEBUG] root: Epoch 2/40.
+2021-12-06 20:56:45 [DEBUG] root: Epoch 3/40.
+2021-12-06 20:56:47 [DEBUG] root: Epoch 4/40.
+2021-12-06 20:56:48 [DEBUG] root: Epoch 5/40.
+2021-12-06 20:56:49 [DEBUG] root: Epoch 6/40.
+2021-12-06 20:56:50 [DEBUG] root: Epoch 7/40.
+2021-12-06 20:56:52 [DEBUG] root: Epoch 8/40.
+2021-12-06 20:56:53 [DEBUG] root: Epoch 9/40.
+2021-12-06 20:56:54 [DEBUG] root: Epoch 10/40.
+2021-12-06 20:56:55 [DEBUG] root: Epoch 11/40.
+2021-12-06 20:56:57 [DEBUG] root: Epoch 12/40.
+2021-12-06 20:56:58 [DEBUG] root: Epoch 13/40.
+2021-12-06 20:56:59 [DEBUG] root: Epoch 14/40.
+2021-12-06 20:57:01 [DEBUG] root: Epoch 15/40.
+2021-12-06 20:57:02 [DEBUG] root: Epoch 16/40.
+2021-12-06 20:57:03 [DEBUG] root: Epoch 17/40.
+2021-12-06 20:57:05 [DEBUG] root: Epoch 18/40.
+2021-12-06 20:57:06 [DEBUG] root: Epoch 19/40.
+2021-12-06 20:57:07 [DEBUG] root: Epoch 20/40.
+2021-12-06 20:57:09 [DEBUG] root: Epoch 21/40.
+2021-12-06 20:57:10 [DEBUG] root: Epoch 22/40.
+2021-12-06 20:57:11 [DEBUG] root: Epoch 23/40.
+2021-12-06 20:57:13 [DEBUG] root: Epoch 24/40.
+2021-12-06 20:57:14 [DEBUG] root: Epoch 25/40.
+2021-12-06 20:57:15 [DEBUG] root: Epoch 26/40.
+2021-12-06 20:57:17 [DEBUG] root: Epoch 27/40.
+2021-12-06 20:57:18 [DEBUG] root: Epoch 28/40.
+2021-12-06 20:57:19 [DEBUG] root: Epoch 29/40.
+2021-12-06 20:57:21 [DEBUG] root: Epoch 30/40.
+2021-12-06 20:57:22 [DEBUG] root: Epoch 31/40.
+2021-12-06 20:57:23 [DEBUG] root: Epoch 32/40.
+2021-12-06 20:57:25 [DEBUG] root: Epoch 33/40.
+2021-12-06 20:57:26 [DEBUG] root: Epoch 34/40.
+2021-12-06 20:57:27 [DEBUG] root: Epoch 35/40.
+2021-12-06 20:57:29 [DEBUG] root: Epoch 36/40.
+2021-12-06 20:57:30 [DEBUG] root: Epoch 37/40.
+2021-12-06 20:57:31 [DEBUG] root: Epoch 38/40.
+2021-12-06 20:57:32 [DEBUG] root: Epoch 39/40.
+2021-12-06 20:57:34 [DEBUG] root: Epoch 40/40.
+2021-12-06 20:57:36 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:36 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:36 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:36 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/details_LSTM-ED_Syn Shift Outliers (extremeness=0.03125)-1-10-2021-12-06-205736.pdf
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=16.0)
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=16.0)-1-10-2021-12-06-205740.pdf
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=8.0)
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=8.0)-1-10-2021-12-06-205740.pdf
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=4.0)
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=4.0)-1-10-2021-12-06-205740.pdf
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=2.0)
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=2.0)-1-10-2021-12-06-205740.pdf
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=1.0)
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=1.0)-1-10-2021-12-06-205740.pdf
+2021-12-06 20:57:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.5)
+2021-12-06 20:57:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:41 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=0.5)-1-10-2021-12-06-205740.pdf
+2021-12-06 20:57:41 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.25)
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:41 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=0.25)-1-10-2021-12-06-205741.pdf
+2021-12-06 20:57:41 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.125)
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:41 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=0.125)-1-10-2021-12-06-205741.pdf
+2021-12-06 20:57:41 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.0625)
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:41 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=0.0625)-1-10-2021-12-06-205741.pdf
+2021-12-06 20:57:41 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.03125)
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:41 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:41 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=0.03125)-1-10-2021-12-06-205741.pdf
+2021-12-06 20:57:45 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:46 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:46 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:46 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/metrics_by_thresholds-1-10-2021-12-06-205745.pdf
+2021-12-06 20:57:47 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:47 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:47 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:47 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=16.0)-1-10-2021-12-06-205747.pdf
+2021-12-06 20:57:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=8.0)-1-10-2021-12-06-205748.pdf
+2021-12-06 20:57:49 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:49 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:49 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:49 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=4.0)-1-10-2021-12-06-205749.pdf
+2021-12-06 20:57:50 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:50 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:50 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:50 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=2.0)-1-10-2021-12-06-205750.pdf
+2021-12-06 20:57:51 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:51 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:51 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:51 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=1.0)-1-10-2021-12-06-205751.pdf
+2021-12-06 20:57:52 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:52 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:52 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:52 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=0.5)-1-10-2021-12-06-205752.pdf
+2021-12-06 20:57:53 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:54 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:54 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:54 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=0.25)-1-10-2021-12-06-205753.pdf
+2021-12-06 20:57:55 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:55 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:55 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:55 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=0.125)-1-10-2021-12-06-205755.pdf
+2021-12-06 20:57:56 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:56 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:56 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:56 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=0.0625)-1-10-2021-12-06-205756.pdf
+2021-12-06 20:57:57 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:57 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:57 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:57 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=0.03125)-1-10-2021-12-06-205757.pdf
+2021-12-06 20:57:57 [INFO] src.evaluation.evaluator: Store evaluator results at /home/tianyu/Desktop/work_space/DeepADoTS/reports/experiments/shift_1/intensity/evaluators/experiment-run-0-1206099335-2021-12-06-205757.pkl
+2021-12-06 20:57:57 [INFO] src.evaluation.evaluator: Store evaluator results at /home/tianyu/Desktop/work_space/DeepADoTS/reports/experiments/shift_1/intensity/evaluators/experiment-extreme-2021-12-06-205757.pkl
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:58 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_LSTM-ED_1_runs-1-10-2021-12-06-205757.pdf
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:58 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=16.0)_1_runs-1-10-2021-12-06-205758.pdf
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:58 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=8.0)_1_runs-1-10-2021-12-06-205758.pdf
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:58 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=4.0)_1_runs-1-10-2021-12-06-205758.pdf
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:58 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=2.0)_1_runs-1-10-2021-12-06-205758.pdf
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:58 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=1.0)_1_runs-1-10-2021-12-06-205758.pdf
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:58 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:58 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=0.5)_1_runs-1-10-2021-12-06-205758.pdf
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=0.25)_1_runs-1-10-2021-12-06-205759.pdf
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=0.125)_1_runs-1-10-2021-12-06-205759.pdf
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=0.0625)_1_runs-1-10-2021-12-06-205759.pdf
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/boxplot_auc_for_Syn Shift Outliers (extremeness=0.03125)_1_runs-1-10-2021-12-06-205759.pdf
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=16.0)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  6 | Syn Shift Outliers (extremeness=16.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=8.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  9 | Syn Shift Outliers (extremeness=8.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=4.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  8 | Syn Shift Outliers (extremeness=4.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=2.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  7 | Syn Shift Outliers (extremeness=2.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=1.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  5 | Syn Shift Outliers (extremeness=1.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.5)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  4 | Syn Shift Outliers (extremeness=0.5) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.25)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  3 | Syn Shift Outliers (extremeness=0.25) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.125)
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  2 | Syn Shift Outliers (extremeness=0.125) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.0625)
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                 | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  1 | Syn Shift Outliers (extremeness=0.0625) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.03125)
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Shift Outliers (extremeness=0.03125) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/shift_1/intensity/tables/seed-1206099335/latex_merged_std_per_dataset_for_extreme-1-10-1638795479.tex
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=16.0)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  6 | Syn Shift Outliers (extremeness=16.0) | LSTM-ED     |           0.93 |        0.757962 |     0.826389 |       0.790698 |         0.758584 |    0.975694 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=8.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  9 | Syn Shift Outliers (extremeness=8.0) | LSTM-ED     |       0.903333 |        0.681529 |     0.743056 |       0.710963 |         0.682088 |    0.866825 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=4.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  8 | Syn Shift Outliers (extremeness=4.0) | LSTM-ED     |       0.844444 |        0.513158 |     0.541667 |       0.527027 |         0.513425 |    0.806989 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=2.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  7 | Syn Shift Outliers (extremeness=2.0) | LSTM-ED     |           0.79 |        0.344828 |     0.347222 |       0.346021 |         0.344851 |    0.667328 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=1.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  5 | Syn Shift Outliers (extremeness=1.0) | LSTM-ED     |       0.311111 |        0.167598 |     0.833333 |        0.27907 |         0.168934 |    0.529312 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.5)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  4 | Syn Shift Outliers (extremeness=0.5) | LSTM-ED     |       0.275556 |        0.167539 |     0.888889 |       0.281938 |         0.168896 |    0.491935 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.25)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  3 | Syn Shift Outliers (extremeness=0.25) | LSTM-ED     |       0.254444 |        0.163474 |     0.888889 |        0.27616 |         0.164805 |    0.494957 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.125)
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  2 | Syn Shift Outliers (extremeness=0.125) | LSTM-ED     |       0.246667 |        0.165414 |     0.916667 |       0.280255 |         0.166767 |    0.499293 |
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.0625)
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                 | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  1 | Syn Shift Outliers (extremeness=0.0625) | LSTM-ED     |       0.237778 |        0.162935 |     0.909722 |       0.276371 |          0.16427 |    0.503454 |
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Dataset: Syn Shift Outliers (extremeness=0.03125)
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Shift Outliers (extremeness=0.03125) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |    0.505778 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/shift_1/intensity/tables/seed-1206099335/latex_merged_avg_per_dataset_for_extreme-1-10-1638795479.tex
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Detector: LSTM-ED
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Shift Outliers (extremeness=0.03125) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  1 | Syn Shift Outliers (extremeness=0.0625)  | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  2 | Syn Shift Outliers (extremeness=0.125)   | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  3 | Syn Shift Outliers (extremeness=0.25)    | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  4 | Syn Shift Outliers (extremeness=0.5)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  5 | Syn Shift Outliers (extremeness=1.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  6 | Syn Shift Outliers (extremeness=16.0)    | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  7 | Syn Shift Outliers (extremeness=2.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  8 | Syn Shift Outliers (extremeness=4.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  9 | Syn Shift Outliers (extremeness=8.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/shift_1/intensity/tables/seed-1206099335/latex_merged_std_per_algorithm_for_extreme-1-10-1638795479.tex
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Detector: LSTM-ED
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Shift Outliers (extremeness=0.03125) | LSTM-ED     |       0.16     |        0.16     |     1        |       0.275862 |         0.161342 |    0.505778 |
+|  1 | Syn Shift Outliers (extremeness=0.0625)  | LSTM-ED     |       0.237778 |        0.162935 |     0.909722 |       0.276371 |         0.16427  |    0.503454 |
+|  2 | Syn Shift Outliers (extremeness=0.125)   | LSTM-ED     |       0.246667 |        0.165414 |     0.916667 |       0.280255 |         0.166767 |    0.499293 |
+|  3 | Syn Shift Outliers (extremeness=0.25)    | LSTM-ED     |       0.254444 |        0.163474 |     0.888889 |       0.27616  |         0.164805 |    0.494957 |
+|  4 | Syn Shift Outliers (extremeness=0.5)     | LSTM-ED     |       0.275556 |        0.167539 |     0.888889 |       0.281938 |         0.168896 |    0.491935 |
+|  5 | Syn Shift Outliers (extremeness=1.0)     | LSTM-ED     |       0.311111 |        0.167598 |     0.833333 |       0.27907  |         0.168934 |    0.529312 |
+|  6 | Syn Shift Outliers (extremeness=16.0)    | LSTM-ED     |       0.93     |        0.757962 |     0.826389 |       0.790698 |         0.758584 |    0.975694 |
+|  7 | Syn Shift Outliers (extremeness=2.0)     | LSTM-ED     |       0.79     |        0.344828 |     0.347222 |       0.346021 |         0.344851 |    0.667328 |
+|  8 | Syn Shift Outliers (extremeness=4.0)     | LSTM-ED     |       0.844444 |        0.513158 |     0.541667 |       0.527027 |         0.513425 |    0.806989 |
+|  9 | Syn Shift Outliers (extremeness=8.0)     | LSTM-ED     |       0.903333 |        0.681529 |     0.743056 |       0.710963 |         0.682088 |    0.866825 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/shift_1/intensity/tables/seed-1206099335/latex_merged_avg_per_algorithm_for_extreme-1-10-1638795479.tex
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:57:59 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:57:59 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_LSTM-ED_1_runs-1-10-2021-12-06-205759.pdf
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:00 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=16.0)_1_runs-1-10-2021-12-06-205800.pdf
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:00 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=8.0)_1_runs-1-10-2021-12-06-205800.pdf
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:00 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=4.0)_1_runs-1-10-2021-12-06-205800.pdf
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:00 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=2.0)_1_runs-1-10-2021-12-06-205800.pdf
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:00 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=1.0)_1_runs-1-10-2021-12-06-205800.pdf
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:00 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=0.5)_1_runs-1-10-2021-12-06-205800.pdf
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:00 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:00 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=0.25)_1_runs-1-10-2021-12-06-205800.pdf
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:01 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=0.125)_1_runs-1-10-2021-12-06-205801.pdf
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:01 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=0.0625)_1_runs-1-10-2021-12-06-205801.pdf
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:01 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/barchart_auc_for_Syn Shift Outliers (extremeness=0.03125)_1_runs-1-10-2021-12-06-205801.pdf
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:01 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:01 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/auroc-1-10-2021-12-06-205801.pdf
+2021-12-06 20:58:05 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:06 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:06 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:06 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/metrics_by_thresholds-1-10-2021-12-06-205805.pdf
+2021-12-06 20:58:07 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:07 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:07 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:07 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=16.0)-1-10-2021-12-06-205807.pdf
+2021-12-06 20:58:08 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:08 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:08 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:08 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=8.0)-1-10-2021-12-06-205808.pdf
+2021-12-06 20:58:09 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:09 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:09 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:09 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=4.0)-1-10-2021-12-06-205809.pdf
+2021-12-06 20:58:10 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:10 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:10 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:10 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=2.0)-1-10-2021-12-06-205810.pdf
+2021-12-06 20:58:11 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:11 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:11 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:11 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=1.0)-1-10-2021-12-06-205811.pdf
+2021-12-06 20:58:12 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:12 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:12 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:13 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=0.5)-1-10-2021-12-06-205812.pdf
+2021-12-06 20:58:13 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:14 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:14 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:14 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=0.25)-1-10-2021-12-06-205813.pdf
+2021-12-06 20:58:15 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:15 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:15 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:15 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=0.125)-1-10-2021-12-06-205815.pdf
+2021-12-06 20:58:16 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:16 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:16 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:16 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=0.0625)-1-10-2021-12-06-205816.pdf
+2021-12-06 20:58:17 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:17 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:17 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:17 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/scores_Syn Shift Outliers (extremeness=0.03125)-1-10-2021-12-06-205817.pdf
+2021-12-06 20:58:17 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=16.0)
+2021-12-06 20:58:17 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:17 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:17 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:17 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=16.0)-1-10-2021-12-06-205817.pdf
+2021-12-06 20:58:17 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=8.0)
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=8.0)-1-10-2021-12-06-205818.pdf
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=4.0)
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=4.0)-1-10-2021-12-06-205818.pdf
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=2.0)
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=2.0)-1-10-2021-12-06-205818.pdf
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=1.0)
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=1.0)-1-10-2021-12-06-205818.pdf
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.5)
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=0.5)-1-10-2021-12-06-205818.pdf
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.25)
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:18 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=0.25)-1-10-2021-12-06-205818.pdf
+2021-12-06 20:58:18 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.125)
+2021-12-06 20:58:19 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:19 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:19 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:19 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=0.125)-1-10-2021-12-06-205818.pdf
+2021-12-06 20:58:19 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.0625)
+2021-12-06 20:58:19 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:19 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:19 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:19 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=0.0625)-1-10-2021-12-06-205819.pdf
+2021-12-06 20:58:19 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Shift Outliers (extremeness=0.03125)
+2021-12-06 20:58:19 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 20:58:19 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 20:58:19 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 20:58:19 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/shift_1/intensity/figures/seed-1206099335/roc_Syn Shift Outliers (extremeness=0.03125)-1-10-2021-12-06-205819.pdf

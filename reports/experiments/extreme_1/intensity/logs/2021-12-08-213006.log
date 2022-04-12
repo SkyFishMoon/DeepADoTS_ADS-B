@@ -1,0 +1,3 @@
+2021-12-08 21:30:06 [DEBUG] src.evaluation.config: Logger initialized
+2021-12-08 21:30:06 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Extreme Outliers (extremeness=16.0) with seed 2971422217
+2021-12-08 21:30:22 [DEBUG] root: Epoch 1/40.

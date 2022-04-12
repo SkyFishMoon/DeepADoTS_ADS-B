@@ -1,0 +1,35 @@
+2021-12-12 01:29:46 [DEBUG] src.evaluation.config: Logger initialized
+2021-12-12 01:29:47 [INFO] src.evaluation.adsb_evaluator: Training transformer_ed on ADS-B with seed 4141692744
+2021-12-12 01:29:50 [DEBUG] root: Epoch 1/40.
+2021-12-12 01:33:53 [ERROR] src.evaluation.adsb_evaluator: An exception occurred while training transformer_ed on ADS-B: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 10.76 GiB total capacity; 9.58 GiB already allocated; 3.00 MiB free; 9.59 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+2021-12-12 01:33:53 [ERROR] src.evaluation.adsb_evaluator: Traceback (most recent call last):
+  File "/mnt/hdd0/yty/DeepADoTS/src/evaluation/adsb_evaluator.py", line 140, in evaluate
+    self.detector.fit(X_train.copy(), self.tensorboard)
+  File "/mnt/hdd0/yty/DeepADoTS/src/algorithms/Transformer_ae.py", line 111, in fit
+    output = self.transformered(self.to_var(ts_batch))
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/hdd0/yty/DeepADoTS/src/algorithms/Transformer_ae.py", line 218, in forward
+    memory_bank = self.encoder(src_input)
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/transformer.py", line 198, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask)
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/transformer.py", line 339, in forward
+    x = self.norm1(x + self._sa_block(x, src_mask, src_key_padding_mask))
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/transformer.py", line 350, in _sa_block
+    need_weights=False)[0]
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/modules/activation.py", line 1010, in forward
+    attn_mask=attn_mask)
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/functional.py", line 4988, in multi_head_attention_forward
+    q, k, v = _in_projection_packed(query, key, value, in_proj_weight, in_proj_bias)
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/functional.py", line 4753, in _in_projection_packed
+    return linear(q, w_q, b_q), linear(k, w_k, b_k), linear(v, w_v, b_v)
+  File "/mnt/hdd0/yty/miniconda3/envs/DeepADoTS/lib/python3.7/site-packages/torch/nn/functional.py", line 1848, in linear
+    return torch._C._nn.linear(input, weight, bias)
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 MiB (GPU 0; 10.76 GiB total capacity; 9.58 GiB already allocated; 3.00 MiB free; 9.59 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+

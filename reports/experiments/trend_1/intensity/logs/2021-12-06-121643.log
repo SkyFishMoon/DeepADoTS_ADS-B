@@ -1,0 +1,887 @@
+2021-12-06 12:16:43 [DEBUG] src.evaluation.config: Logger initialized
+2021-12-06 12:16:43 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Trend Outliers (extremeness=16.0) with seed 22726272
+2021-12-06 12:16:43 [DEBUG] root: Epoch 1/40.
+2021-12-06 12:16:44 [DEBUG] root: Epoch 2/40.
+2021-12-06 12:16:45 [DEBUG] root: Epoch 3/40.
+2021-12-06 12:16:47 [DEBUG] root: Epoch 4/40.
+2021-12-06 12:16:48 [DEBUG] root: Epoch 5/40.
+2021-12-06 12:16:49 [DEBUG] root: Epoch 6/40.
+2021-12-06 12:16:50 [DEBUG] root: Epoch 7/40.
+2021-12-06 12:16:51 [DEBUG] root: Epoch 8/40.
+2021-12-06 12:16:52 [DEBUG] root: Epoch 9/40.
+2021-12-06 12:16:54 [DEBUG] root: Epoch 10/40.
+2021-12-06 12:16:55 [DEBUG] root: Epoch 11/40.
+2021-12-06 12:16:56 [DEBUG] root: Epoch 12/40.
+2021-12-06 12:16:57 [DEBUG] root: Epoch 13/40.
+2021-12-06 12:16:58 [DEBUG] root: Epoch 14/40.
+2021-12-06 12:17:00 [DEBUG] root: Epoch 15/40.
+2021-12-06 12:17:01 [DEBUG] root: Epoch 16/40.
+2021-12-06 12:17:02 [DEBUG] root: Epoch 17/40.
+2021-12-06 12:17:03 [DEBUG] root: Epoch 18/40.
+2021-12-06 12:17:04 [DEBUG] root: Epoch 19/40.
+2021-12-06 12:17:06 [DEBUG] root: Epoch 20/40.
+2021-12-06 12:17:07 [DEBUG] root: Epoch 21/40.
+2021-12-06 12:17:08 [DEBUG] root: Epoch 22/40.
+2021-12-06 12:17:09 [DEBUG] root: Epoch 23/40.
+2021-12-06 12:17:10 [DEBUG] root: Epoch 24/40.
+2021-12-06 12:17:11 [DEBUG] root: Epoch 25/40.
+2021-12-06 12:17:13 [DEBUG] root: Epoch 26/40.
+2021-12-06 12:17:14 [DEBUG] root: Epoch 27/40.
+2021-12-06 12:17:15 [DEBUG] root: Epoch 28/40.
+2021-12-06 12:17:16 [DEBUG] root: Epoch 29/40.
+2021-12-06 12:17:17 [DEBUG] root: Epoch 30/40.
+2021-12-06 12:17:19 [DEBUG] root: Epoch 31/40.
+2021-12-06 12:17:20 [DEBUG] root: Epoch 32/40.
+2021-12-06 12:17:21 [DEBUG] root: Epoch 33/40.
+2021-12-06 12:17:22 [DEBUG] root: Epoch 34/40.
+2021-12-06 12:17:23 [DEBUG] root: Epoch 35/40.
+2021-12-06 12:17:24 [DEBUG] root: Epoch 36/40.
+2021-12-06 12:17:26 [DEBUG] root: Epoch 37/40.
+2021-12-06 12:17:27 [DEBUG] root: Epoch 38/40.
+2021-12-06 12:17:28 [DEBUG] root: Epoch 39/40.
+2021-12-06 12:17:29 [DEBUG] root: Epoch 40/40.
+2021-12-06 12:17:31 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:17:31 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:17:31 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:17:31 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/details_LSTM-ED_Syn Trend Outliers (extremeness=16.0)-1-10-2021-12-06-121731.pdf
+2021-12-06 12:17:31 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Trend Outliers (extremeness=8.0) with seed 22726272
+2021-12-06 12:17:31 [DEBUG] root: Epoch 1/40.
+2021-12-06 12:17:32 [DEBUG] root: Epoch 2/40.
+2021-12-06 12:17:33 [DEBUG] root: Epoch 3/40.
+2021-12-06 12:17:35 [DEBUG] root: Epoch 4/40.
+2021-12-06 12:17:36 [DEBUG] root: Epoch 5/40.
+2021-12-06 12:17:37 [DEBUG] root: Epoch 6/40.
+2021-12-06 12:17:38 [DEBUG] root: Epoch 7/40.
+2021-12-06 12:17:39 [DEBUG] root: Epoch 8/40.
+2021-12-06 12:17:40 [DEBUG] root: Epoch 9/40.
+2021-12-06 12:17:41 [DEBUG] root: Epoch 10/40.
+2021-12-06 12:17:43 [DEBUG] root: Epoch 11/40.
+2021-12-06 12:17:44 [DEBUG] root: Epoch 12/40.
+2021-12-06 12:17:45 [DEBUG] root: Epoch 13/40.
+2021-12-06 12:17:46 [DEBUG] root: Epoch 14/40.
+2021-12-06 12:17:47 [DEBUG] root: Epoch 15/40.
+2021-12-06 12:17:48 [DEBUG] root: Epoch 16/40.
+2021-12-06 12:17:49 [DEBUG] root: Epoch 17/40.
+2021-12-06 12:17:50 [DEBUG] root: Epoch 18/40.
+2021-12-06 12:17:52 [DEBUG] root: Epoch 19/40.
+2021-12-06 12:17:53 [DEBUG] root: Epoch 20/40.
+2021-12-06 12:17:54 [DEBUG] root: Epoch 21/40.
+2021-12-06 12:17:55 [DEBUG] root: Epoch 22/40.
+2021-12-06 12:17:56 [DEBUG] root: Epoch 23/40.
+2021-12-06 12:17:57 [DEBUG] root: Epoch 24/40.
+2021-12-06 12:17:58 [DEBUG] root: Epoch 25/40.
+2021-12-06 12:18:00 [DEBUG] root: Epoch 26/40.
+2021-12-06 12:18:01 [DEBUG] root: Epoch 27/40.
+2021-12-06 12:18:02 [DEBUG] root: Epoch 28/40.
+2021-12-06 12:18:03 [DEBUG] root: Epoch 29/40.
+2021-12-06 12:18:04 [DEBUG] root: Epoch 30/40.
+2021-12-06 12:18:05 [DEBUG] root: Epoch 31/40.
+2021-12-06 12:18:06 [DEBUG] root: Epoch 32/40.
+2021-12-06 12:18:07 [DEBUG] root: Epoch 33/40.
+2021-12-06 12:18:09 [DEBUG] root: Epoch 34/40.
+2021-12-06 12:18:10 [DEBUG] root: Epoch 35/40.
+2021-12-06 12:18:11 [DEBUG] root: Epoch 36/40.
+2021-12-06 12:18:12 [DEBUG] root: Epoch 37/40.
+2021-12-06 12:18:13 [DEBUG] root: Epoch 38/40.
+2021-12-06 12:18:14 [DEBUG] root: Epoch 39/40.
+2021-12-06 12:18:15 [DEBUG] root: Epoch 40/40.
+2021-12-06 12:18:17 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:18:17 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:18:17 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:18:17 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/details_LSTM-ED_Syn Trend Outliers (extremeness=8.0)-1-10-2021-12-06-121817.pdf
+2021-12-06 12:18:17 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Trend Outliers (extremeness=4.0) with seed 22726272
+2021-12-06 12:18:17 [DEBUG] root: Epoch 1/40.
+2021-12-06 12:18:19 [DEBUG] root: Epoch 2/40.
+2021-12-06 12:18:20 [DEBUG] root: Epoch 3/40.
+2021-12-06 12:18:21 [DEBUG] root: Epoch 4/40.
+2021-12-06 12:18:22 [DEBUG] root: Epoch 5/40.
+2021-12-06 12:18:23 [DEBUG] root: Epoch 6/40.
+2021-12-06 12:18:25 [DEBUG] root: Epoch 7/40.
+2021-12-06 12:18:26 [DEBUG] root: Epoch 8/40.
+2021-12-06 12:18:27 [DEBUG] root: Epoch 9/40.
+2021-12-06 12:18:28 [DEBUG] root: Epoch 10/40.
+2021-12-06 12:18:29 [DEBUG] root: Epoch 11/40.
+2021-12-06 12:18:31 [DEBUG] root: Epoch 12/40.
+2021-12-06 12:18:32 [DEBUG] root: Epoch 13/40.
+2021-12-06 12:18:33 [DEBUG] root: Epoch 14/40.
+2021-12-06 12:18:34 [DEBUG] root: Epoch 15/40.
+2021-12-06 12:18:35 [DEBUG] root: Epoch 16/40.
+2021-12-06 12:18:37 [DEBUG] root: Epoch 17/40.
+2021-12-06 12:18:38 [DEBUG] root: Epoch 18/40.
+2021-12-06 12:18:39 [DEBUG] root: Epoch 19/40.
+2021-12-06 12:18:40 [DEBUG] root: Epoch 20/40.
+2021-12-06 12:18:41 [DEBUG] root: Epoch 21/40.
+2021-12-06 12:18:43 [DEBUG] root: Epoch 22/40.
+2021-12-06 12:18:44 [DEBUG] root: Epoch 23/40.
+2021-12-06 12:18:45 [DEBUG] root: Epoch 24/40.
+2021-12-06 12:18:46 [DEBUG] root: Epoch 25/40.
+2021-12-06 12:18:47 [DEBUG] root: Epoch 26/40.
+2021-12-06 12:18:49 [DEBUG] root: Epoch 27/40.
+2021-12-06 12:18:50 [DEBUG] root: Epoch 28/40.
+2021-12-06 12:18:51 [DEBUG] root: Epoch 29/40.
+2021-12-06 12:18:52 [DEBUG] root: Epoch 30/40.
+2021-12-06 12:18:53 [DEBUG] root: Epoch 31/40.
+2021-12-06 12:18:54 [DEBUG] root: Epoch 32/40.
+2021-12-06 12:18:56 [DEBUG] root: Epoch 33/40.
+2021-12-06 12:18:57 [DEBUG] root: Epoch 34/40.
+2021-12-06 12:18:58 [DEBUG] root: Epoch 35/40.
+2021-12-06 12:18:59 [DEBUG] root: Epoch 36/40.
+2021-12-06 12:19:00 [DEBUG] root: Epoch 37/40.
+2021-12-06 12:19:02 [DEBUG] root: Epoch 38/40.
+2021-12-06 12:19:03 [DEBUG] root: Epoch 39/40.
+2021-12-06 12:19:04 [DEBUG] root: Epoch 40/40.
+2021-12-06 12:19:06 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:19:06 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:19:06 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:19:06 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/details_LSTM-ED_Syn Trend Outliers (extremeness=4.0)-1-10-2021-12-06-121906.pdf
+2021-12-06 12:19:06 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Trend Outliers (extremeness=2.0) with seed 22726272
+2021-12-06 12:19:06 [DEBUG] root: Epoch 1/40.
+2021-12-06 12:19:07 [DEBUG] root: Epoch 2/40.
+2021-12-06 12:19:08 [DEBUG] root: Epoch 3/40.
+2021-12-06 12:19:10 [DEBUG] root: Epoch 4/40.
+2021-12-06 12:19:11 [DEBUG] root: Epoch 5/40.
+2021-12-06 12:19:12 [DEBUG] root: Epoch 6/40.
+2021-12-06 12:19:13 [DEBUG] root: Epoch 7/40.
+2021-12-06 12:19:14 [DEBUG] root: Epoch 8/40.
+2021-12-06 12:19:16 [DEBUG] root: Epoch 9/40.
+2021-12-06 12:19:17 [DEBUG] root: Epoch 10/40.
+2021-12-06 12:19:18 [DEBUG] root: Epoch 11/40.
+2021-12-06 12:19:19 [DEBUG] root: Epoch 12/40.
+2021-12-06 12:19:20 [DEBUG] root: Epoch 13/40.
+2021-12-06 12:19:21 [DEBUG] root: Epoch 14/40.
+2021-12-06 12:19:23 [DEBUG] root: Epoch 15/40.
+2021-12-06 12:19:24 [DEBUG] root: Epoch 16/40.
+2021-12-06 12:19:25 [DEBUG] root: Epoch 17/40.
+2021-12-06 12:19:26 [DEBUG] root: Epoch 18/40.
+2021-12-06 12:19:27 [DEBUG] root: Epoch 19/40.
+2021-12-06 12:19:28 [DEBUG] root: Epoch 20/40.
+2021-12-06 12:19:30 [DEBUG] root: Epoch 21/40.
+2021-12-06 12:19:31 [DEBUG] root: Epoch 22/40.
+2021-12-06 12:19:32 [DEBUG] root: Epoch 23/40.
+2021-12-06 12:19:33 [DEBUG] root: Epoch 24/40.
+2021-12-06 12:19:34 [DEBUG] root: Epoch 25/40.
+2021-12-06 12:19:36 [DEBUG] root: Epoch 26/40.
+2021-12-06 12:19:37 [DEBUG] root: Epoch 27/40.
+2021-12-06 12:19:38 [DEBUG] root: Epoch 28/40.
+2021-12-06 12:19:39 [DEBUG] root: Epoch 29/40.
+2021-12-06 12:19:40 [DEBUG] root: Epoch 30/40.
+2021-12-06 12:19:41 [DEBUG] root: Epoch 31/40.
+2021-12-06 12:19:43 [DEBUG] root: Epoch 32/40.
+2021-12-06 12:19:44 [DEBUG] root: Epoch 33/40.
+2021-12-06 12:19:45 [DEBUG] root: Epoch 34/40.
+2021-12-06 12:19:46 [DEBUG] root: Epoch 35/40.
+2021-12-06 12:19:47 [DEBUG] root: Epoch 36/40.
+2021-12-06 12:19:49 [DEBUG] root: Epoch 37/40.
+2021-12-06 12:19:50 [DEBUG] root: Epoch 38/40.
+2021-12-06 12:19:51 [DEBUG] root: Epoch 39/40.
+2021-12-06 12:19:52 [DEBUG] root: Epoch 40/40.
+2021-12-06 12:19:54 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:19:54 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:19:54 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:19:54 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/details_LSTM-ED_Syn Trend Outliers (extremeness=2.0)-1-10-2021-12-06-121954.pdf
+2021-12-06 12:19:54 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Trend Outliers (extremeness=1.0) with seed 22726272
+2021-12-06 12:19:54 [DEBUG] root: Epoch 1/40.
+2021-12-06 12:19:55 [DEBUG] root: Epoch 2/40.
+2021-12-06 12:19:56 [DEBUG] root: Epoch 3/40.
+2021-12-06 12:19:58 [DEBUG] root: Epoch 4/40.
+2021-12-06 12:19:59 [DEBUG] root: Epoch 5/40.
+2021-12-06 12:20:00 [DEBUG] root: Epoch 6/40.
+2021-12-06 12:20:01 [DEBUG] root: Epoch 7/40.
+2021-12-06 12:20:02 [DEBUG] root: Epoch 8/40.
+2021-12-06 12:20:04 [DEBUG] root: Epoch 9/40.
+2021-12-06 12:20:05 [DEBUG] root: Epoch 10/40.
+2021-12-06 12:20:06 [DEBUG] root: Epoch 11/40.
+2021-12-06 12:20:07 [DEBUG] root: Epoch 12/40.
+2021-12-06 12:20:08 [DEBUG] root: Epoch 13/40.
+2021-12-06 12:20:10 [DEBUG] root: Epoch 14/40.
+2021-12-06 12:20:11 [DEBUG] root: Epoch 15/40.
+2021-12-06 12:20:12 [DEBUG] root: Epoch 16/40.
+2021-12-06 12:20:13 [DEBUG] root: Epoch 17/40.
+2021-12-06 12:20:14 [DEBUG] root: Epoch 18/40.
+2021-12-06 12:20:16 [DEBUG] root: Epoch 19/40.
+2021-12-06 12:20:17 [DEBUG] root: Epoch 20/40.
+2021-12-06 12:20:18 [DEBUG] root: Epoch 21/40.
+2021-12-06 12:20:19 [DEBUG] root: Epoch 22/40.
+2021-12-06 12:20:20 [DEBUG] root: Epoch 23/40.
+2021-12-06 12:20:22 [DEBUG] root: Epoch 24/40.
+2021-12-06 12:20:23 [DEBUG] root: Epoch 25/40.
+2021-12-06 12:20:24 [DEBUG] root: Epoch 26/40.
+2021-12-06 12:20:25 [DEBUG] root: Epoch 27/40.
+2021-12-06 12:20:26 [DEBUG] root: Epoch 28/40.
+2021-12-06 12:20:28 [DEBUG] root: Epoch 29/40.
+2021-12-06 12:20:29 [DEBUG] root: Epoch 30/40.
+2021-12-06 12:20:30 [DEBUG] root: Epoch 31/40.
+2021-12-06 12:20:31 [DEBUG] root: Epoch 32/40.
+2021-12-06 12:20:32 [DEBUG] root: Epoch 33/40.
+2021-12-06 12:20:34 [DEBUG] root: Epoch 34/40.
+2021-12-06 12:20:35 [DEBUG] root: Epoch 35/40.
+2021-12-06 12:20:36 [DEBUG] root: Epoch 36/40.
+2021-12-06 12:20:37 [DEBUG] root: Epoch 37/40.
+2021-12-06 12:20:38 [DEBUG] root: Epoch 38/40.
+2021-12-06 12:20:40 [DEBUG] root: Epoch 39/40.
+2021-12-06 12:20:41 [DEBUG] root: Epoch 40/40.
+2021-12-06 12:20:43 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:20:43 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:20:43 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:20:43 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/details_LSTM-ED_Syn Trend Outliers (extremeness=1.0)-1-10-2021-12-06-122043.pdf
+2021-12-06 12:20:43 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Trend Outliers (extremeness=0.5) with seed 22726272
+2021-12-06 12:20:43 [DEBUG] root: Epoch 1/40.
+2021-12-06 12:20:44 [DEBUG] root: Epoch 2/40.
+2021-12-06 12:20:45 [DEBUG] root: Epoch 3/40.
+2021-12-06 12:20:46 [DEBUG] root: Epoch 4/40.
+2021-12-06 12:20:47 [DEBUG] root: Epoch 5/40.
+2021-12-06 12:20:49 [DEBUG] root: Epoch 6/40.
+2021-12-06 12:20:50 [DEBUG] root: Epoch 7/40.
+2021-12-06 12:20:51 [DEBUG] root: Epoch 8/40.
+2021-12-06 12:20:52 [DEBUG] root: Epoch 9/40.
+2021-12-06 12:20:53 [DEBUG] root: Epoch 10/40.
+2021-12-06 12:20:54 [DEBUG] root: Epoch 11/40.
+2021-12-06 12:20:55 [DEBUG] root: Epoch 12/40.
+2021-12-06 12:20:56 [DEBUG] root: Epoch 13/40.
+2021-12-06 12:20:58 [DEBUG] root: Epoch 14/40.
+2021-12-06 12:20:59 [DEBUG] root: Epoch 15/40.
+2021-12-06 12:21:00 [DEBUG] root: Epoch 16/40.
+2021-12-06 12:21:01 [DEBUG] root: Epoch 17/40.
+2021-12-06 12:21:02 [DEBUG] root: Epoch 18/40.
+2021-12-06 12:21:03 [DEBUG] root: Epoch 19/40.
+2021-12-06 12:21:04 [DEBUG] root: Epoch 20/40.
+2021-12-06 12:21:06 [DEBUG] root: Epoch 21/40.
+2021-12-06 12:21:07 [DEBUG] root: Epoch 22/40.
+2021-12-06 12:21:08 [DEBUG] root: Epoch 23/40.
+2021-12-06 12:21:09 [DEBUG] root: Epoch 24/40.
+2021-12-06 12:21:10 [DEBUG] root: Epoch 25/40.
+2021-12-06 12:21:11 [DEBUG] root: Epoch 26/40.
+2021-12-06 12:21:12 [DEBUG] root: Epoch 27/40.
+2021-12-06 12:21:13 [DEBUG] root: Epoch 28/40.
+2021-12-06 12:21:15 [DEBUG] root: Epoch 29/40.
+2021-12-06 12:21:16 [DEBUG] root: Epoch 30/40.
+2021-12-06 12:21:17 [DEBUG] root: Epoch 31/40.
+2021-12-06 12:21:18 [DEBUG] root: Epoch 32/40.
+2021-12-06 12:21:19 [DEBUG] root: Epoch 33/40.
+2021-12-06 12:21:20 [DEBUG] root: Epoch 34/40.
+2021-12-06 12:21:21 [DEBUG] root: Epoch 35/40.
+2021-12-06 12:21:23 [DEBUG] root: Epoch 36/40.
+2021-12-06 12:21:24 [DEBUG] root: Epoch 37/40.
+2021-12-06 12:21:25 [DEBUG] root: Epoch 38/40.
+2021-12-06 12:21:26 [DEBUG] root: Epoch 39/40.
+2021-12-06 12:21:27 [DEBUG] root: Epoch 40/40.
+2021-12-06 12:21:29 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:21:29 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:21:29 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:21:29 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/details_LSTM-ED_Syn Trend Outliers (extremeness=0.5)-1-10-2021-12-06-122129.pdf
+2021-12-06 12:21:29 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Trend Outliers (extremeness=0.25) with seed 22726272
+2021-12-06 12:21:29 [DEBUG] root: Epoch 1/40.
+2021-12-06 12:21:30 [DEBUG] root: Epoch 2/40.
+2021-12-06 12:21:31 [DEBUG] root: Epoch 3/40.
+2021-12-06 12:21:32 [DEBUG] root: Epoch 4/40.
+2021-12-06 12:21:34 [DEBUG] root: Epoch 5/40.
+2021-12-06 12:21:35 [DEBUG] root: Epoch 6/40.
+2021-12-06 12:21:36 [DEBUG] root: Epoch 7/40.
+2021-12-06 12:21:37 [DEBUG] root: Epoch 8/40.
+2021-12-06 12:21:38 [DEBUG] root: Epoch 9/40.
+2021-12-06 12:21:39 [DEBUG] root: Epoch 10/40.
+2021-12-06 12:21:41 [DEBUG] root: Epoch 11/40.
+2021-12-06 12:21:42 [DEBUG] root: Epoch 12/40.
+2021-12-06 12:21:43 [DEBUG] root: Epoch 13/40.
+2021-12-06 12:21:44 [DEBUG] root: Epoch 14/40.
+2021-12-06 12:21:45 [DEBUG] root: Epoch 15/40.
+2021-12-06 12:21:46 [DEBUG] root: Epoch 16/40.
+2021-12-06 12:21:47 [DEBUG] root: Epoch 17/40.
+2021-12-06 12:21:48 [DEBUG] root: Epoch 18/40.
+2021-12-06 12:21:49 [DEBUG] root: Epoch 19/40.
+2021-12-06 12:21:51 [DEBUG] root: Epoch 20/40.
+2021-12-06 12:21:52 [DEBUG] root: Epoch 21/40.
+2021-12-06 12:21:53 [DEBUG] root: Epoch 22/40.
+2021-12-06 12:21:54 [DEBUG] root: Epoch 23/40.
+2021-12-06 12:21:55 [DEBUG] root: Epoch 24/40.
+2021-12-06 12:21:56 [DEBUG] root: Epoch 25/40.
+2021-12-06 12:21:57 [DEBUG] root: Epoch 26/40.
+2021-12-06 12:21:58 [DEBUG] root: Epoch 27/40.
+2021-12-06 12:22:00 [DEBUG] root: Epoch 28/40.
+2021-12-06 12:22:01 [DEBUG] root: Epoch 29/40.
+2021-12-06 12:22:02 [DEBUG] root: Epoch 30/40.
+2021-12-06 12:22:03 [DEBUG] root: Epoch 31/40.
+2021-12-06 12:22:04 [DEBUG] root: Epoch 32/40.
+2021-12-06 12:22:05 [DEBUG] root: Epoch 33/40.
+2021-12-06 12:22:06 [DEBUG] root: Epoch 34/40.
+2021-12-06 12:22:07 [DEBUG] root: Epoch 35/40.
+2021-12-06 12:22:09 [DEBUG] root: Epoch 36/40.
+2021-12-06 12:22:10 [DEBUG] root: Epoch 37/40.
+2021-12-06 12:22:11 [DEBUG] root: Epoch 38/40.
+2021-12-06 12:22:12 [DEBUG] root: Epoch 39/40.
+2021-12-06 12:22:13 [DEBUG] root: Epoch 40/40.
+2021-12-06 12:22:15 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:22:15 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:22:15 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:22:15 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/details_LSTM-ED_Syn Trend Outliers (extremeness=0.25)-1-10-2021-12-06-122215.pdf
+2021-12-06 12:22:15 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Trend Outliers (extremeness=0.125) with seed 22726272
+2021-12-06 12:22:15 [DEBUG] root: Epoch 1/40.
+2021-12-06 12:22:16 [DEBUG] root: Epoch 2/40.
+2021-12-06 12:22:17 [DEBUG] root: Epoch 3/40.
+2021-12-06 12:22:18 [DEBUG] root: Epoch 4/40.
+2021-12-06 12:22:20 [DEBUG] root: Epoch 5/40.
+2021-12-06 12:22:21 [DEBUG] root: Epoch 6/40.
+2021-12-06 12:22:22 [DEBUG] root: Epoch 7/40.
+2021-12-06 12:22:23 [DEBUG] root: Epoch 8/40.
+2021-12-06 12:22:24 [DEBUG] root: Epoch 9/40.
+2021-12-06 12:22:25 [DEBUG] root: Epoch 10/40.
+2021-12-06 12:22:26 [DEBUG] root: Epoch 11/40.
+2021-12-06 12:22:27 [DEBUG] root: Epoch 12/40.
+2021-12-06 12:22:29 [DEBUG] root: Epoch 13/40.
+2021-12-06 12:22:30 [DEBUG] root: Epoch 14/40.
+2021-12-06 12:22:31 [DEBUG] root: Epoch 15/40.
+2021-12-06 12:22:32 [DEBUG] root: Epoch 16/40.
+2021-12-06 12:22:33 [DEBUG] root: Epoch 17/40.
+2021-12-06 12:22:34 [DEBUG] root: Epoch 18/40.
+2021-12-06 12:22:35 [DEBUG] root: Epoch 19/40.
+2021-12-06 12:22:37 [DEBUG] root: Epoch 20/40.
+2021-12-06 12:22:38 [DEBUG] root: Epoch 21/40.
+2021-12-06 12:22:39 [DEBUG] root: Epoch 22/40.
+2021-12-06 12:22:40 [DEBUG] root: Epoch 23/40.
+2021-12-06 12:22:41 [DEBUG] root: Epoch 24/40.
+2021-12-06 12:22:42 [DEBUG] root: Epoch 25/40.
+2021-12-06 12:22:43 [DEBUG] root: Epoch 26/40.
+2021-12-06 12:22:44 [DEBUG] root: Epoch 27/40.
+2021-12-06 12:22:46 [DEBUG] root: Epoch 28/40.
+2021-12-06 12:22:47 [DEBUG] root: Epoch 29/40.
+2021-12-06 12:22:48 [DEBUG] root: Epoch 30/40.
+2021-12-06 12:22:49 [DEBUG] root: Epoch 31/40.
+2021-12-06 12:22:50 [DEBUG] root: Epoch 32/40.
+2021-12-06 12:22:51 [DEBUG] root: Epoch 33/40.
+2021-12-06 12:22:52 [DEBUG] root: Epoch 34/40.
+2021-12-06 12:22:54 [DEBUG] root: Epoch 35/40.
+2021-12-06 12:22:55 [DEBUG] root: Epoch 36/40.
+2021-12-06 12:22:56 [DEBUG] root: Epoch 37/40.
+2021-12-06 12:22:57 [DEBUG] root: Epoch 38/40.
+2021-12-06 12:22:58 [DEBUG] root: Epoch 39/40.
+2021-12-06 12:22:59 [DEBUG] root: Epoch 40/40.
+2021-12-06 12:23:01 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:23:01 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:23:01 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:23:01 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/details_LSTM-ED_Syn Trend Outliers (extremeness=0.125)-1-10-2021-12-06-122301.pdf
+2021-12-06 12:23:01 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Trend Outliers (extremeness=0.0625) with seed 22726272
+2021-12-06 12:23:01 [DEBUG] root: Epoch 1/40.
+2021-12-06 12:23:02 [DEBUG] root: Epoch 2/40.
+2021-12-06 12:23:04 [DEBUG] root: Epoch 3/40.
+2021-12-06 12:23:05 [DEBUG] root: Epoch 4/40.
+2021-12-06 12:23:06 [DEBUG] root: Epoch 5/40.
+2021-12-06 12:23:07 [DEBUG] root: Epoch 6/40.
+2021-12-06 12:23:08 [DEBUG] root: Epoch 7/40.
+2021-12-06 12:23:10 [DEBUG] root: Epoch 8/40.
+2021-12-06 12:23:11 [DEBUG] root: Epoch 9/40.
+2021-12-06 12:23:12 [DEBUG] root: Epoch 10/40.
+2021-12-06 12:23:13 [DEBUG] root: Epoch 11/40.
+2021-12-06 12:23:14 [DEBUG] root: Epoch 12/40.
+2021-12-06 12:23:16 [DEBUG] root: Epoch 13/40.
+2021-12-06 12:23:17 [DEBUG] root: Epoch 14/40.
+2021-12-06 12:23:18 [DEBUG] root: Epoch 15/40.
+2021-12-06 12:23:19 [DEBUG] root: Epoch 16/40.
+2021-12-06 12:23:20 [DEBUG] root: Epoch 17/40.
+2021-12-06 12:23:22 [DEBUG] root: Epoch 18/40.
+2021-12-06 12:23:23 [DEBUG] root: Epoch 19/40.
+2021-12-06 12:23:24 [DEBUG] root: Epoch 20/40.
+2021-12-06 12:23:25 [DEBUG] root: Epoch 21/40.
+2021-12-06 12:23:26 [DEBUG] root: Epoch 22/40.
+2021-12-06 12:23:28 [DEBUG] root: Epoch 23/40.
+2021-12-06 12:23:29 [DEBUG] root: Epoch 24/40.
+2021-12-06 12:23:30 [DEBUG] root: Epoch 25/40.
+2021-12-06 12:23:31 [DEBUG] root: Epoch 26/40.
+2021-12-06 12:23:32 [DEBUG] root: Epoch 27/40.
+2021-12-06 12:23:34 [DEBUG] root: Epoch 28/40.
+2021-12-06 12:23:35 [DEBUG] root: Epoch 29/40.
+2021-12-06 12:23:36 [DEBUG] root: Epoch 30/40.
+2021-12-06 12:23:37 [DEBUG] root: Epoch 31/40.
+2021-12-06 12:23:38 [DEBUG] root: Epoch 32/40.
+2021-12-06 12:23:40 [DEBUG] root: Epoch 33/40.
+2021-12-06 12:23:41 [DEBUG] root: Epoch 34/40.
+2021-12-06 12:23:42 [DEBUG] root: Epoch 35/40.
+2021-12-06 12:23:43 [DEBUG] root: Epoch 36/40.
+2021-12-06 12:23:44 [DEBUG] root: Epoch 37/40.
+2021-12-06 12:23:46 [DEBUG] root: Epoch 38/40.
+2021-12-06 12:23:47 [DEBUG] root: Epoch 39/40.
+2021-12-06 12:23:48 [DEBUG] root: Epoch 40/40.
+2021-12-06 12:23:50 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:23:50 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:23:50 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:23:50 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/details_LSTM-ED_Syn Trend Outliers (extremeness=0.0625)-1-10-2021-12-06-122350.pdf
+2021-12-06 12:23:50 [INFO] src.evaluation.evaluator: Training LSTM-ED on Syn Trend Outliers (extremeness=0.03125) with seed 22726272
+2021-12-06 12:23:50 [DEBUG] root: Epoch 1/40.
+2021-12-06 12:23:51 [DEBUG] root: Epoch 2/40.
+2021-12-06 12:23:52 [DEBUG] root: Epoch 3/40.
+2021-12-06 12:23:54 [DEBUG] root: Epoch 4/40.
+2021-12-06 12:23:55 [DEBUG] root: Epoch 5/40.
+2021-12-06 12:23:56 [DEBUG] root: Epoch 6/40.
+2021-12-06 12:23:57 [DEBUG] root: Epoch 7/40.
+2021-12-06 12:23:58 [DEBUG] root: Epoch 8/40.
+2021-12-06 12:24:00 [DEBUG] root: Epoch 9/40.
+2021-12-06 12:24:01 [DEBUG] root: Epoch 10/40.
+2021-12-06 12:24:02 [DEBUG] root: Epoch 11/40.
+2021-12-06 12:24:03 [DEBUG] root: Epoch 12/40.
+2021-12-06 12:24:04 [DEBUG] root: Epoch 13/40.
+2021-12-06 12:24:06 [DEBUG] root: Epoch 14/40.
+2021-12-06 12:24:07 [DEBUG] root: Epoch 15/40.
+2021-12-06 12:24:08 [DEBUG] root: Epoch 16/40.
+2021-12-06 12:24:09 [DEBUG] root: Epoch 17/40.
+2021-12-06 12:24:10 [DEBUG] root: Epoch 18/40.
+2021-12-06 12:24:12 [DEBUG] root: Epoch 19/40.
+2021-12-06 12:24:13 [DEBUG] root: Epoch 20/40.
+2021-12-06 12:24:14 [DEBUG] root: Epoch 21/40.
+2021-12-06 12:24:15 [DEBUG] root: Epoch 22/40.
+2021-12-06 12:24:16 [DEBUG] root: Epoch 23/40.
+2021-12-06 12:24:18 [DEBUG] root: Epoch 24/40.
+2021-12-06 12:24:19 [DEBUG] root: Epoch 25/40.
+2021-12-06 12:24:20 [DEBUG] root: Epoch 26/40.
+2021-12-06 12:24:21 [DEBUG] root: Epoch 27/40.
+2021-12-06 12:24:22 [DEBUG] root: Epoch 28/40.
+2021-12-06 12:24:24 [DEBUG] root: Epoch 29/40.
+2021-12-06 12:24:25 [DEBUG] root: Epoch 30/40.
+2021-12-06 12:24:26 [DEBUG] root: Epoch 31/40.
+2021-12-06 12:24:27 [DEBUG] root: Epoch 32/40.
+2021-12-06 12:24:28 [DEBUG] root: Epoch 33/40.
+2021-12-06 12:24:30 [DEBUG] root: Epoch 34/40.
+2021-12-06 12:24:31 [DEBUG] root: Epoch 35/40.
+2021-12-06 12:24:32 [DEBUG] root: Epoch 36/40.
+2021-12-06 12:24:33 [DEBUG] root: Epoch 37/40.
+2021-12-06 12:24:34 [DEBUG] root: Epoch 38/40.
+2021-12-06 12:24:36 [DEBUG] root: Epoch 39/40.
+2021-12-06 12:24:37 [DEBUG] root: Epoch 40/40.
+2021-12-06 12:24:39 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:39 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:39 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:39 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/details_LSTM-ED_Syn Trend Outliers (extremeness=0.03125)-1-10-2021-12-06-122439.pdf
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=16.0)
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=16.0)-1-10-2021-12-06-122440.pdf
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=8.0)
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=8.0)-1-10-2021-12-06-122440.pdf
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=4.0)
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=4.0)-1-10-2021-12-06-122440.pdf
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=2.0)
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=2.0)-1-10-2021-12-06-122440.pdf
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=1.0)
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=1.0)-1-10-2021-12-06-122440.pdf
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=0.5)
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=0.5)-1-10-2021-12-06-122440.pdf
+2021-12-06 12:24:40 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=0.25)
+2021-12-06 12:24:40 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:41 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=0.25)-1-10-2021-12-06-122440.pdf
+2021-12-06 12:24:41 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=0.125)
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:41 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=0.125)-1-10-2021-12-06-122441.pdf
+2021-12-06 12:24:41 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=0.0625)
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:41 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=0.0625)-1-10-2021-12-06-122441.pdf
+2021-12-06 12:24:41 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=0.03125)
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:41 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:41 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=0.03125)-1-10-2021-12-06-122441.pdf
+2021-12-06 12:24:42 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:42 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:42 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:42 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/metrics_by_thresholds-1-10-2021-12-06-122442.pdf
+2021-12-06 12:24:43 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:43 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:43 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:43 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=16.0)-1-10-2021-12-06-122443.pdf
+2021-12-06 12:24:43 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:44 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:44 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:44 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=8.0)-1-10-2021-12-06-122443.pdf
+2021-12-06 12:24:44 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:44 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:44 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:44 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=4.0)-1-10-2021-12-06-122444.pdf
+2021-12-06 12:24:44 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:44 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:44 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:44 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=2.0)-1-10-2021-12-06-122444.pdf
+2021-12-06 12:24:45 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:45 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:45 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:45 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=1.0)-1-10-2021-12-06-122445.pdf
+2021-12-06 12:24:45 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:45 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:45 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:45 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=0.5)-1-10-2021-12-06-122445.pdf
+2021-12-06 12:24:46 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:46 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:46 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:46 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=0.25)-1-10-2021-12-06-122446.pdf
+2021-12-06 12:24:46 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:46 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:46 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:46 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=0.125)-1-10-2021-12-06-122446.pdf
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:47 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=0.0625)-1-10-2021-12-06-122447.pdf
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:47 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=0.03125)-1-10-2021-12-06-122447.pdf
+2021-12-06 12:24:47 [INFO] src.evaluation.evaluator: Store evaluator results at /home/tianyu/Desktop/work_space/DeepADoTS/reports/experiments/trend_1/intensity/evaluators/experiment-run-0-22726272-2021-12-06-122447.pkl
+2021-12-06 12:24:47 [INFO] src.evaluation.evaluator: Store evaluator results at /home/tianyu/Desktop/work_space/DeepADoTS/reports/experiments/trend_1/intensity/evaluators/experiment-extreme-2021-12-06-122447.pkl
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:47 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_LSTM-ED_1_runs-1-10-2021-12-06-122447.pdf
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:47 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_Syn Trend Outliers (extremeness=16.0)_1_runs-1-10-2021-12-06-122447.pdf
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:47 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_Syn Trend Outliers (extremeness=8.0)_1_runs-1-10-2021-12-06-122447.pdf
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:47 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_Syn Trend Outliers (extremeness=4.0)_1_runs-1-10-2021-12-06-122447.pdf
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:47 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:47 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_Syn Trend Outliers (extremeness=2.0)_1_runs-1-10-2021-12-06-122447.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_Syn Trend Outliers (extremeness=1.0)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_Syn Trend Outliers (extremeness=0.5)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_Syn Trend Outliers (extremeness=0.25)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_Syn Trend Outliers (extremeness=0.125)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_Syn Trend Outliers (extremeness=0.0625)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/boxplot_auc_for_Syn Trend Outliers (extremeness=0.03125)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=16.0)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  6 | Syn Trend Outliers (extremeness=16.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=8.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  9 | Syn Trend Outliers (extremeness=8.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=4.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  8 | Syn Trend Outliers (extremeness=4.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=2.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  7 | Syn Trend Outliers (extremeness=2.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=1.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  5 | Syn Trend Outliers (extremeness=1.0) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=0.5)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  4 | Syn Trend Outliers (extremeness=0.5) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=0.25)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  3 | Syn Trend Outliers (extremeness=0.25) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=0.125)
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  2 | Syn Trend Outliers (extremeness=0.125) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=0.0625)
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                 | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  1 | Syn Trend Outliers (extremeness=0.0625) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=0.03125)
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Trend Outliers (extremeness=0.03125) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/trend_1/intensity/tables/seed-22726272/latex_merged_std_per_dataset_for_extreme-1-10-1638764688.tex
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=16.0)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  6 | Syn Trend Outliers (extremeness=16.0) | LSTM-ED     |       0.826667 |        0.455224 |     0.423611 |       0.438849 |         0.454888 |    0.662395 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=8.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  9 | Syn Trend Outliers (extremeness=8.0) | LSTM-ED     |       0.538889 |        0.213531 |     0.701389 |       0.327391 |         0.215011 |    0.620058 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=4.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  8 | Syn Trend Outliers (extremeness=4.0) | LSTM-ED     |       0.823333 |        0.432432 |     0.333333 |       0.376471 |         0.431163 |    0.643647 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=2.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  7 | Syn Trend Outliers (extremeness=2.0) | LSTM-ED     |       0.693333 |        0.259124 |     0.493056 |       0.339713 |         0.260347 |     0.59443 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=1.0)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  5 | Syn Trend Outliers (extremeness=1.0) | LSTM-ED     |       0.631111 |        0.223529 |     0.527778 |        0.31405 |         0.224813 |    0.586153 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=0.5)
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                              | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  4 | Syn Trend Outliers (extremeness=0.5) | LSTM-ED     |       0.453333 |        0.190391 |     0.743056 |       0.303116 |         0.191804 |    0.553976 |
++----+--------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=0.25)
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                               | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  3 | Syn Trend Outliers (extremeness=0.25) | LSTM-ED     |       0.446667 |        0.177007 |     0.673611 |       0.280347 |         0.178309 |    0.529339 |
++----+---------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=0.125)
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  2 | Syn Trend Outliers (extremeness=0.125) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |    0.516746 |
++----+----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=0.0625)
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                 | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  1 | Syn Trend Outliers (extremeness=0.0625) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |    0.511216 |
++----+-----------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Dataset: Syn Trend Outliers (extremeness=0.03125)
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Trend Outliers (extremeness=0.03125) | LSTM-ED     |           0.16 |            0.16 |            1 |       0.275862 |         0.161342 |    0.508497 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/trend_1/intensity/tables/seed-22726272/latex_merged_avg_per_dataset_for_extreme-1-10-1638764688.tex
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Detector: LSTM-ED
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_std |   precision_std |   recall_std |   F1-score_std |   F0.1-score_std |   auroc_std |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Trend Outliers (extremeness=0.03125) | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  1 | Syn Trend Outliers (extremeness=0.0625)  | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  2 | Syn Trend Outliers (extremeness=0.125)   | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  3 | Syn Trend Outliers (extremeness=0.25)    | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  4 | Syn Trend Outliers (extremeness=0.5)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  5 | Syn Trend Outliers (extremeness=1.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  6 | Syn Trend Outliers (extremeness=16.0)    | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  7 | Syn Trend Outliers (extremeness=2.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  8 | Syn Trend Outliers (extremeness=4.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
+|  9 | Syn Trend Outliers (extremeness=8.0)     | LSTM-ED     |              0 |               0 |            0 |              0 |                0 |           0 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/trend_1/intensity/tables/seed-22726272/latex_merged_std_per_algorithm_for_extreme-1-10-1638764688.tex
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Detector: LSTM-ED
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+|    | dataset                                  | algorithm   |   accuracy_avg |   precision_avg |   recall_avg |   F1-score_avg |   F0.1-score_avg |   auroc_avg |
+|----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------|
+|  0 | Syn Trend Outliers (extremeness=0.03125) | LSTM-ED     |       0.16     |        0.16     |     1        |       0.275862 |         0.161342 |    0.508497 |
+|  1 | Syn Trend Outliers (extremeness=0.0625)  | LSTM-ED     |       0.16     |        0.16     |     1        |       0.275862 |         0.161342 |    0.511216 |
+|  2 | Syn Trend Outliers (extremeness=0.125)   | LSTM-ED     |       0.16     |        0.16     |     1        |       0.275862 |         0.161342 |    0.516746 |
+|  3 | Syn Trend Outliers (extremeness=0.25)    | LSTM-ED     |       0.446667 |        0.177007 |     0.673611 |       0.280347 |         0.178309 |    0.529339 |
+|  4 | Syn Trend Outliers (extremeness=0.5)     | LSTM-ED     |       0.453333 |        0.190391 |     0.743056 |       0.303116 |         0.191804 |    0.553976 |
+|  5 | Syn Trend Outliers (extremeness=1.0)     | LSTM-ED     |       0.631111 |        0.223529 |     0.527778 |       0.31405  |         0.224813 |    0.586153 |
+|  6 | Syn Trend Outliers (extremeness=16.0)    | LSTM-ED     |       0.826667 |        0.455224 |     0.423611 |       0.438849 |         0.454888 |    0.662395 |
+|  7 | Syn Trend Outliers (extremeness=2.0)     | LSTM-ED     |       0.693333 |        0.259124 |     0.493056 |       0.339713 |         0.260347 |    0.59443  |
+|  8 | Syn Trend Outliers (extremeness=4.0)     | LSTM-ED     |       0.823333 |        0.432432 |     0.333333 |       0.376471 |         0.431163 |    0.643647 |
+|  9 | Syn Trend Outliers (extremeness=8.0)     | LSTM-ED     |       0.538889 |        0.213531 |     0.701389 |       0.327391 |         0.215011 |    0.620058 |
++----+------------------------------------------+-------------+----------------+-----------------+--------------+----------------+------------------+-------------+
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored tex file at reports/experiments/trend_1/intensity/tables/seed-22726272/latex_merged_avg_per_algorithm_for_extreme-1-10-1638764688.tex
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_LSTM-ED_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_Syn Trend Outliers (extremeness=16.0)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_Syn Trend Outliers (extremeness=8.0)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_Syn Trend Outliers (extremeness=4.0)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_Syn Trend Outliers (extremeness=2.0)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_Syn Trend Outliers (extremeness=1.0)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_Syn Trend Outliers (extremeness=0.5)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_Syn Trend Outliers (extremeness=0.25)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:48 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:48 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_Syn Trend Outliers (extremeness=0.125)_1_runs-1-10-2021-12-06-122448.pdf
+2021-12-06 12:24:49 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:49 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:49 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:49 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_Syn Trend Outliers (extremeness=0.0625)_1_runs-1-10-2021-12-06-122449.pdf
+2021-12-06 12:24:49 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:49 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:49 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:49 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/barchart_auc_for_Syn Trend Outliers (extremeness=0.03125)_1_runs-1-10-2021-12-06-122449.pdf
+2021-12-06 12:24:49 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:49 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:49 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:49 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/auroc-1-10-2021-12-06-122449.pdf
+2021-12-06 12:24:50 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:51 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:51 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:51 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/metrics_by_thresholds-1-10-2021-12-06-122450.pdf
+2021-12-06 12:24:51 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:51 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:51 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:51 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=16.0)-1-10-2021-12-06-122451.pdf
+2021-12-06 12:24:52 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:52 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:52 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:52 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=8.0)-1-10-2021-12-06-122452.pdf
+2021-12-06 12:24:52 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:52 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:52 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:52 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=4.0)-1-10-2021-12-06-122452.pdf
+2021-12-06 12:24:52 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:53 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:53 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:53 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=2.0)-1-10-2021-12-06-122452.pdf
+2021-12-06 12:24:53 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:53 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:53 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:53 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=1.0)-1-10-2021-12-06-122453.pdf
+2021-12-06 12:24:53 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:53 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:53 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:53 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=0.5)-1-10-2021-12-06-122453.pdf
+2021-12-06 12:24:54 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:54 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:54 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:54 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=0.25)-1-10-2021-12-06-122454.pdf
+2021-12-06 12:24:54 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:54 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:54 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:54 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=0.125)-1-10-2021-12-06-122454.pdf
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=0.0625)-1-10-2021-12-06-122455.pdf
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/scores_Syn Trend Outliers (extremeness=0.03125)-1-10-2021-12-06-122455.pdf
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=16.0)
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=16.0)-1-10-2021-12-06-122455.pdf
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=8.0)
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=8.0)-1-10-2021-12-06-122455.pdf
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=4.0)
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=4.0)-1-10-2021-12-06-122455.pdf
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=2.0)
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=2.0)-1-10-2021-12-06-122455.pdf
+2021-12-06 12:24:55 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=1.0)
+2021-12-06 12:24:55 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=1.0)-1-10-2021-12-06-122455.pdf
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=0.5)
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=0.5)-1-10-2021-12-06-122456.pdf
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=0.25)
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=0.25)-1-10-2021-12-06-122456.pdf
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=0.125)
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=0.125)-1-10-2021-12-06-122456.pdf
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=0.0625)
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=0.0625)-1-10-2021-12-06-122456.pdf
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Plotting ROC curve for LSTM-ED on Syn Trend Outliers (extremeness=0.03125)
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Assigning font /b'F1' = '/home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf'
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Embedding font /home/tianyu/anaconda3/envs/DeepADoTS/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf.
+2021-12-06 12:24:56 [DEBUG] matplotlib.backends.backend_pdf: Writing TrueType font.
+2021-12-06 12:24:56 [INFO] src.evaluation.evaluator: Stored plot at reports/experiments/trend_1/intensity/figures/seed-22726272/roc_Syn Trend Outliers (extremeness=0.03125)-1-10-2021-12-06-122456.pdf
