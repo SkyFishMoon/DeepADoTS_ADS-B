@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d557fe-4865-4515-a3c0-8c63985c247b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/LSTM_ED.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/LSTM_VAE.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Transformer_AE.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Transformer_VAE.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/Transformer_ae.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/Transformer_vae.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/lstm_vae.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/datasets/adsb_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/evaluation/adsb_evaluator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/opts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/algorithm_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/algorithm_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/dagmm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/dagmm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/lstm_ad.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/lstm_ad.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datasets/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datasets/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datasets/synthetic_multivariate_dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="JupyterTrust" id="072cb30b-f605-4503-94fa-7b296bcf1cc5" />
   <component name="ProjectId" id="21tCjw5YZXfc0GNWkADWsGn7LcR" />
@@ -58,7 +38,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RunManager" selected="Python.LSTM_VAE">
     <configuration name="LSTM_VAE" type="PythonConfigurationType" factoryName="Python">
@@ -191,7 +171,7 @@
       <workItem from="1642938424401" duration="512000" />
       <workItem from="1645588597311" duration="192000" />
       <workItem from="1648778785376" duration="6921000" />
-      <workItem from="1649763897244" duration="1349000" />
+      <workItem from="1649763897244" duration="2343000" />
     </task>
     <servers />
   </component>
@@ -203,9 +183,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1649057052477" />
-    <state x="738" y="277" width="374" height="485" key="FileChooserDialogImpl" timestamp="1648951818632">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="695" y="290" width="374" height="485" key="FileChooserDialogImpl" timestamp="1649815784506">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state x="695" y="290" key="FileChooserDialogImpl/0.44.1920.1036@0.44.1920.1036" timestamp="1649815784506" />
     <state x="738" y="277" width="374" height="485" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1648951818632" />
     <state width="1807" height="440" key="GridCell.Tab.0.bottom" timestamp="1649226220048">
       <screen x="67" y="27" width="1853" height="1053" />
@@ -239,6 +220,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1807" height="440" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224068" />
+    <state x="449" y="179" width="1022" height="736" key="SettingsEditor" timestamp="1649816056236">
+      <screen x="0" y="44" width="1920" height="1036" />
+    </state>
+    <state x="449" y="179" width="1022" height="736" key="SettingsEditor/0.44.1920.1036@0.44.1920.1036" timestamp="1649816056236" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1645588666011">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
