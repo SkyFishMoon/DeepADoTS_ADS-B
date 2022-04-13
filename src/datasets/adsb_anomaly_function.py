@@ -111,3 +111,93 @@ class ADSBAnomalyFunction:
             x_test[idx, anomaly_dim] = x_test[idx, anomaly_dim] * 3
         return pd.DataFrame(x_test), pd.DataFrame(y_test)
 
+    @staticmethod
+    def heading(x_test, continuous, number, length, anomaly_rate, intensity):
+        test_number = x_test.shape[0]
+        x_test = x_test.to_numpy()
+        y_test = np.zeros(test_number, dtype=bool)
+        if not continuous:
+            anomaly_number = int(anomaly_rate * test_number)
+            anomaly_time = np.random.choice(test_number, size=anomaly_number, replace=False)
+            y_test[anomaly_time] = 1
+            for idx in anomaly_time:
+                anomaly_dim = 4
+                x_test[idx, anomaly_dim] = x_test[idx, anomaly_dim] * 3
+        else:
+            start_anomaly_time = np.random.choice(test_number, size=number, replace=False)
+            max_intensity = intensity + intensity * (length - 1)
+            anomaly = np.arange(intensity, max_intensity + intensity, intensity)
+            for s in start_anomaly_time:
+                x_test[s:s + length, 4] = x_test[s:s + length, 4] + anomaly
+                y_test[s:s + length] = 1
+        return pd.DataFrame(x_test), pd.DataFrame(y_test)
+
+    @staticmethod
+    def speed(x_test, continuous, number, length, anomaly_rate, intensity):
+        test_number = x_test.shape[0]
+        x_test = x_test.to_numpy()
+        y_test = np.zeros(test_number, dtype=bool)
+        if not continuous:
+            anomaly_number = int(anomaly_rate * test_number)
+            anomaly_time = np.random.choice(test_number, size=anomaly_number, replace=False)
+            y_test[anomaly_time] = 1
+            for idx in anomaly_time:
+                anomaly_dim = 3
+                x_test[idx, anomaly_dim] = x_test[idx, anomaly_dim] * 3
+        else:
+            start_anomaly_time = np.random.choice(test_number, size=number, replace=False)
+            max_intensity = intensity + intensity * (length - 1)
+            anomaly = np.arange(intensity, max_intensity + intensity, intensity)
+            for s in start_anomaly_time:
+                x_test[s:s + length, 3] = x_test[s:s + length, 3] + anomaly
+                y_test[s:s + length] = 1
+        return pd.DataFrame(x_test), pd.DataFrame(y_test)
+    @staticmethod
+    def altitude(x_test, continuous, number, length, anomaly_rate, intensity):
+        test_number = x_test.shape[0]
+        x_test = x_test.to_numpy()
+        y_test = np.zeros(test_number, dtype=bool)
+        if not continuous:
+            anomaly_number = int(anomaly_rate * test_number)
+            anomaly_time = np.random.choice(test_number, size=anomaly_number, replace=False)
+            y_test[anomaly_time] = 1
+            for idx in anomaly_time:
+                anomaly_dim = 2
+                x_test[idx, anomaly_dim] = x_test[idx, anomaly_dim] * 3
+        else:
+            start_anomaly_time = np.random.choice(test_number, size=number, replace=False)
+            max_intensity = intensity + intensity * (length - 1)
+            anomaly = np.arange(intensity, max_intensity + intensity, intensity)
+            for s in start_anomaly_time:
+                x_test[s:s + length, 2] = x_test[s:s + length, 2] + anomaly
+                y_test[s:s + length] = 1
+        return pd.DataFrame(x_test), pd.DataFrame(y_test)
+
+    @staticmethod
+    def ddos(x_test, continuous, number, length, anomaly_rate, neighbor_size):
+        test_number = x_test.shape[0]
+        x_test = x_test.to_numpy()
+        y_test = np.zeros(test_number, dtype=bool)
+        if not continuous:
+            anomaly_number = int(anomaly_rate * test_number)
+            anomaly_time = np.random.choice(test_number, size=anomaly_number, replace=False)
+            for idx in anomaly_time:
+                x_test[idx-(neighbor_size/2):idx, :] = 0.0
+                y_test[idx-(neighbor_size/2):idx] = 1
+                x_test[idx+1:idx+(neighbor_size/2), :] = 0.0
+                y_test[idx+1:idx+(neighbor_size/2)] = 1
+        else:
+            start_anomaly_time = np.random.choice(test_number, size=number, replace=False)
+            for s in start_anomaly_time:
+                e = s + neighbor_size * (length - 1)
+                anomaly_time = np.arange(s, e + neighbor_size, neighbor_size)
+                for idx in anomaly_time:
+                    x_test[idx + 1:idx + neighbor_size, :] = 0.0
+                    y_test[idx + 1:idx + neighbor_size] = 1
+        return pd.DataFrame(x_test), pd.DataFrame(y_test)
+
+    @staticmethod
+    def ghost():
+        pass
+
+

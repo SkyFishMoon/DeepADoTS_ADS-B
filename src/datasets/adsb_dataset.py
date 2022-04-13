@@ -168,5 +168,14 @@ class ADSBDataset(Dataset):
     def load(self):
         np.random.seed(self.random_seed)
         X_train, y_train = self.x_train, self.y_train
-        X_test, y_test = self.anomaly_func(self.x_test, self.test_pollution)
+        if 'random' in self.name:
+            X_test, y_test = self.anomaly_func(self.x_test, self.test_pollution)
+        elif 'heading' in self.name:
+            X_test, y_test = self.anomaly_func(self.x_test, True, 3, 500, self.test_pollution, 5)
+        elif 'speed' in self.name:
+            X_test, y_test = self.anomaly_func(self.x_test, True, 3, 500, self.test_pollution, 5)
+        elif 'altitude' in self.name:
+            X_test, y_test = self.anomaly_func(self.x_test, True, 3, 500, self.test_pollution, 5)
+        elif 'ddos' in self.name:
+            X_test, y_test = self.anomaly_func(self.x_test, True, 3, 500, self.test_pollution, 10)
         self._data = X_train, y_train, X_test, y_test
