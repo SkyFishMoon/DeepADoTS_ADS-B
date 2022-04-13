@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d557fe-4865-4515-a3c0-8c63985c247b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,18 +172,34 @@
       <workItem from="1642938424401" duration="512000" />
       <workItem from="1645588597311" duration="192000" />
       <workItem from="1648778785376" duration="6921000" />
-      <workItem from="1649763897244" duration="2343000" />
+      <workItem from="1649763897244" duration="2699000" />
     </task>
+    <task id="LOCAL-00001" summary="none">
+      <created>1649816181833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649816181833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="none" />
+    <option name="LAST_COMMIT_MESSAGE" value="none" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649057052477">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1649057052477" />
+    <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2" timestamp="1649816181694">
+      <screen x="0" y="44" width="1920" height="1036" />
+    </state>
+    <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2/0.44.1920.1036@0.44.1920.1036" timestamp="1649816181694" />
     <state x="695" y="290" width="374" height="485" key="FileChooserDialogImpl" timestamp="1649815784506">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
