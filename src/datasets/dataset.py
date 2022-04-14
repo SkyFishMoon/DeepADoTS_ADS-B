@@ -23,7 +23,7 @@ class Dataset:
     def load(self):
         """Load data"""
 
-    def data(self) -> (pd.DataFrame, pd.Series, pd.DataFrame, pd.Series):
+    def data(self, train=True) -> (pd.DataFrame, pd.Series, pd.DataFrame, pd.Series):
         """Return data, load if necessary"""
         if self._data is None:
             self.load()

@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d557fe-4865-4515-a3c0-8c63985c247b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/LSTM_VAE.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/LSTM_VAE.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datasets/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datasets/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/adsb_evaluator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/adsb_evaluator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +175,9 @@
       <workItem from="1642938424401" duration="512000" />
       <workItem from="1645588597311" duration="192000" />
       <workItem from="1648778785376" duration="6921000" />
-      <workItem from="1649763897244" duration="2699000" />
+      <workItem from="1649763897244" duration="16185000" />
+      <workItem from="1649848990065" duration="12877000" />
+      <workItem from="1649931405820" duration="602000" />
     </task>
     <task id="LOCAL-00001" summary="none">
       <created>1649816181833</created>
@@ -181,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649816181833</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gitignore">
+      <created>1649816452225</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1649816452225</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding 'heading', 'altitude', 'speed', 'ddos' anomaly type">
+      <created>1649852277454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1649852277454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,65 +208,84 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="none" />
-    <option name="LAST_COMMIT_MESSAGE" value="none" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="adding 'heading', 'altitude', 'speed', 'ddos' anomaly type" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding 'heading', 'altitude', 'speed', 'ddos' anomaly type" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649057052477">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1649057052477" />
-    <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2" timestamp="1649816181694">
+    <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2" timestamp="1649852277348">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2/0.44.1920.1036@0.44.1920.1036" timestamp="1649816181694" />
+    <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2/0.44.1920.1036@0.44.1920.1036" timestamp="1649852277348" />
     <state x="695" y="290" width="374" height="485" key="FileChooserDialogImpl" timestamp="1649815784506">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
     <state x="695" y="290" key="FileChooserDialogImpl/0.44.1920.1036@0.44.1920.1036" timestamp="1649815784506" />
     <state x="738" y="277" width="374" height="485" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1648951818632" />
-    <state width="1807" height="440" key="GridCell.Tab.0.bottom" timestamp="1649226220048">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="371" key="GridCell.Tab.0.bottom" timestamp="1649912098678">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state width="1874" height="371" key="GridCell.Tab.0.bottom/0.44.1920.1036@0.44.1920.1036" timestamp="1649912098678" />
     <state width="1807" height="440" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220048" />
-    <state width="1807" height="440" key="GridCell.Tab.0.center" timestamp="1649226220047">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="371" key="GridCell.Tab.0.center" timestamp="1649912098678">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state width="1874" height="371" key="GridCell.Tab.0.center/0.44.1920.1036@0.44.1920.1036" timestamp="1649912098678" />
     <state width="1807" height="440" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220047" />
-    <state width="1807" height="440" key="GridCell.Tab.0.left" timestamp="1649226220047">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="371" key="GridCell.Tab.0.left" timestamp="1649912098678">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state width="1874" height="371" key="GridCell.Tab.0.left/0.44.1920.1036@0.44.1920.1036" timestamp="1649912098678" />
     <state width="1807" height="440" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220047" />
-    <state width="1807" height="440" key="GridCell.Tab.0.right" timestamp="1649226220048">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="371" key="GridCell.Tab.0.right" timestamp="1649912098678">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state width="1874" height="371" key="GridCell.Tab.0.right/0.44.1920.1036@0.44.1920.1036" timestamp="1649912098678" />
     <state width="1807" height="440" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220048" />
-    <state width="1807" height="440" key="GridCell.Tab.1.bottom" timestamp="1649226224069">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="371" key="GridCell.Tab.1.bottom" timestamp="1649912098679">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state width="1874" height="371" key="GridCell.Tab.1.bottom/0.44.1920.1036@0.44.1920.1036" timestamp="1649912098679" />
     <state width="1807" height="440" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224069" />
-    <state width="1807" height="440" key="GridCell.Tab.1.center" timestamp="1649226224068">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="371" key="GridCell.Tab.1.center" timestamp="1649912098679">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state width="1874" height="371" key="GridCell.Tab.1.center/0.44.1920.1036@0.44.1920.1036" timestamp="1649912098679" />
     <state width="1807" height="440" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224068" />
-    <state width="1807" height="440" key="GridCell.Tab.1.left" timestamp="1649226224068">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="371" key="GridCell.Tab.1.left" timestamp="1649912098679">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state width="1874" height="371" key="GridCell.Tab.1.left/0.44.1920.1036@0.44.1920.1036" timestamp="1649912098679" />
     <state width="1807" height="440" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224068" />
-    <state width="1807" height="440" key="GridCell.Tab.1.right" timestamp="1649226224068">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state width="1874" height="371" key="GridCell.Tab.1.right" timestamp="1649912098679">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state width="1874" height="371" key="GridCell.Tab.1.right/0.44.1920.1036@0.44.1920.1036" timestamp="1649912098679" />
     <state width="1807" height="440" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224068" />
     <state x="449" y="179" width="1022" height="736" key="SettingsEditor" timestamp="1649816056236">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
     <state x="449" y="179" width="1022" height="736" key="SettingsEditor/0.44.1920.1036@0.44.1920.1036" timestamp="1649816056236" />
+    <state x="555" y="283" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1649852303299">
+      <screen x="0" y="44" width="1920" height="1036" />
+    </state>
+    <state x="555" y="283" width="800" height="528" key="Vcs.Push.Dialog.v2/0.44.1920.1036@0.44.1920.1036" timestamp="1649852303299" />
+    <state x="192" y="252" width="1525" height="584" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1649847822933">
+      <screen x="0" y="44" width="1920" height="1036" />
+    </state>
+    <state x="192" y="252" width="1525" height="584" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1/0.44.1920.1036@0.44.1920.1036" timestamp="1649847822933" />
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1645588666011">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1645588666011" />
-    <state x="697" y="320" width="982" height="522" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1642051634401">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="653" y="332" width="982" height="528" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1649910347290">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state x="653" y="332" width="982" height="528" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.44.1920.1036@0.44.1920.1036" timestamp="1649910347290" />
     <state x="697" y="320" width="967" height="522" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1642051634401" />
   </component>
   <component name="XDebuggerManager">
@@ -325,12 +363,12 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>47</line>
+          <line>48</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>49</line>
+          <line>50</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -410,7 +448,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>94</line>
+          <line>95</line>
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -680,17 +718,17 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>54</line>
+          <line>55</line>
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>149</line>
+          <line>150</line>
           <option name="timeStamp" value="153" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>107</line>
+          <line>108</line>
           <option name="timeStamp" value="167" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -765,7 +803,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>57</line>
+          <line>58</line>
           <option name="timeStamp" value="193" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -789,24 +827,9 @@
           <option name="timeStamp" value="213" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>124</line>
-          <option name="timeStamp" value="215" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
           <line>18</line>
           <option name="timeStamp" value="217" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>153</line>
-          <option name="timeStamp" value="219" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>154</line>
-          <option name="timeStamp" value="220" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/evaluation/evaluator.py</url>
@@ -817,11 +840,6 @@
           <url>file://$PROJECT_DIR$/src/datasets/dataset.py</url>
           <line>28</line>
           <option name="timeStamp" value="222" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
-          <line>170</line>
-          <option name="timeStamp" value="223" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
@@ -845,28 +863,18 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>58</line>
+          <line>59</line>
           <option name="timeStamp" value="231" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>133</line>
+          <line>134</line>
           <option name="timeStamp" value="233" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>134</line>
+          <line>135</line>
           <option name="timeStamp" value="234" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
-          <line>136</line>
-          <option name="timeStamp" value="235" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
-          <line>137</line>
-          <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
@@ -890,12 +898,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
-          <line>145</line>
-          <option name="timeStamp" value="250" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
-          <line>377</line>
+          <line>383</line>
           <option name="timeStamp" value="252" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -955,7 +958,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>131</line>
+          <line>132</line>
           <option name="timeStamp" value="271" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -990,12 +993,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>155</line>
-          <option name="timeStamp" value="289" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>156</line>
+          <line>157</line>
           <option name="timeStamp" value="290" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -1020,32 +1018,32 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
-          <line>190</line>
+          <line>196</line>
           <option name="timeStamp" value="300" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>157</line>
+          <line>158</line>
           <option name="timeStamp" value="301" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>163</line>
+          <line>164</line>
           <option name="timeStamp" value="302" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>158</line>
+          <line>159</line>
           <option name="timeStamp" value="303" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>159</line>
+          <line>160</line>
           <option name="timeStamp" value="304" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>161</line>
+          <line>162</line>
           <option name="timeStamp" value="306" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -1055,13 +1053,8 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>173</line>
+          <line>174</line>
           <option name="timeStamp" value="309" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>155</line>
-          <option name="timeStamp" value="310" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
@@ -1079,18 +1072,13 @@
           <option name="timeStamp" value="313" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
-          <line>142</line>
-          <option name="timeStamp" value="314" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
           <line>183</line>
           <option name="timeStamp" value="315" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>160</line>
+          <line>161</line>
           <option name="timeStamp" value="316" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -1108,50 +1096,350 @@
           <line>40</line>
           <option name="timeStamp" value="319" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
           <line>43</line>
           <option name="timeStamp" value="321" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
           <line>176</line>
           <option name="timeStamp" value="322" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
-          <line>175</line>
-          <option name="timeStamp" value="323" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
           <line>148</line>
-          <option name="timeStamp" value="324" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>147</line>
           <option name="timeStamp" value="325" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>135</line>
-          <option name="timeStamp" value="326" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>136</line>
+          <line>137</line>
           <option name="timeStamp" value="327" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
           <line>19</line>
           <option name="timeStamp" value="328" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
           <line>53</line>
           <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>105</line>
+          <option name="timeStamp" value="333" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="334" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>101</line>
+          <option name="timeStamp" value="335" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>149</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>154</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>125</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>115</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
+          <line>171</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
+          <line>173</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>127</line>
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>128</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>176</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>177</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>189</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>191</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>192</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>194</line>
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>195</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_dataset.py</url>
+          <line>180</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>64</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>221</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>224</line>
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>142</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>143</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>135</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>136</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>137</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>157</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>160</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>163</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
+          <line>167</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>338</line>
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>339</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>340</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>342</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>343</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>344</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>345</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>156</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="401" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1160,7 +1448,7 @@
     <SUITE FILE_PATH="coverage/DeepADoTS$main_LSTM_ED.coverage" NAME="main_LSTM_ED Coverage Results" MODIFIED="1642051643870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepADoTS$main.coverage" NAME="main_LSTM_ED Coverage Results" MODIFIED="1639240171947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepADoTS$Transformer_AE.coverage" NAME="Transformer_AE Coverage Results" MODIFIED="1642041511096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeepADoTS$LSTM_VAE.coverage" NAME="LSTM_VAE Coverage Results" MODIFIED="1649226219928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$LSTM_VAE.coverage" NAME="LSTM_VAE Coverage Results" MODIFIED="1649912098626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepADoTS$Transformer_VAE.coverage" NAME="Transformer_VAE Coverage Results" MODIFIED="1639229840763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

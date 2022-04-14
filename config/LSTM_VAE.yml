@@ -13,7 +13,7 @@ encoder_dropout: 0.1
 decoder_dropout: 0.1
 encoder_use_bias: 'true'
 decoder_use_bias: 'true'
-epoch_number: 1
+epoch_number: 40
 batch_size: 32
 window_size: 30
 train_gaussian_percentage: 0.2

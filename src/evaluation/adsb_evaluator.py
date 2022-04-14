@@ -134,7 +134,7 @@ class ADSBEvaluator:
             return threshold[np.argmax(f_score)]
 
     def evaluate(self):
-        (X_train, y_train, _, y_test) = self.datasets[0].data()
+        (X_train, y_train, _, _) = self.datasets[0].data()
         self.logger.info(f'Training {self.detector.name} on ADS-B with seed {self.seed}')
         try:
             self.detector.fit(X_train.copy(), self.tensorboard)
@@ -168,7 +168,7 @@ class ADSBEvaluator:
         #             self.results[(ds.name, det.name)] = np.zeros_like(y_test)
         #     gc.collect()
 
-    def benchmarks(self) -> pd.DataFrame:
+    def benchmarks(self, index) -> pd.DataFrame:
         df = pd.DataFrame()
         for ds in self.datasets:
             _, _, _, y_test = ds.data()
@@ -188,6 +188,12 @@ class ADSBEvaluator:
                             'F0.1-score': f01_score,
                             'auroc': auroc},
                            ignore_index=True)
+            self.tensorboard.add_scalar(ds.name + '/' + 'accuracy', acc, index)
+            self.tensorboard.add_scalar(ds.name + '/' + 'precision', prec, index)
+            self.tensorboard.add_scalar(ds.name + '/' + 'recall', rec, index)
+            self.tensorboard.add_scalar(ds.name + '/' + 'F1-score', f1_score, index)
+            self.tensorboard.add_scalar(ds.name + '/' + 'F0.1-score', f01_score, index)
+            self.tensorboard.add_scalar(ds.name + '/' + 'auroc', auroc, index)
         return df
 
     def get_metrics_by_thresholds(self, y_test: list, score: list, thresholds: list):

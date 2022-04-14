@@ -154,7 +154,7 @@ def run_adsb_experiment_evaluation(detectors, seeds, runs, output_dir, anomaly_t
         setup_seed(seed)
         evaluator = ADSBEvaluator(datasets[index], detectors, output_dir, seed=seed, opt=opt)
         evaluator.evaluate()
-        result = evaluator.benchmarks()
+        result = evaluator.benchmarks(index)
         evaluator.plot_roc_curves(store=store_results)
         evaluator.plot_threshold_comparison(store=store_results)
         evaluator.plot_scores(store=store_results)
