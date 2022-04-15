@@ -11,6 +11,7 @@ from tqdm import trange
 from torch.optim import lr_scheduler
 import time
 from .algorithm_utils import Algorithm, PyTorchUtils
+import os
 
 
 class LSTMVED(Algorithm, PyTorchUtils):
@@ -35,7 +36,9 @@ class LSTMVED(Algorithm, PyTorchUtils):
 
         self.lstmved = None
         self.mean, self.cov = None, None
-        self.ckpt_dir = output_dir + '/' + self.name
+        self.ckpt_dir = output_dir + '/' + 'ckpts' + '/'
+        if not os.path.exists(self.ckpt_dir):
+            os.mkdir(self.ckpt_dir)
         self.save_every_step = save_every_epoch
 
     @classmethod
@@ -119,7 +122,7 @@ class LSTMVED(Algorithm, PyTorchUtils):
                 torch.save({'epoch': epoch, 'state_dict': self.lstmved.state_dict(),
                             'optimizer': self.optimizer.state_dict(),
                             'scheduler': self.scheduler.state_dict()
-                            }, self.ckpt_dir + '-epoch' + str(epoch) + '.pth')
+                            }, self.ckpt_dir + 'epoch' + str(epoch) + '.pth')
                 val_step = val_step + 1
 
         self.lstmved.eval()

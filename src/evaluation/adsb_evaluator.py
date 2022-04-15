@@ -8,7 +8,7 @@ import traceback
 from textwrap import wrap
 import time
 from datetime import datetime
-
+import torch
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as path_effects
 from matplotlib.font_manager import FontProperties
@@ -48,6 +48,7 @@ class ADSBEvaluator:
         self.opt = opt
         self.tensorboard = SummaryWriter(opt.tensorboard_dir + datetime.now().strftime("/%b-%d_%H-%M-%S"))
         self.detector = self.init_detector()
+        self.test_number = opt.test_ckpts_number
     # @property
     # def detectors(self):
     #     detectors = self._detectors(self.seed)
@@ -121,7 +122,7 @@ class ADSBEvaluator:
         fpr, tpr, _ = roc_curve(y_test, score_nonan)
         return auc(fpr, tpr)
 
-    def get_optimal_threshold(self, det, y_test, score, steps=100, return_metrics=False):
+    def get_optimal_threshold(self, y_test, score, steps=100, return_metrics=False):
         maximum = np.nanmax(score)
         minimum = np.nanmin(score)
         threshold = np.linspace(minimum, maximum, steps)
@@ -138,14 +139,20 @@ class ADSBEvaluator:
         self.logger.info(f'Training {self.detector.name} on ADS-B with seed {self.seed}')
         try:
             self.detector.fit(X_train.copy(), self.tensorboard)
-            for ds in progressbar.progressbar(self.datasets):
-                (_, _, X_test, y_test) = ds.data()
-                score = self.detector.predict(X_test.copy(), self.tensorboard)
-                self.results[(ds.name, self.detector.name)] = score
-                try:
-                    self.plot_details(self.detector, ds, score)
-                except Exception:
-                    pass
+            ckpts = os.listdir(self.detector.ckpt_dir)
+            ckpts.sort(key=lambda f: int(re.sub('\D', '', f)))
+            self.ckn_list = ckpts[-self.test_number:]
+            for ckn in self.ckn_list:
+                ck = torch.load(self.detector.ckpt_dir + ckn)
+                self.detector.lstmved.load_state_dict(ck['state_dict'])
+                for ds in progressbar.progressbar(self.datasets):
+                    (_, _, X_test, y_test) = ds.data()
+                    score = self.detector.predict(X_test.copy(), self.tensorboard)
+                    self.results[(ds.name, self.detector.name + '-' + ckn)] = score
+                    try:
+                        self.plot_details(self.detector, ds, score)
+                    except Exception:
+                        pass
         except Exception as e:
             self.logger.error(f'An exception occurred while training {self.detector.name} on ADS-B: {e}')
             self.logger.error(traceback.format_exc())
@@ -168,32 +175,32 @@ class ADSBEvaluator:
         #             self.results[(ds.name, det.name)] = np.zeros_like(y_test)
         #     gc.collect()
 
-    def benchmarks(self, index) -> pd.DataFrame:
+    def benchmarks(self) -> pd.DataFrame:
         df = pd.DataFrame()
         for ds in self.datasets:
             _, _, _, y_test = ds.data()
-            # for det in self.detectors:
-            score = self.results[(ds.name, self.detector.name)]
-            y_pred = self.binarize(score, self.get_optimal_threshold(self.detector, y_test, np.array(score),
-                                                                     steps=self.opt.threshold_step))
-            acc, prec, rec, f1_score, f01_score = self.get_accuracy_precision_recall_fscore(y_test, y_pred)
-            score = self.results[(ds.name, self.detector.name)]
-            auroc = self.get_auroc(self.detector, ds, score)
-            df = df.append({'dataset': ds.name,
-                            'algorithm': self.detector.name,
-                            'accuracy': acc,
-                            'precision': prec,
-                            'recall': rec,
-                            'F1-score': f1_score,
-                            'F0.1-score': f01_score,
-                            'auroc': auroc},
-                           ignore_index=True)
-            self.tensorboard.add_scalar(ds.name + '/' + 'accuracy', acc, index)
-            self.tensorboard.add_scalar(ds.name + '/' + 'precision', prec, index)
-            self.tensorboard.add_scalar(ds.name + '/' + 'recall', rec, index)
-            self.tensorboard.add_scalar(ds.name + '/' + 'F1-score', f1_score, index)
-            self.tensorboard.add_scalar(ds.name + '/' + 'F0.1-score', f01_score, index)
-            self.tensorboard.add_scalar(ds.name + '/' + 'auroc', auroc, index)
+            for ckn in self.ckn_list:
+                score = self.results[(ds.name, self.detector.name + '-' + ckn)]
+                y_pred = self.binarize(score, self.get_optimal_threshold(y_test, np.array(score),
+                                                                         steps=self.opt.threshold_step))
+                acc, prec, rec, f1_score, f01_score = self.get_accuracy_precision_recall_fscore(y_test, y_pred)
+                score = self.results[(ds.name, self.detector.name + '-' + ckn)]
+                auroc = self.get_auroc(self.detector, ds, score)
+                df = df.append({'dataset': ds.name,
+                                'algorithm': self.detector.name + '-' + ckn,
+                                'accuracy': acc,
+                                'precision': prec,
+                                'recall': rec,
+                                'F1-score': f1_score,
+                                'F0.1-score': f01_score,
+                                'auroc': auroc},
+                               ignore_index=True)
+                self.tensorboard.add_scalar(ds.name + '/' + 'accuracy', acc, int(ckn[-5]))
+                self.tensorboard.add_scalar(ds.name + '/' + 'precision', prec, int(ckn[-5]))
+                self.tensorboard.add_scalar(ds.name + '/' + 'recall', rec, int(ckn[-5]))
+                self.tensorboard.add_scalar(ds.name + '/' + 'F1-score', f1_score, int(ckn[-5]))
+                self.tensorboard.add_scalar(ds.name + '/' + 'F0.1-score', f01_score, int(ckn[-5]))
+                self.tensorboard.add_scalar(ds.name + '/' + 'auroc', auroc, int(ckn[-5]))
         return df
 
     def get_metrics_by_thresholds(self, y_test: list, score: list, thresholds: list):
@@ -226,20 +233,20 @@ class ADSBEvaluator:
             plt.plot(y_test)
 
             subplot_num = 4
-            # for det in detectors:
-            sp = fig.add_subplot((2 * 1 + 3), 1, subplot_num)
-            sp.set_title(f'scores of {self.detector.name}', loc=subtitle_loc)
-            score = self.results[(ds.name, self.detector.name)]
-            plt.plot(np.arange(len(score)), [x for x in score])
-            threshold_line = len(score) * [self.get_optimal_threshold(self.detector, y_test, np.array(score))]
-            plt.plot([x for x in threshold_line])
-            subplot_num += 1
+            for ckn in self.ckn_list:
+                sp = fig.add_subplot((2 * 1 + 3), 1, subplot_num)
+                sp.set_title(f'scores of {self.detector.name}' + '-' + ckn, loc=subtitle_loc)
+                score = self.results[(ds.name, self.detector.name + '-' + ckn)]
+                plt.plot(np.arange(len(score)), [x for x in score])
+                threshold_line = len(score) * [self.get_optimal_threshold(y_test, np.array(score))]
+                plt.plot([x for x in threshold_line])
+                subplot_num += 1
 
-            sp = fig.add_subplot((2 * 1 + 3), 1, subplot_num)
-            sp.set_title(f'binary labels of {self.detector.name}', loc=subtitle_loc)
-            plt.plot(np.arange(len(score)),
-                     [x for x in self.binarize(score, self.get_optimal_threshold(self.detector, y_test, np.array(score)))])
-            subplot_num += 1
+                sp = fig.add_subplot((2 * 1 + 3), 1, subplot_num)
+                sp.set_title(f'binary labels of {self.detector.name}' + '-' + ckn, loc=subtitle_loc)
+                plt.plot(np.arange(len(score)),
+                         [x for x in self.binarize(score, self.get_optimal_threshold(y_test, np.array(score)))])
+                subplot_num += 1
             fig.subplots_adjust(top=0.9, hspace=0.4)
             fig.tight_layout()
             if store:
@@ -248,7 +255,6 @@ class ADSBEvaluator:
         return figures
 
     def plot_threshold_comparison(self, steps=40, store=True):
-        # detectors = self.detectors
         plt.close('all')
         plots_shape = 1, len(self.datasets)
         fig, axes = plt.subplots(*plots_shape, figsize=(1 * 15, len(self.datasets) * 5))
@@ -258,21 +264,21 @@ class ADSBEvaluator:
         for ds, axes_row in zip(self.datasets, axes):
             _, _, X_test, y_test = ds.data()
 
-            # for det, ax in zip(detectors, axes_row):
-            score = np.array(self.results[(ds.name, self.detector.name)])
+            for ckn, ax in zip(self.ckn_list, axes_row):
+                score = np.array(self.results[(ds.name, self.detector.name + '-' + ckn)])
 
-            anomalies, _, prec, rec, f_score, f01_score, thresh = self.get_optimal_threshold(
-                self.detector, y_test, score, return_metrics=True)
+                anomalies, _, prec, rec, f_score, f01_score, thresh = self.get_optimal_threshold(
+                    y_test, score, return_metrics=True)
 
-            axes_row[0].plot(thresh, anomalies / len(y_test),
-                    label=fr'anomalies ({len(y_test)} $\rightarrow$ 1)')
-            axes_row[0].plot(thresh, prec, label='precision')
-            axes_row[0].plot(thresh, rec, label='recall')
-            axes_row[0].plot(thresh, f_score, label='f_score', linestyle='dashed')
-            axes_row[0].plot(thresh, f01_score, label='f01_score', linestyle='dashed')
-            axes_row[0].set_title(f'{self.detector.name} on {ds.name}')
-            axes_row[0].set_xlabel('Threshold')
-            axes_row[0].legend()
+                axes_row[0].plot(thresh, anomalies / len(y_test),
+                        label=fr'anomalies ({len(y_test)} $\rightarrow$ 1)')
+                axes_row[0].plot(thresh, prec, label='precision')
+                axes_row[0].plot(thresh, rec, label='recall')
+                axes_row[0].plot(thresh, f_score, label='f_score', linestyle='dashed')
+                axes_row[0].plot(thresh, f01_score, label='f01_score', linestyle='dashed')
+                axes_row[0].set_title(f'{self.detector.name} on {ds.name}' + '-' + ckn)
+                axes_row[0].set_xlabel('Threshold')
+                axes_row[0].legend()
 
         # Avoid overlapping title and axis labels
         plt.xlim([0.0, 1.0])
@@ -293,27 +299,27 @@ class ADSBEvaluator:
             fig.canvas.set_window_title(ds.name + ' ROC')
             fig.suptitle(f'ROC curve on {ds.name}', fontsize=14, y='1.1')
             subplot_count = 1
-            # for det in detectors:
-            self.logger.info(f'Plotting ROC curve for {self.detector.name} on {ds.name}')
-            score = self.results[(ds.name, self.detector.name)]
-            if np.isnan(score).all():
-                score = np.zeros_like(score)
-            # Rank NaN below every other value in terms of anomaly score
-            score[np.isnan(score)] = np.nanmin(score) - sys.float_info.epsilon
-            fpr, tpr, _ = roc_curve(y_test, score)
-            roc_auc = auc(fpr, tpr)
-            plt.subplot(1, 1, subplot_count)
-            plt.plot(fpr, tpr, color='darkorange',
-                     lw=2, label='area = %0.2f' % roc_auc)
-            subplot_count += 1
-            plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
-            plt.xlim([0.0, 1.0])
-            plt.ylim([0.0, 1.05])
-            plt.xlabel('False Positive Rate')
-            plt.ylabel('True Positive Rate')
-            plt.gca().set_aspect('equal', adjustable='box')
-            plt.title('\n'.join(wrap(self.detector.name, 20)))
-            plt.legend(loc='lower right')
+            for ckn in self.ckn_list:
+                self.logger.info(f'Plotting ROC curve for {self.detector.name}-{ckn} on {ds.name}')
+                score = self.results[(ds.name, self.detector.name + '-' + ckn)]
+                if np.isnan(score).all():
+                    score = np.zeros_like(score)
+                # Rank NaN below every other value in terms of anomaly score
+                score[np.isnan(score)] = np.nanmin(score) - sys.float_info.epsilon
+                fpr, tpr, _ = roc_curve(y_test, score)
+                roc_auc = auc(fpr, tpr)
+                plt.subplot(1, 1, subplot_count)
+                plt.plot(fpr, tpr, color='darkorange',
+                         lw=2, label='area = %0.2f' % roc_auc)
+                subplot_count += 1
+                plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+                plt.xlim([0.0, 1.0])
+                plt.ylim([0.0, 1.05])
+                plt.xlabel('False Positive Rate')
+                plt.ylabel('True Positive Rate')
+                plt.gca().set_aspect('equal', adjustable='box')
+                plt.title('\n'.join(wrap(self.detector.name + '-' + ckn, 20)))
+                plt.legend(loc='lower right')
             plt.tight_layout()
             if store:
                 self.store(fig, f'roc_{ds.name}')
@@ -390,15 +396,26 @@ class ADSBEvaluator:
         grouped_by = 'dataset' if detectorwise else 'algorithm'
         relevant_results = data[['algorithm', 'dataset', 'auroc']]
         figures = []
-        for det_or_ds in (self.detectors if detectorwise else self.datasets):
-            relevant_results[relevant_results[target] == det_or_ds.name].boxplot(by=grouped_by, figsize=(15, 15))
-            plt.suptitle('')  # boxplot() adds a suptitle
-            plt.title(f'AUC grouped by {grouped_by} for {det_or_ds.name} over {runs} runs')
-            plt.ylim(ymin=0, ymax=1)
-            plt.tight_layout()
-            figures.append(plt.gcf())
-            if store:
-                self.store(plt.gcf(), f'boxplot_auc_for_{det_or_ds.name}_{runs}_runs', store_in_figures=True)
+        if detectorwise:
+            for ckn in self.ckn_list:
+                relevant_results[relevant_results[target] == self.detector.name + '-' + ckn].boxplot(by=grouped_by, figsize=(15, 15))
+                plt.suptitle('')  # boxplot() adds a suptitle
+                plt.title(f'AUC grouped by {grouped_by} for {self.detector.name}-{ckn} over {runs} runs')
+                plt.ylim(ymin=0, ymax=1)
+                plt.tight_layout()
+                figures.append(plt.gcf())
+                if store:
+                    self.store(plt.gcf(), f'boxplot_auc_for_{self.detector.name}-{ckn}_{runs}_runs', store_in_figures=True)
+        else:
+            for det_or_ds in self.datasets:
+                relevant_results[relevant_results[target] == det_or_ds.name].boxplot(by=grouped_by, figsize=(15, 15))
+                plt.suptitle('')  # boxplot() adds a suptitle
+                plt.title(f'AUC grouped by {grouped_by} for {det_or_ds.name} over {runs} runs')
+                plt.ylim(ymin=0, ymax=1)
+                plt.tight_layout()
+                figures.append(plt.gcf())
+                if store:
+                    self.store(plt.gcf(), f'boxplot_auc_for_{det_or_ds.name}_{runs}_runs', store_in_figures=True)
         return figures
 
     # create bar charts for averaged pipeline results per algorithm/dataset
@@ -407,15 +424,27 @@ class ADSBEvaluator:
         grouped_by = 'dataset' if detectorwise else 'algorithm'
         relevant_results = self.benchmark_results[['algorithm', 'dataset', 'auroc']]
         figures = []
-        for det_or_ds in (self.detectors if detectorwise else self.datasets):
-            relevant_results[relevant_results[target] == det_or_ds.name].plot(x=grouped_by, kind='bar', figsize=(7, 7))
-            plt.suptitle('')  # boxplot() adds a suptitle
-            plt.title(f'AUC for {target} {det_or_ds.name} over {runs} runs')
-            plt.ylim(ymin=0, ymax=1)
-            plt.tight_layout()
-            figures.append(plt.gcf())
-            if store:
-                self.store(plt.gcf(), f'barchart_auc_for_{det_or_ds.name}_{runs}_runs', store_in_figures=True)
+        if detectorwise:
+            for ckn in self.ckn_list:
+                relevant_results[relevant_results[target] == self.detector.name + '-' + ckn].plot(x=grouped_by, kind='bar',
+                                                                                  figsize=(7, 7))
+                plt.suptitle('')  # boxplot() adds a suptitle
+                plt.title(f'AUC for {target} {self.detector.name}-{ckn} over {runs} runs')
+                plt.ylim(ymin=0, ymax=1)
+                plt.tight_layout()
+                figures.append(plt.gcf())
+                if store:
+                    self.store(plt.gcf(), f'barchart_auc_for_{self.detector.name}-{ckn}_{runs}_runs', store_in_figures=True)
+        else:
+            for det_or_ds in self.datasets:
+                relevant_results[relevant_results[target] == det_or_ds.name].plot(x=grouped_by, kind='bar', figsize=(7, 7))
+                plt.suptitle('')  # boxplot() adds a suptitle
+                plt.title(f'AUC for {target} {det_or_ds.name} over {runs} runs')
+                plt.ylim(ymin=0, ymax=1)
+                plt.tight_layout()
+                figures.append(plt.gcf())
+                if store:
+                    self.store(plt.gcf(), f'barchart_auc_for_{det_or_ds.name}_{runs}_runs', store_in_figures=True)
         return figures
 
     def store(self, fig, title, extension='pdf', no_counters=False, store_in_figures=False):

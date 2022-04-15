@@ -178,4 +178,6 @@ class ADSBDataset(Dataset):
             X_test, y_test = self.anomaly_func(self.x_test, True, 3, 500, self.test_pollution, 5)
         elif 'ddos' in self.name:
             X_test, y_test = self.anomaly_func(self.x_test, True, 3, 500, self.test_pollution, 10)
+        elif 'ghost' in self.name:
+            X_test, y_test = self.anomaly_func(self.x_test, 4, 5000)
         self._data = X_train, y_train, X_test, y_test

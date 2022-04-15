@@ -76,3 +76,6 @@ def train_opts(parser):
               help='Number of validation steps without improving.')
     parser.add('--threshold_step', '-threshold_step', type=int, default=100)
     parser.add('--save_every_epoch', '-save_every_epoch', type=int, default=0)
+
+def test_opts(parser):
+    parser.add('--test_ckpts_number', type=int, default=10)

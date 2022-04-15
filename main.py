@@ -28,6 +28,7 @@ def _get_parser():
     opts.config_opts(parser)
     opts.model_opts(parser)
     opts.train_opts(parser)
+    opts.test_opts(parser)
     # parser.add_argument('--manifold', type=str, default=None,
     #                     choices=['Euclidean', 'Hyperboloid', 'PoincareBall'])
     # parser.add_argument('--c', type=float, default=None)

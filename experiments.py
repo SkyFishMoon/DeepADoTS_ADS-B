@@ -123,7 +123,14 @@ def get_datasets_for_multiple_runs(anomaly_type, seeds, steps, outlier_type):
             yield [SyntheticDataGenerator.get(f'{outlier_type}', seed, num_dim)
                    for num_dim in np.linspace(100, 1500, steps, dtype=int)]
         elif anomaly_type == 'ads-b':
-            multivariate_anomaly_functions = ['random', 'heading', 'altitude', 'speed', 'ddos']
+            multivariate_anomaly_functions = [
+                'random',
+                'heading',
+                'altitude',
+                'speed',
+                'ddos',
+                'ghost'
+            ]
             all_data = pd.read_csv('./data/ADS-B/all.csv').drop(columns='Unnamed: 0')
             # for i in list(all_data.columns):
             #     # 获取各个指标的最大值和最小值
@@ -133,7 +140,7 @@ def get_datasets_for_multiple_runs(anomaly_type, seeds, steps, outlier_type):
             zscore = preprocessing.StandardScaler()
             zscore = zscore.fit_transform(all_data)
             all_data = pd.DataFrame(zscore, index=all_data.index, columns=all_data.columns)
-            x_train, x_test = all_data.iloc[:195250], all_data[195250:]
+            x_train, x_test = all_data.iloc[:205482], all_data[205482:]
             y_train = pd.DataFrame(np.zeros(x_train.shape[0], dtype=bool))
             yield [ADSBAnomalyFunction.get_multivariate_dataset
                    (dim_func, random_seed=seed, x_train=x_train, x_test=copy.deepcopy(x_test), y_train=y_train)
@@ -154,7 +161,7 @@ def run_adsb_experiment_evaluation(detectors, seeds, runs, output_dir, anomaly_t
         setup_seed(seed)
         evaluator = ADSBEvaluator(datasets[index], detectors, output_dir, seed=seed, opt=opt)
         evaluator.evaluate()
-        result = evaluator.benchmarks(index)
+        result = evaluator.benchmarks()
         evaluator.plot_roc_curves(store=store_results)
         evaluator.plot_threshold_comparison(store=store_results)
         evaluator.plot_scores(store=store_results)

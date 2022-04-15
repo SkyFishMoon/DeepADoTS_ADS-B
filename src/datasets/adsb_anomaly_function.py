@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from .adsb_dataset import ADSBDataset
+import copy
 
 
 class ADSBAnomalyFunction:
@@ -197,7 +198,27 @@ class ADSBAnomalyFunction:
         return pd.DataFrame(x_test), pd.DataFrame(y_test)
 
     @staticmethod
-    def ghost():
-        pass
+    def ghost(x_test, number, length):
+        test_number = x_test.shape[0]
+        x_test = x_test.to_numpy()
+        y_test = np.zeros(test_number, dtype=bool)
+        start_p = []
+        end_p = []
+        for i in range(test_number - 1):
+            if x_test[i][2] <= -1.685246167380415 and x_test[i+1][2] > -1.685246167380415:
+                start_p.append(i)
+            # if x_test.iloc[i][2] >= 1.07 and x_test.iloc[i+1][2] >= 1.07 and x_test.iloc[i][2] - x_test.iloc[i+1][2] <0.001:
+            #     end_p.append(i)
+        temp = copy.deepcopy(x_test[start_p[0]:start_p[0] + length])
+        x_test[start_p[0]:start_p[0] + length] = x_test[start_p[1]:start_p[1] + length]
+        x_test[start_p[1]:start_p[1] + length] = temp
+        y_test[start_p[0]:start_p[0] + length] = 1
+        y_test[start_p[1]:start_p[1] + length] = 1
+        temp = copy.deepcopy(x_test[start_p[2]:start_p[2] + length])
+        x_test[start_p[2]:start_p[2] + length] = x_test[start_p[3]:start_p[3] + length]
+        x_test[start_p[3]:start_p[3] + length] = temp
+        y_test[start_p[2]:start_p[2] + length] = 1
+        y_test[start_p[3]:start_p[3] + length] = 1
+        return pd.DataFrame(x_test), pd.DataFrame(y_test)
 
 
