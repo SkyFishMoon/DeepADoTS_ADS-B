@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69d557fe-4865-4515-a3c0-8c63985c247b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/LSTM_VAE.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/LSTM_VAE.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Transformer_ae.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Transformer_ae.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Transformer_vae.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Transformer_vae.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/lstm_vae.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/lstm_vae.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/evaluation/adsb_evaluator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/adsb_evaluator.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +173,7 @@
       <workItem from="1648778785376" duration="6921000" />
       <workItem from="1649763897244" duration="16185000" />
       <workItem from="1649848990065" duration="12877000" />
-      <workItem from="1649931405820" duration="40841000" />
+      <workItem from="1649931405820" duration="41328000" />
     </task>
     <task id="LOCAL-00001" summary="none">
       <created>1649816181833</created>
@@ -216,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650027629953</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test no grad">
+      <created>1650108465029</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650108465029</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,17 +228,18 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="adding 'heading', 'altitude', 'speed', 'ddos' anomaly type" />
     <MESSAGE value="test many ckpts and ghost anomaly" />
-    <option name="LAST_COMMIT_MESSAGE" value="test many ckpts and ghost anomaly" />
+    <MESSAGE value="test no grad" />
+    <option name="LAST_COMMIT_MESSAGE" value="test no grad" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649057052477">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1649057052477" />
-    <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2" timestamp="1650027629851">
+    <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2" timestamp="1650108464864">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2/0.44.1920.1036@0.44.1920.1036" timestamp="1650027629851" />
+    <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2/0.44.1920.1036@0.44.1920.1036" timestamp="1650108464864" />
     <state x="695" y="290" width="374" height="485" key="FileChooserDialogImpl" timestamp="1649815784506">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
@@ -287,10 +289,10 @@
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
     <state x="449" y="179" width="1022" height="736" key="SettingsEditor/0.44.1920.1036@0.44.1920.1036" timestamp="1649816056236" />
-    <state x="555" y="283" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1650027638285">
+    <state x="555" y="283" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1650108470432">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state x="555" y="283" width="800" height="528" key="Vcs.Push.Dialog.v2/0.44.1920.1036@0.44.1920.1036" timestamp="1650027638285" />
+    <state x="555" y="283" width="800" height="528" key="Vcs.Push.Dialog.v2/0.44.1920.1036@0.44.1920.1036" timestamp="1650108470432" />
     <state x="192" y="252" width="1525" height="584" key="com.intellij.execution.console.ConsoleHistoryController$MyBrowseAction$1" timestamp="1649847822933">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
