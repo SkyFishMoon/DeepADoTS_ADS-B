@@ -37,7 +37,7 @@ class TransformerVED(Algorithm, PyTorchUtils):
         self.feedforward_size = feedforward_size
         self.head_number = head_number
 
-        self.transformerved = None
+        self.transformer_ved = None
         self.mean, self.cov = None, None
         self.warmup = warmup_steps
         self.ckpt_dir = output_dir + '/' + self.name
@@ -78,12 +78,12 @@ class TransformerVED(Algorithm, PyTorchUtils):
         train_gaussian_loader = DataLoader(dataset=sequences, batch_size=self.batch_size, drop_last=True,
                                            sampler=SubsetRandomSampler(indices[-split_point:]), pin_memory=True)
 
-        self.transformerved = TransformerVEDModule(X.shape[1], self.hidden_size,
+        self.transformer_ved = TransformerVEDModule(X.shape[1], self.hidden_size,
                                    self.n_layers, self.use_bias, self.dropout, self.feedforward_size, self.head_number,
                                    seed=self.seed, gpu=self.gpu,
                                    window_size=self.sequence_length, latent_length=self.latent_length)
-        self.to_device(self.transformerved)
-        self.optimizer = torch.optim.Adam(self.transformerved.parameters(), lr=self.lr)
+        self.to_device(self.transformer_ved)
+        self.optimizer = torch.optim.Adam(self.transformer_ved.parameters(), lr=self.lr)
         def warm_decay(step):
             if step < self.warmup:
                 return step / self.warmup
@@ -92,7 +92,7 @@ class TransformerVED(Algorithm, PyTorchUtils):
         self.scheduler = lr_scheduler.LambdaLR(self.optimizer, warm_decay)
         # self.scheduler = lr_scheduler.ExponentialLR(self.optimizer, gamma=0.8)
 
-        self.transformerved.train()
+        self.transformer_ved.train()
         train_step = 0
         val_step = 0
         for epoch in trange(self.num_epochs):
@@ -101,13 +101,13 @@ class TransformerVED(Algorithm, PyTorchUtils):
             for ts_batch in train_loader:
                 torch.cuda.synchronize()
                 start = time.time()
-                output = self.transformerved(self.to_var(ts_batch))
+                output = self.transformer_ved(self.to_var(ts_batch))
                 loss = nn.MSELoss(size_average=False)(output, self.to_var(ts_batch.float()))
-                kl_loss = -0.5 * torch.mean(1 + self.transformerved.lmbda.latent_logvar -
-                                            self.transformerved.lmbda.latent_mean.pow(2) -
-                                            self.transformerved.lmbda.latent_logvar.exp())
+                kl_loss = -0.5 * torch.mean(1 + self.transformer_ved.lmbda.latent_logvar -
+                                            self.transformer_ved.lmbda.latent_mean.pow(2) -
+                                            self.transformer_ved.lmbda.latent_logvar.exp())
                 loss = loss + kl_loss
-                self.transformerved.zero_grad()
+                self.transformer_ved.zero_grad()
                 loss.backward()
                 torch.cuda.synchronize()
                 end = time.time()
@@ -129,20 +129,20 @@ class TransformerVED(Algorithm, PyTorchUtils):
             if epoch % 1 == 0:
                 val_loss = []
                 for ts_batch in train_gaussian_loader:
-                    output = self.transformerved(self.to_var(ts_batch))
+                    output = self.transformer_ved(self.to_var(ts_batch))
                     val_loss.append(nn.MSELoss(size_average=False)(output, self.to_var(ts_batch.float())).item())
                 val_loss = torch.tensor(val_loss).mean().item()
                 tensorboard.add_scalar("valid_loss/", val_loss, val_step)
-                torch.save({'epoch': epoch, 'state_dict': self.transformerved.state_dict(),
+                torch.save({'epoch': epoch, 'state_dict': self.transformer_ved.state_dict(),
                             'optimizer': self.optimizer.state_dict(),
                             'scheduler': self.scheduler.state_dict()
                             }, self.ckpt_dir + '-epoch' + str(epoch) + '.pth')
                 val_step = val_step + 1
 
-        self.transformerved.eval()
+        self.transformer_ved.eval()
         error_vectors = []
         for ts_batch in train_gaussian_loader:
-            output = self.transformerved(self.to_var(ts_batch))
+            output = self.transformer_ved(self.to_var(ts_batch))
             error = nn.L1Loss(reduce=False)(output, self.to_var(ts_batch.float()))
             error_vectors += list(error.view(-1, X.shape[1]).data.cpu().numpy())
 
@@ -156,13 +156,13 @@ class TransformerVED(Algorithm, PyTorchUtils):
         sequences = [data[i:i + self.sequence_length] for i in range(data.shape[0] - self.sequence_length + 1)]
         data_loader = DataLoader(dataset=sequences, batch_size=self.batch_size, shuffle=False, drop_last=False)
 
-        self.transformerved.eval()
+        self.transformer_ved.eval()
         mvnormal = multivariate_normal(self.mean, self.cov, allow_singular=True)
         scores = []
         outputs = []
         errors = []
         for idx, ts in enumerate(data_loader):
-            output = self.transformerved(self.to_var(ts))
+            output = self.transformer_ved(self.to_var(ts))
             error = nn.L1Loss(reduce=False)(output, self.to_var(ts.float()))
             score = -mvnormal.logpdf(error.view(-1, X.shape[1]).data.cpu().numpy())
             scores.append(score.reshape(ts.size(0), self.sequence_length))

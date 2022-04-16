@@ -34,7 +34,7 @@ class LSTMVED(Algorithm, PyTorchUtils):
         self.use_bias = use_bias
         self.dropout = dropout
 
-        self.lstmved = None
+        self.lstm_ved = None
         self.mean, self.cov = None, None
         self.ckpt_dir = output_dir + '/' + 'ckpts' + '/'
         if not os.path.exists(self.ckpt_dir):
@@ -73,14 +73,14 @@ class LSTMVED(Algorithm, PyTorchUtils):
         train_gaussian_loader = DataLoader(dataset=sequences, batch_size=self.batch_size, drop_last=True,
                                            sampler=SubsetRandomSampler(indices[-split_point:]), pin_memory=True)
 
-        self.lstmved = LSTMVEDModule(X.shape[1], self.hidden_size,
+        self.lstm_ved = LSTMVEDModule(X.shape[1], self.hidden_size,
                                    self.n_layers, self.use_bias, self.dropout,
                                    seed=self.seed, gpu=self.gpu, latent_length=self.latent_length)
-        self.to_device(self.lstmved)
-        self.optimizer = torch.optim.Adam(self.lstmved.parameters(), lr=self.lr)
+        self.to_device(self.lstm_ved)
+        self.optimizer = torch.optim.Adam(self.lstm_ved.parameters(), lr=self.lr)
         self.scheduler = lr_scheduler.ExponentialLR(self.optimizer, gamma=0.8)
 
-        self.lstmved.train()
+        self.lstm_ved.train()
         train_step = 0
         val_step = 0
         for epoch in trange(self.num_epochs):
@@ -89,14 +89,14 @@ class LSTMVED(Algorithm, PyTorchUtils):
             for ts_batch in train_loader:
                 torch.cuda.synchronize()
                 start = time.time()
-                output = self.lstmved(self.to_var(ts_batch))
+                output = self.lstm_ved(self.to_var(ts_batch))
                 loss = nn.MSELoss(size_average=False)(output, self.to_var(ts_batch.float()))
-                kl_loss = -0.5 * torch.mean(1 + self.lstmved.lmbda.latent_logvar -
-                            self.lstmved.lmbda.latent_mean.pow(2) -
-                                self.lstmved.lmbda.latent_logvar.exp())
+                kl_loss = -0.5 * torch.mean(1 + self.lstm_ved.lmbda.latent_logvar -
+                            self.lstm_ved.lmbda.latent_mean.pow(2) -
+                                self.lstm_ved.lmbda.latent_logvar.exp())
                 loss = loss + kl_loss
                 # tensorboard.add_scalar("learning_rate/", self.lr, train_step)
-                self.lstmved.zero_grad()
+                self.lstm_ved.zero_grad()
                 loss.backward()
                 torch.cuda.synchronize()
                 end = time.time()
@@ -115,20 +115,20 @@ class LSTMVED(Algorithm, PyTorchUtils):
             if epoch % 1 == 0:
                 val_loss = []
                 for ts_batch in train_gaussian_loader:
-                    output = self.lstmved(self.to_var(ts_batch))
+                    output = self.lstm_ved(self.to_var(ts_batch))
                     val_loss.append(nn.MSELoss(size_average=False)(output, self.to_var(ts_batch.float())).item())
                 val_loss = torch.tensor(val_loss).mean().item()
                 tensorboard.add_scalar("valid_loss/", val_loss, val_step)
-                torch.save({'epoch': epoch, 'state_dict': self.lstmved.state_dict(),
+                torch.save({'epoch': epoch, 'state_dict': self.lstm_ved.state_dict(),
                             'optimizer': self.optimizer.state_dict(),
                             'scheduler': self.scheduler.state_dict()
                             }, self.ckpt_dir + 'epoch' + str(epoch) + '.pth')
                 val_step = val_step + 1
 
-        self.lstmved.eval()
+        self.lstm_ved.eval()
         error_vectors = []
         for ts_batch in train_gaussian_loader:
-            output = self.lstmved(self.to_var(ts_batch))
+            output = self.lstm_ved(self.to_var(ts_batch))
             error = nn.L1Loss(reduce=False)(output, self.to_var(ts_batch.float()))
             error_vectors += list(error.view(-1, X.shape[1]).data.cpu().numpy())
 
@@ -142,13 +142,14 @@ class LSTMVED(Algorithm, PyTorchUtils):
         sequences = [data[i:i + self.sequence_length] for i in range(data.shape[0] - self.sequence_length + 1)]
         data_loader = DataLoader(dataset=sequences, batch_size=self.batch_size, shuffle=False, drop_last=False)
 
-        self.lstmved.eval()
+        self.lstm_ved.eval()
         mvnormal = multivariate_normal(self.mean, self.cov, allow_singular=True)
         scores = []
         outputs = []
         errors = []
         for idx, ts in enumerate(data_loader):
-            output = self.lstmved(self.to_var(ts))
+            with torch.no_grad():
+                output = self.lstm_ved(self.to_var(ts))
             error = nn.L1Loss(reduce=False)(output, self.to_var(ts.float()))
             score = -mvnormal.logpdf(error.view(-1, X.shape[1]).data.cpu().numpy())
             scores.append(score.reshape(ts.size(0), self.sequence_length))

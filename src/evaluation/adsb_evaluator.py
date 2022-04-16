@@ -144,10 +144,10 @@ class ADSBEvaluator:
             self.ckn_list = ckpts[-self.test_number:]
             for ckn in self.ckn_list:
                 ck = torch.load(self.detector.ckpt_dir + ckn)
-                self.detector.lstmved.load_state_dict(ck['state_dict'])
+                exec(f'self.detector.{self.detector.name}.load_state_dict(ck[\'state_dict\'])')
                 for ds in progressbar.progressbar(self.datasets):
                     (_, _, X_test, y_test) = ds.data()
-                    score = self.detector.predict(X_test.copy(), self.tensorboard)
+                    score = self.detector.predict(X_test, self.tensorboard)
                     self.results[(ds.name, self.detector.name + '-' + ckn)] = score
                     try:
                         self.plot_details(self.detector, ds, score)
@@ -219,22 +219,22 @@ class ADSBEvaluator:
             fig = plt.figure(figsize=(15, 15))
             fig.canvas.set_window_title(ds.name)
 
-            sp = fig.add_subplot((2 * 1 + 3), 1, 1)
+            sp = fig.add_subplot((2 * len(self.ckn_list) + 3), 1, 1)
             sp.set_title('original training data', loc=subtitle_loc)
             for col in X_train.columns:
                 plt.plot(X_train[col])
-            sp = fig.add_subplot((2 * 1 + 3), 1, 2)
+            sp = fig.add_subplot((2 * len(self.ckn_list) + 3), 1, 2)
             sp.set_title('original test set', loc=subtitle_loc)
             for col in X_test.columns:
                 plt.plot(X_test[col])
 
-            sp = fig.add_subplot((2 * 1 + 3), 1, 3)
+            sp = fig.add_subplot((2 * len(self.ckn_list) + 3), 1, 3)
             sp.set_title('binary labels of test set', loc=subtitle_loc)
             plt.plot(y_test)
 
             subplot_num = 4
             for ckn in self.ckn_list:
-                sp = fig.add_subplot((2 * 1 + 3), 1, subplot_num)
+                sp = fig.add_subplot((2 * len(self.ckn_list) + 3), 1, subplot_num)
                 sp.set_title(f'scores of {self.detector.name}' + '-' + ckn, loc=subtitle_loc)
                 score = self.results[(ds.name, self.detector.name + '-' + ckn)]
                 plt.plot(np.arange(len(score)), [x for x in score])
@@ -242,7 +242,7 @@ class ADSBEvaluator:
                 plt.plot([x for x in threshold_line])
                 subplot_num += 1
 
-                sp = fig.add_subplot((2 * 1 + 3), 1, subplot_num)
+                sp = fig.add_subplot((2 * len(self.ckn_list) + 3), 1, subplot_num)
                 sp.set_title(f'binary labels of {self.detector.name}' + '-' + ckn, loc=subtitle_loc)
                 plt.plot(np.arange(len(score)),
                          [x for x in self.binarize(score, self.get_optimal_threshold(y_test, np.array(score)))])
@@ -256,8 +256,8 @@ class ADSBEvaluator:
 
     def plot_threshold_comparison(self, steps=40, store=True):
         plt.close('all')
-        plots_shape = 1, len(self.datasets)
-        fig, axes = plt.subplots(*plots_shape, figsize=(1 * 15, len(self.datasets) * 5))
+        plots_shape = len(self.ckn_list), len(self.datasets)
+        fig, axes = plt.subplots(*plots_shape, figsize=(len(self.ckn_list) * 15, len(self.datasets) * 5))
         # Ensure two dimensions for iteration
         axes = np.array(axes).reshape(*plots_shape).T
         plt.suptitle('Compare thresholds', fontsize=10)
@@ -295,7 +295,7 @@ class ADSBEvaluator:
         for ds in self.datasets:
             _, _, _, y_test = ds.data()
             fig_scale = 3
-            fig = plt.figure(figsize=(fig_scale * 1, fig_scale))
+            fig = plt.figure(figsize=(fig_scale * len(self.ckn_list), fig_scale))
             fig.canvas.set_window_title(ds.name + ' ROC')
             fig.suptitle(f'ROC curve on {ds.name}', fontsize=14, y='1.1')
             subplot_count = 1
@@ -308,7 +308,7 @@ class ADSBEvaluator:
                 score[np.isnan(score)] = np.nanmin(score) - sys.float_info.epsilon
                 fpr, tpr, _ = roc_curve(y_test, score)
                 roc_auc = auc(fpr, tpr)
-                plt.subplot(1, 1, subplot_count)
+                plt.subplot(1, len(self.ckn_list), subplot_count)
                 plt.plot(fpr, tpr, color='darkorange',
                          lw=2, label='area = %0.2f' % roc_auc)
                 subplot_count += 1
