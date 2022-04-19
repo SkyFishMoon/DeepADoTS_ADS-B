@@ -1,5 +1,5 @@
 import logging
-
+import os
 import numpy as np
 import pandas as pd
 import torch
@@ -39,7 +39,9 @@ class TransformerED(Algorithm, PyTorchUtils):
         self.transformer_ed = None
         self.mean, self.cov = None, None
         self.warmup = warmup_steps
-        self.ckpt_dir = output_dir + '/' + self.name
+        self.ckpt_dir = output_dir + '/' + 'ckpts' + '/'
+        if not os.path.exists(self.ckpt_dir):
+            os.mkdir(self.ckpt_dir)
         self.save_every_step = save_every_epoch
 
     @classmethod

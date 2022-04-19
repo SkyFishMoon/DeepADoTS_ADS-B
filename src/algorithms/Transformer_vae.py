@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 from torch.utils.data.sampler import SubsetRandomSampler
 from tqdm import trange
 from torch.optim import lr_scheduler
-
+import os
 from .algorithm_utils import Algorithm, PyTorchUtils
 import math
 import time
@@ -40,7 +40,9 @@ class TransformerVED(Algorithm, PyTorchUtils):
         self.transformer_ved = None
         self.mean, self.cov = None, None
         self.warmup = warmup_steps
-        self.ckpt_dir = output_dir + '/' + self.name
+        self.ckpt_dir = output_dir + '/' + 'ckpts' + '/'
+        if not os.path.exists(self.ckpt_dir):
+            os.mkdir(self.ckpt_dir)
         self.save_every_step = save_every_epoch
 
     @classmethod

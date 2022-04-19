@@ -1,9 +1,9 @@
 name: 'lstm_ved'
 feature_size: 5
-hidden_size: 10
+hidden_size: 20
 #encoder_feedforward_size:
 #decoder_feedforward_size:
-latent_length: 10
+latent_length: 20
 #latent_number:
 encoder_layer_number: 1
 decoder_layer_number: 1
@@ -13,8 +13,8 @@ encoder_dropout: 0.1
 decoder_dropout: 0.1
 encoder_use_bias: 'true'
 decoder_use_bias: 'true'
-epoch_number: 1
-test_ckpts_number: 1
+epoch_number: 40
+test_ckpts_number: 40
 batch_size: 32
 window_size: 30
 train_gaussian_percentage: 0.2
