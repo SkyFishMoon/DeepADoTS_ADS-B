@@ -1,0 +1,31 @@
+name: 'transformer_ed'
+feature_size: 5
+hidden_size: 24
+encoder_feedforward_size: 100
+decoder_feedforward_size: 100
+latent_length: 24
+#latent_number:
+encoder_layer_number: 4
+decoder_layer_number: 4
+encoder_head_number: 4
+decoder_head_number: 4
+encoder_dropout: 0.1
+decoder_dropout: 0.1
+encoder_use_bias: 'true'
+decoder_use_bias: 'true'
+epoch_number: 40
+test_ckpts_number: 20
+batch_size: 32
+window_size: 30
+train_gaussian_percentage: 0.2
+learning_rate: 1e-3
+#learning_rate_decay:
+#start_decay_steps:
+#decay_steps:
+#decay_method:
+warmup_steps: 5000
+gpu: 0
+#early_stopping:
+output_dir: 'reports/experiments/transformer_ae'
+tensorboard_dir: 'reports/experiments/transformer_ae/runs'
+save_every_epoch: 1
