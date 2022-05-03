@@ -12,7 +12,7 @@ def model_opts(parser):
     parser.add('--name', '-name', required=True,
                type=str, choices=['lstm_ed', 'lstm_ved', 'transformer_ed',
                                   'transformer_ved', 'dagmm_lstm', 'dagmm_fc',
-                                  'recurrent_ebm', 'donut', 'lstm_ad', 'fc_ed'])
+                                  'recurrent_ebm', 'donut', 'lstm_ad', 'fc_ed', 'transformer_ved_local', 'lstm_ved_local'])
     parser.add('--feature_size', '-feature_size', required=True,
                type=int)
     parser.add('--hidden_size', '-hidden_size', required=True,

@@ -140,7 +140,7 @@ def get_datasets_for_multiple_runs(anomaly_type, seeds, steps, outlier_type):
             zscore = preprocessing.StandardScaler()
             zscore = zscore.fit_transform(all_data)
             all_data = pd.DataFrame(zscore, index=all_data.index, columns=all_data.columns)
-            x_train, x_test = all_data.iloc[:205482], all_data[205482:]
+            x_train, x_test = all_data.iloc[:195250], all_data[195250:]
             y_train = pd.DataFrame(np.zeros(x_train.shape[0], dtype=bool))
             yield [ADSBAnomalyFunction.get_multivariate_dataset
                    (dim_func, random_seed=seed, x_train=x_train, x_test=copy.deepcopy(x_test), y_train=y_train)

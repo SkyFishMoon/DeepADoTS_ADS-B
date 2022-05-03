@@ -1,5 +1,5 @@
 import logging
-
+import os
 import numpy as np
 import pandas as pd
 import torch
@@ -9,13 +9,13 @@ from torch.utils.data import DataLoader
 from torch.utils.data.sampler import SubsetRandomSampler
 from tqdm import trange
 from torch.optim import lr_scheduler
-import os
+from datetime import datetime
 from .algorithm_utils import Algorithm, PyTorchUtils
 import math
 import time
 
 class TransformerVED(Algorithm, PyTorchUtils):
-    def __init__(self, name: str = 'Transformer-ED', num_epochs: int = 10, batch_size: int = 20, lr: float = 1e-3,
+    def __init__(self, name: str = 'Transformer-VED', num_epochs: int = 10, batch_size: int = 20, lr: float = 1e-3,
                  hidden_size: int = 5, sequence_length: int = 30, train_gaussian_percentage: float = 0.25,
                  n_layers: tuple = (1, 1), use_bias: tuple = (True, True), dropout: tuple = (0, 0),
                  seed: int = None, gpu: int = None, output_dir: str = None, save_every_epoch: int = None, details=True, feedforward_size: tuple = (0, 0),
@@ -40,7 +40,7 @@ class TransformerVED(Algorithm, PyTorchUtils):
         self.transformer_ved = None
         self.mean, self.cov = None, None
         self.warmup = warmup_steps
-        self.ckpt_dir = output_dir + '/' + 'ckpts' + '/'
+        self.ckpt_dir = output_dir + '/' + 'ckpts-'+ datetime.now().strftime("%b-%d_%H-%M-%S")  + '/'
         if not os.path.exists(self.ckpt_dir):
             os.mkdir(self.ckpt_dir)
         self.save_every_step = save_every_epoch
@@ -164,7 +164,8 @@ class TransformerVED(Algorithm, PyTorchUtils):
         outputs = []
         errors = []
         for idx, ts in enumerate(data_loader):
-            output = self.transformer_ved(self.to_var(ts))
+            with torch.no_grad():
+                output = self.transformer_ved(self.to_var(ts))
             error = nn.L1Loss(reduce=False)(output, self.to_var(ts.float()))
             score = -mvnormal.logpdf(error.view(-1, X.shape[1]).data.cpu().numpy())
             scores.append(score.reshape(ts.size(0), self.sequence_length))
@@ -225,10 +226,9 @@ class TransformerVEDModule(nn.Module, PyTorchUtils):
         self.decoder_layer = nn.TransformerDecoderLayer(d_model=self.hidden_size, dim_feedforward=self.dim_feedforward[1],
                                                         batch_first=True,
                                                         dropout=self.dropout[1], nhead=self.head_number[1])
-
         self.decoder = nn.TransformerDecoder(self.decoder_layer, num_layers=self.n_layers[1])
         self.to_device(self.decoder)
-        self.hidden2output = nn.Linear(self.hidden_size + self.latent_length, self.n_features)
+        self.hidden2output = nn.Linear(self.hidden_size, self.n_features)
         self.to_device(self.hidden2output)
         self.position_encoding = PositionalEncoding(self.hidden_size, self.dropout[0], window_size + 1)
         self.to_device(self.position_encoding)
@@ -238,10 +238,20 @@ class TransformerVEDModule(nn.Module, PyTorchUtils):
         self.to_device(self.lmbda)
         self.memorysum = nn.Linear(window_size * self.hidden_size, self.hidden_size)
         self.to_device(self.memorysum)
+        self.gate = nn.Linear(self.hidden_size + self.latent_length, 1)
+        self.to_device(self.gate)
+        self.sigmoid = nn.Sigmoid()
+        self.to_device(self.sigmoid)
 
     def _init_hidden(self, batch_size):
         return (self.to_var(torch.Tensor(self.n_layers[0], batch_size, self.hidden_size).zero_()),
                 self.to_var(torch.Tensor(self.n_layers[0], batch_size, self.hidden_size).zero_()))
+
+    def subsequent_mask(self, size):
+        "Mask out subsequent positions."
+        attn_shape = (1, size, size)
+        subsequent_mask = np.triu(np.ones(attn_shape), k=1).astype('uint8')
+        return torch.from_numpy(subsequent_mask) == 0
 
     def forward(self, ts_batch, return_latent: bool = False):
         ts_batch = ts_batch.to(torch.float32)
@@ -250,11 +260,29 @@ class TransformerVEDModule(nn.Module, PyTorchUtils):
         src_input = self.position_encoding(self.input2hidden(ts_batch))
         # 1. Encode the timeseries to make use of the last hidden state.
         # enc_hidden = self._init_hidden(batch_size)  # initialization with zero
-        tgt_input = self.position_encoding(self.input2hidden(torch.cat([tos, torch.flip(ts_batch, dims=[1])], dim=1)))
         memory_bank = self.encoder(src_input)
-        z = self.lmbda(self.memorysum(memory_bank.view(batch_size, -1))).unsqueeze(1).expand(-1, self.window_size, -1)
-        tgt_output = torch.flip(self.decoder(tgt_input, memory_bank), dims=[1])
-        output = self.hidden2output(torch.cat([tgt_output[:, :-1, :], z], dim=-1))
+        if self.training:
+            z = self.lmbda(self.memorysum(memory_bank.view(batch_size, -1))).unsqueeze(1).expand(-1, self.window_size,
+                                                                                                 -1)
+            tgt_input = self.position_encoding(
+                self.input2hidden(torch.cat([tos, torch.flip(ts_batch, dims=[1])], dim=1)))
+            tgt_output = torch.flip(self.decoder(tgt_input, memory_bank), dims=[1])
+            g = self.sigmoid(self.gate(torch.cat([tgt_output[:, 1:, :], z], dim=-1)))
+            z_hidden = g * z + (1 - g) * tgt_output[:, 1:, :]
+            output = self.hidden2output(z_hidden)
+        else:
+            # ys = self.to_var(torch.randn(ts_batch.shape[-1], 1).type_as(ts_batch.data))
+            z = self.lmbda(self.memorysum(memory_bank.view(batch_size, -1)))
+            output = self.to_var(torch.Tensor(ts_batch.size()).zero_())
+            for i in reversed(range(ts_batch.shape[1])):
+                hidden = self.decoder(tgt=self.input2hidden(tos), memory=memory_bank,
+                                   tgt_mask=self.to_var(self.subsequent_mask(tos.shape[1]).type_as(ts_batch.data)).squeeze(0))
+                g_i = self.sigmoid(self.gate(torch.cat([hidden[:, -1, :], z], dim=-1)))
+                z_hidden_i = g_i * z + (1 - g_i) * hidden[:, -1, :]
+                output[:, i, :] = self.hidden2output(z_hidden_i)
+                tos = torch.cat([tos, output[:, i, :].unsqueeze(1)], dim=1)
+            # output = self.hidden2output(torch.cat([tgt_output, z], dim=-1))
+
         # _, enc_hidden = self.encoder(ts_batch.float(), enc_hidden)  # .float() here or .double() for the model
 
         # 2. Use hidden state as initialization for our Decoder-LSTM

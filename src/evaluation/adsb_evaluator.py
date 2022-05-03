@@ -179,7 +179,7 @@ class ADSBEvaluator:
         df = pd.DataFrame()
         for ds in self.datasets:
             _, _, _, y_test = ds.data()
-            for ckn in self.ckn_list:
+            for i, ckn in enumerate(self.ckn_list):
                 score = self.results[(ds.name, self.detector.name + '-' + ckn)]
                 y_pred = self.binarize(score, self.get_optimal_threshold(y_test, np.array(score),
                                                                          steps=self.opt.threshold_step))
@@ -195,12 +195,12 @@ class ADSBEvaluator:
                                 'F0.1-score': f01_score,
                                 'auroc': auroc},
                                ignore_index=True)
-                self.tensorboard.add_scalar(ds.name + '/' + 'accuracy', acc, int(ckn[-5]))
-                self.tensorboard.add_scalar(ds.name + '/' + 'precision', prec, int(ckn[-5]))
-                self.tensorboard.add_scalar(ds.name + '/' + 'recall', rec, int(ckn[-5]))
-                self.tensorboard.add_scalar(ds.name + '/' + 'F1-score', f1_score, int(ckn[-5]))
-                self.tensorboard.add_scalar(ds.name + '/' + 'F0.1-score', f01_score, int(ckn[-5]))
-                self.tensorboard.add_scalar(ds.name + '/' + 'auroc', auroc, int(ckn[-5]))
+                self.tensorboard.add_scalar(ds.name + '/' + 'accuracy', acc, i)
+                self.tensorboard.add_scalar(ds.name + '/' + 'precision', prec, i)
+                self.tensorboard.add_scalar(ds.name + '/' + 'recall', rec, i)
+                self.tensorboard.add_scalar(ds.name + '/' + 'F1-score', f1_score, i)
+                self.tensorboard.add_scalar(ds.name + '/' + 'F0.1-score', f01_score, i)
+                self.tensorboard.add_scalar(ds.name + '/' + 'auroc', auroc, i)
         return df
 
     def get_metrics_by_thresholds(self, y_test: list, score: list, thresholds: list):

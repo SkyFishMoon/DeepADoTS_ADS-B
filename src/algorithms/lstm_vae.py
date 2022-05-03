@@ -1,5 +1,5 @@
 import logging
-
+from  datetime import datetime
 import numpy as np
 import pandas as pd
 import torch
@@ -36,7 +36,7 @@ class LSTMVED(Algorithm, PyTorchUtils):
 
         self.lstm_ved = None
         self.mean, self.cov = None, None
-        self.ckpt_dir = output_dir + '/' + 'ckpts' + '/'
+        self.ckpt_dir = output_dir + '/' + 'ckpts-'+ datetime.now().strftime("%b-%d_%H-%M-%S") + '/'
         if not os.path.exists(self.ckpt_dir):
             os.mkdir(self.ckpt_dir)
         self.save_every_step = save_every_epoch

@@ -9,7 +9,7 @@ from torch.utils.data import DataLoader
 from torch.utils.data.sampler import SubsetRandomSampler
 from tqdm import trange
 from torch.optim import lr_scheduler
-
+from datetime import datetime
 import time
 from .algorithm_utils import Algorithm, PyTorchUtils
 
@@ -35,7 +35,7 @@ class LSTMED(Algorithm, PyTorchUtils):
 
         self.lstm_ed = None
         self.mean, self.cov = None, None
-        self.ckpt_dir = output_dir + '/' + 'ckpts' + '/'
+        self.ckpt_dir = output_dir + '/' + 'ckpts-'+ datetime.now().strftime("%b-%d_%H-%M-%S")  + '/'
         if not os.path.exists(self.ckpt_dir):
             os.mkdir(self.ckpt_dir)
         self.save_every_step = save_every_epoch
@@ -112,7 +112,7 @@ class LSTMED(Algorithm, PyTorchUtils):
                     val_loss.append(nn.MSELoss(size_average=False)(output, self.to_var(ts_batch.float())).item())
                 val_loss = torch.tensor(val_loss).mean().item()
                 tensorboard.add_scalar("valid_loss/", val_loss, val_step)
-                torch.save({'epoch': epoch, 'state_dict': self.transformerved.state_dict(),
+                torch.save({'epoch': epoch, 'state_dict': self.lstm_ed.state_dict(),
                             'optimizer': self.optimizer.state_dict(),
                             'scheduler': self.scheduler.state_dict()
                             }, self.ckpt_dir + '-epoch' + str(epoch) + '.pth')
@@ -141,7 +141,8 @@ class LSTMED(Algorithm, PyTorchUtils):
         outputs = []
         errors = []
         for idx, ts in enumerate(data_loader):
-            output = self.lstm_ed(self.to_var(ts))
+            with torch.no_grad():
+                output = self.lstm_ed(self.to_var(ts))
             error = nn.L1Loss(reduce=False)(output, self.to_var(ts.float()))
             score = -mvnormal.logpdf(error.view(-1, X.shape[1]).data.cpu().numpy())
             scores.append(score.reshape(ts.size(0), self.sequence_length))

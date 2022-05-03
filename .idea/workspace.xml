@@ -2,9 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d557fe-4865-4515-a3c0-8c63985c247b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/LSTM_VAE_Local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/Transformer_VAE_Local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/Transformer_vae_local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/lstm_vae_local.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/LSTM_ED.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/LSTM_ED.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/LSTM_VAE.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/LSTM_VAE.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/Transformer_AE.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/Transformer_AE.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/Transformer_VAE.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/Transformer_VAE.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/Transformer_ae.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Transformer_ae.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/Transformer_vae.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Transformer_vae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/lstm_vae.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/lstm_vae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datasets/adsb_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/datasets/adsb_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluation/adsb_evaluator.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluation/adsb_evaluator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/opts.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/opts.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../waymo-motion-prediction-2021" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pvae" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,7 +57,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
-  <component name="RunManager" selected="Python.LSTM_VAE">
+  <component name="RunManager" selected="Python.LSTM_VAE_Local">
     <configuration name="LSTM_VAE" type="PythonConfigurationType" factoryName="Python">
       <module name="DeepADoTS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -58,6 +73,28 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="-config ./config/LSTM_VAE.yml" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LSTM_VAE_Local" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepADoTS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/DeepADoTS/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="-config config/LSTM_VAE_Local.yml" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -109,6 +146,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Transformer_VAE_Local" type="PythonConfigurationType" factoryName="Python">
+      <module name="DeepADoTS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/DeepADoTS/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="-config config/Transformer_VAE_Local.yml" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main_LSTM_ED" type="PythonConfigurationType" factoryName="Python">
       <module name="DeepADoTS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,6 +193,8 @@
     <list>
       <item itemvalue="Python.main_LSTM_ED" />
       <item itemvalue="Python.Transformer_AE" />
+      <item itemvalue="Python.Transformer_VAE_Local" />
+      <item itemvalue="Python.LSTM_VAE_Local" />
       <item itemvalue="Python.LSTM_VAE" />
       <item itemvalue="Python.Transformer_VAE" />
     </list>
@@ -176,7 +237,14 @@
       <workItem from="1649763897244" duration="16185000" />
       <workItem from="1649848990065" duration="12877000" />
       <workItem from="1649931405820" duration="44540000" />
-      <workItem from="1650251104929" duration="5200000" />
+      <workItem from="1650251104929" duration="8792000" />
+      <workItem from="1650369603135" duration="30303000" />
+      <workItem from="1650617576095" duration="598000" />
+      <workItem from="1650618488853" duration="4865000" />
+      <workItem from="1650625115750" duration="4093000" />
+      <workItem from="1651104325458" duration="584000" />
+      <workItem from="1651105452357" duration="569000" />
+      <workItem from="1651142637024" duration="17970000" />
     </task>
     <task id="LOCAL-00001" summary="none">
       <created>1649816181833</created>
@@ -220,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650108465029</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ckdir">
+      <created>1650336837407</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650336837407</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,61 +307,63 @@
     <MESSAGE value="adding 'heading', 'altitude', 'speed', 'ddos' anomaly type" />
     <MESSAGE value="test many ckpts and ghost anomaly" />
     <MESSAGE value="test no grad" />
-    <option name="LAST_COMMIT_MESSAGE" value="test no grad" />
+    <MESSAGE value="ckdir" />
+    <option name="LAST_COMMIT_MESSAGE" value="ckdir" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649057052477">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="398" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1651408731122">
+      <screen x="0" y="44" width="1920" height="1036" />
     </state>
+    <state x="398" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.44.1920.1036@0.44.1920.1036" timestamp="1651408731122" />
     <state x="451" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1649057052477" />
     <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2" timestamp="1650336837193">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
     <state x="481" y="132" width="948" height="830" key="CommitChangelistDialog2/0.44.1920.1036@0.44.1920.1036" timestamp="1650336837193" />
-    <state x="695" y="290" width="424" height="484" key="FileChooserDialogImpl" timestamp="1650191227829">
+    <state x="695" y="290" width="424" height="484" key="FileChooserDialogImpl" timestamp="1651411394807">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state x="695" y="290" width="424" height="484" key="FileChooserDialogImpl/0.44.1920.1036@0.44.1920.1036" timestamp="1650191227829" />
+    <state x="695" y="290" width="424" height="484" key="FileChooserDialogImpl/0.44.1920.1036@0.44.1920.1036" timestamp="1651411394807" />
     <state x="738" y="277" width="374" height="485" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1648951818632" />
-    <state width="1874" height="383" key="GridCell.Tab.0.bottom" timestamp="1650336526669">
+    <state width="1874" height="331" key="GridCell.Tab.0.bottom" timestamp="1651409827889">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.0.bottom/0.44.1920.1036@0.44.1920.1036" timestamp="1650336526669" />
+    <state width="1874" height="331" key="GridCell.Tab.0.bottom/0.44.1920.1036@0.44.1920.1036" timestamp="1651409827889" />
     <state width="1807" height="440" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220048" />
-    <state width="1874" height="383" key="GridCell.Tab.0.center" timestamp="1650336526669">
+    <state width="1874" height="331" key="GridCell.Tab.0.center" timestamp="1651409827888">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.0.center/0.44.1920.1036@0.44.1920.1036" timestamp="1650336526669" />
+    <state width="1874" height="331" key="GridCell.Tab.0.center/0.44.1920.1036@0.44.1920.1036" timestamp="1651409827888" />
     <state width="1807" height="440" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220047" />
-    <state width="1874" height="383" key="GridCell.Tab.0.left" timestamp="1650336526668">
+    <state width="1874" height="331" key="GridCell.Tab.0.left" timestamp="1651409827888">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.0.left/0.44.1920.1036@0.44.1920.1036" timestamp="1650336526668" />
+    <state width="1874" height="331" key="GridCell.Tab.0.left/0.44.1920.1036@0.44.1920.1036" timestamp="1651409827888" />
     <state width="1807" height="440" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220047" />
-    <state width="1874" height="383" key="GridCell.Tab.0.right" timestamp="1650336526669">
+    <state width="1874" height="331" key="GridCell.Tab.0.right" timestamp="1651409827889">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.0.right/0.44.1920.1036@0.44.1920.1036" timestamp="1650336526669" />
+    <state width="1874" height="331" key="GridCell.Tab.0.right/0.44.1920.1036@0.44.1920.1036" timestamp="1651409827889" />
     <state width="1807" height="440" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1649226220048" />
-    <state width="1874" height="383" key="GridCell.Tab.1.bottom" timestamp="1650336531486">
+    <state width="1874" height="331" key="GridCell.Tab.1.bottom" timestamp="1651409836256">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.1.bottom/0.44.1920.1036@0.44.1920.1036" timestamp="1650336531486" />
+    <state width="1874" height="331" key="GridCell.Tab.1.bottom/0.44.1920.1036@0.44.1920.1036" timestamp="1651409836256" />
     <state width="1807" height="440" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224069" />
-    <state width="1874" height="383" key="GridCell.Tab.1.center" timestamp="1650336531486">
+    <state width="1874" height="331" key="GridCell.Tab.1.center" timestamp="1651409836256">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.1.center/0.44.1920.1036@0.44.1920.1036" timestamp="1650336531486" />
+    <state width="1874" height="331" key="GridCell.Tab.1.center/0.44.1920.1036@0.44.1920.1036" timestamp="1651409836256" />
     <state width="1807" height="440" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224068" />
-    <state width="1874" height="383" key="GridCell.Tab.1.left" timestamp="1650336531485">
+    <state width="1874" height="331" key="GridCell.Tab.1.left" timestamp="1651409836256">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.1.left/0.44.1920.1036@0.44.1920.1036" timestamp="1650336531485" />
+    <state width="1874" height="331" key="GridCell.Tab.1.left/0.44.1920.1036@0.44.1920.1036" timestamp="1651409836256" />
     <state width="1807" height="440" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224068" />
-    <state width="1874" height="383" key="GridCell.Tab.1.right" timestamp="1650336531486">
+    <state width="1874" height="331" key="GridCell.Tab.1.right" timestamp="1651409836256">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state width="1874" height="383" key="GridCell.Tab.1.right/0.44.1920.1036@0.44.1920.1036" timestamp="1650336531486" />
+    <state width="1874" height="331" key="GridCell.Tab.1.right/0.44.1920.1036@0.44.1920.1036" timestamp="1651409836256" />
     <state width="1807" height="440" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1649226224068" />
     <state x="449" y="179" width="1022" height="736" key="SettingsEditor" timestamp="1649816056236">
       <screen x="0" y="44" width="1920" height="1036" />
@@ -304,15 +381,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1645588666011" />
-    <state x="653" y="332" width="982" height="528" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1650021638086">
+    <state x="653" y="332" width="982" height="528" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1650553559107">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state x="653" y="332" width="982" height="528" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.44.1920.1036@0.44.1920.1036" timestamp="1650021638086" />
-    <state x="697" y="320" width="967" height="522" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/67.27.1853.1053@67.27.1853.1053" timestamp="1642051634401" />
-    <state x="623" y="270" width="672" height="678" key="search.everywhere.popup" timestamp="1650161578263">
+    <state x="653" y="332" width="982" height="528" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.44.1920.1036@0.44.1920.1036" timestamp="1650553559107" />
+    <state x="623" y="270" width="672" height="678" key="search.everywhere.popup" timestamp="1650552849864">
       <screen x="0" y="44" width="1920" height="1036" />
     </state>
-    <state x="623" y="270" width="672" height="678" key="search.everywhere.popup/0.44.1920.1036@0.44.1920.1036" timestamp="1650161578263" />
+    <state x="623" y="270" width="672" height="678" key="search.everywhere.popup/0.44.1920.1036@0.44.1920.1036" timestamp="1650552849864" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -564,27 +640,27 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>63</line>
+          <line>65</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>64</line>
+          <line>66</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>65</line>
+          <line>67</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>66</line>
+          <line>68</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>68</line>
+          <line>70</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -594,17 +670,17 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>118</line>
+          <line>120</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>125</line>
+          <line>127</line>
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>126</line>
+          <line>128</line>
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -614,52 +690,52 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>129</line>
+          <line>131</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>130</line>
+          <line>132</line>
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>135</line>
+          <line>137</line>
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>136</line>
+          <line>138</line>
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>137</line>
+          <line>139</line>
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>138</line>
+          <line>140</line>
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>139</line>
+          <line>141</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>150</line>
+          <line>153</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>151</line>
+          <line>154</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>169</line>
+          <line>172</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -734,7 +810,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>206</line>
+          <line>209</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -909,17 +985,17 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>60</line>
+          <line>62</line>
           <option name="timeStamp" value="239" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>96</line>
+          <line>98</line>
           <option name="timeStamp" value="240" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>97</line>
+          <line>99</line>
           <option name="timeStamp" value="241" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -929,7 +1005,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
-          <line>67</line>
+          <line>69</line>
           <option name="timeStamp" value="253" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -964,23 +1040,18 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
-          <line>93</line>
+          <line>95</line>
           <option name="timeStamp" value="263" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
-          <line>203</line>
+          <line>206</line>
           <option name="timeStamp" value="264" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
-          <line>202</line>
+          <line>205</line>
           <option name="timeStamp" value="272" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
-          <line>246</line>
-          <option name="timeStamp" value="284" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
@@ -989,18 +1060,8 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
-          <line>247</line>
+          <line>257</line>
           <option name="timeStamp" value="286" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
-          <line>255</line>
-          <option name="timeStamp" value="287" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
-          <line>256</line>
-          <option name="timeStamp" value="288" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
@@ -1074,17 +1135,17 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
-          <line>116</line>
+          <line>118</line>
           <option name="timeStamp" value="312" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
-          <line>117</line>
+          <line>119</line>
           <option name="timeStamp" value="313" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/Transformer_ae.py</url>
-          <line>183</line>
+          <line>186</line>
           <option name="timeStamp" value="315" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -1109,7 +1170,7 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_enc_dec_axl.py</url>
-          <line>43</line>
+          <line>45</line>
           <option name="timeStamp" value="321" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
@@ -1229,23 +1290,8 @@
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
-          <line>129</line>
-          <option name="timeStamp" value="351" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
           <line>130</line>
           <option name="timeStamp" value="352" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
-          <line>131</line>
-          <option name="timeStamp" value="353" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
-          <line>133</line>
-          <option name="timeStamp" value="354" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
@@ -1413,11 +1459,6 @@
           <option name="timeStamp" value="401" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/experiments.py</url>
-          <line>162</line>
-          <option name="timeStamp" value="402" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/evaluation/adsb_evaluator.py</url>
           <line>139</line>
           <option name="timeStamp" value="409" />
@@ -1427,54 +1468,141 @@
           <line>139</line>
           <option name="timeStamp" value="411" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/experiments.py</url>
           <line>163</line>
           <option name="timeStamp" value="430" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
           <line>228</line>
           <option name="timeStamp" value="431" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
           <line>75</line>
           <option name="timeStamp" value="432" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
           <line>212</line>
           <option name="timeStamp" value="433" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
           <line>215</line>
           <option name="timeStamp" value="434" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
           <line>217</line>
           <option name="timeStamp" value="435" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
           <line>219</line>
           <option name="timeStamp" value="436" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+        <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae.py</url>
           <line>220</line>
           <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
+          <line>103</line>
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
+          <line>256</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae.py</url>
+          <line>259</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae_local.py</url>
+          <line>260</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae_local.py</url>
+          <line>257</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/Transformer_vae_local.py</url>
+          <line>265</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>129</line>
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/datasets/adsb_anomaly_function.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae_local.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae_local.py</url>
+          <line>212</line>
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae_local.py</url>
+          <line>219</line>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae_local.py</url>
+          <line>227</line>
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae_local.py</url>
+          <line>265</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae_local.py</url>
+          <line>266</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae_local.py</url>
+          <line>236</line>
+          <option name="timeStamp" value="456" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/lstm_vae_local.py</url>
+          <line>221</line>
+          <option name="timeStamp" value="457" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DeepADoTS$main_LSTM_ED.coverage" NAME="main_LSTM_ED Coverage Results" MODIFIED="1642051643870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$main_LSTM_ED.coverage" NAME="main_LSTM_ED Coverage Results" MODIFIED="1650515359081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$LSTM_VAE_Local.coverage" NAME="LSTM_VAE_Local Coverage Results" MODIFIED="1651409827801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepADoTS$main.coverage" NAME="main_LSTM_ED Coverage Results" MODIFIED="1639240171947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeepADoTS$Transformer_AE.coverage" NAME="Transformer_AE Coverage Results" MODIFIED="1642041511096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeepADoTS$LSTM_VAE.coverage" NAME="LSTM_VAE Coverage Results" MODIFIED="1650336526547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeepADoTS$Transformer_VAE.coverage" NAME="Transformer_VAE Coverage Results" MODIFIED="1639229840763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$Transformer_AE.coverage" NAME="Transformer_AE Coverage Results" MODIFIED="1650621594820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$LSTM_VAE.coverage" NAME="LSTM_VAE Coverage Results" MODIFIED="1651319258270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$Transformer_VAE_Local.coverage" NAME="Transformer_VAE_Local Coverage Results" MODIFIED="1650635041342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepADoTS$Transformer_VAE.coverage" NAME="Transformer_VAE Coverage Results" MODIFIED="1650602045663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
